@@ -20,9 +20,9 @@
 				"name": "main",
 				"buttons":
 				[
-					{"x": 596, "y": 220,  "name": "ZMENUNG", "shortcut": "mainMenuNew", "help": 3, "command": "to new"},
-					{"x": 237, "y": 224, "name": "ZMENULG", "shortcut": "mainMenuLoad", "help": 4, "command": "to load"},
-					{"x": 503, "y": 139, "name": "ZMENUHS", "shortcut": "mainMenuScores", "help": 5, "command": "highscores"},
+					{"x": 596, "y": 220,  "name": "ZMENUNG", "shortcut": "mainMenuNewGame", "help": 3, "command": "to new"},
+					{"x": 237, "y": 224, "name": "ZMENULG", "shortcut": "mainMenuLoadGame", "help": 4, "command": "to load"},
+					{"x": 503, "y": 139, "name": "ZMENUHS", "shortcut": "mainMenuHighScores", "help": 5, "command": "highscores"},
 					{"x": 373, "y": 167,"name": "ZMENUCR", "shortcut": "mainMenuCredits",  "help": 6, "command": "to credits"},
 					{"x": 0, "y": 531, "name": "ZMENUQT", "shortcut": "mainMenuQuit",  "help": 7, "command": "exit"}
 				]
