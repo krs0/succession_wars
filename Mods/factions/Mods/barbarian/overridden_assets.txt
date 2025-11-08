@@ -36,8 +36,6 @@
 "Mods\factions\Mods\barbarian\Content\Data\swBarbarian\siege\SgStWa61.png" : "SgStWa61.png"
 "Mods\factions\Mods\barbarian\Content\Data\swBarbarian\siege\SgStWa62.png" : "SgStWa62.png"
 "Mods\factions\Mods\barbarian\Content\Data\swBarbarian\siege\SgStWa63.png" : "SgStWa63.png"
-"Mods\factions\Mods\barbarian\Content\Data\swBarbarian\siege\TOWERIB.png" : "TOWERIB.png"
-"Mods\factions\Mods\barbarian\Content\Data\swBarbarian\siege\TOWERIS.png" : "TOWERIS.png"
 "Mods\factions\Mods\barbarian\Content\Data\swBarbarian\siege_orig\SgStArch.png" : "SgStArch.png"
 "Mods\factions\Mods\barbarian\Content\Data\swBarbarian\siege_orig\SgStBack.png" : "SgStBack.png"
 "Mods\factions\Mods\barbarian\Content\Data\swBarbarian\siege_orig\SgStDrw1.png" : "SgStDrw1.png"

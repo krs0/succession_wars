@@ -66,8 +66,6 @@
 "Mods\factions\Mods\witch\Content\Data\swWitch\siege_new\SgDnWa61.png" : "SgDnWa61.png"
 "Mods\factions\Mods\witch\Content\Data\swWitch\siege_new\SgDnWa62.png" : "SgDnWa62.png"
 "Mods\factions\Mods\witch\Content\Data\swWitch\siege_new\SgDnWa63.png" : "SgDnWa63.png"
-"Mods\factions\Mods\witch\Content\Data\swWitch\siege_new\TOWERIB.png" : "TOWERIB.png"
-"Mods\factions\Mods\witch\Content\Data\swWitch\siege_new\TOWERIS.png" : "TOWERIS.png"
 "Mods\factions\Mods\witch\Content\Data\swWitch\town-screen\Hall.png" : "Hall.png"
 "Mods\factions\Mods\witch\Content\Data\swWitch\town-screen\buildings-area\TZFBAS2.png" : "TZFBAS2.png"
 "Mods\factions\Mods\witch\Content\Data\swWitch\town-screen\buildings-area\TZFCSTL.png" : "TZFCSTL.png"

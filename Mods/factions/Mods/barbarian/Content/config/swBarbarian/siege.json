@@ -2,8 +2,8 @@
 	"swswBarbarianfaction":{
 		"town":{
 			"siege":{
-				"towerIconSmall": "swBarbarian/siege/TOWERIS",
-				"towerIconLarge": "swBarbarian/siege/TOWERIB",
+				"towerIconSmall": "vcmi/creatureIcons/towerSmall",
+				"towerIconLarge": "vcmi/creatureIcons/towerLarge",
 				"shooter": "swBarbarianOrcChief",
 				"imagePrefix": "swBarbarian/siege/SGST",
 				"gate":

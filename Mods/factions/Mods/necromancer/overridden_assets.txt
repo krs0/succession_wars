@@ -35,8 +35,6 @@
 "Mods\factions\Mods\necromancer\Content\Data\swNecromancer\siege\SgNcWa61.png" : "SgNcWa61.png"
 "Mods\factions\Mods\necromancer\Content\Data\swNecromancer\siege\SgNcWa62.png" : "SgNcWa62.png"
 "Mods\factions\Mods\necromancer\Content\Data\swNecromancer\siege\SgNcWa63.png" : "SgNcWa63.png"
-"Mods\factions\Mods\necromancer\Content\Data\swNecromancer\siege\TOWERIB.png" : "TOWERIB.png"
-"Mods\factions\Mods\necromancer\Content\Data\swNecromancer\siege\TOWERIS.png" : "TOWERIS.png"
 "Mods\factions\Mods\necromancer\Content\Data\swNecromancer\siege_old\SgNcArch.png" : "SgNcArch.png"
 "Mods\factions\Mods\necromancer\Content\Data\swNecromancer\siege_old\SgNcBack.png" : "SgNcBack.png"
 "Mods\factions\Mods\necromancer\Content\Data\swNecromancer\siege_old\SgNcDrw1.png" : "SgNcDrw1.png"

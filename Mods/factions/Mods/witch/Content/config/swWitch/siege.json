@@ -2,8 +2,8 @@
 	"swWitch":{
 		"town":{
 			"siege":{
-				"towerIconSmall": "swWitch/siege_new/TOWERIS",
-				"towerIconLarge": "swWitch/siege_new/TOWERIB",
+				"towerIconSmall": "vcmi/creatureIcons/towerSmall",
+				"towerIconLarge": "vcmi/creatureIcons/towerLarge",
 				"shooter":"swWitchLizardman",
 				"imagePrefix": "swWitch/siege_new/SGDN",
 				"gate":

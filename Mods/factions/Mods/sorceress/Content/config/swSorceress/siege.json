@@ -2,8 +2,8 @@
 	"swswSorceressfaction":{
 		"town":{
 			"siege":{
-				"towerIconSmall": "swSorceress/siege_new/TOWERIS",
-				"towerIconLarge": "swSorceress/siege_new/TOWERIB",
+				"towerIconSmall": "vcmi/creatureIcons/towerSmall",
+				"towerIconLarge": "vcmi/creatureIcons/towerLarge",
 				"shooter": "swSorceressElf",
 				"imagePrefix": "swSorceress/siege_new/SgRm",
 				"gate":

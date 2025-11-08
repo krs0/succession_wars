@@ -35,8 +35,6 @@
 "Mods\factions\Mods\knight\Content\Data\swKnight\siege_new\SgCsWa61.png" : "SgCsWa61.png"
 "Mods\factions\Mods\knight\Content\Data\swKnight\siege_new\SgCsWa62.png" : "SgCsWa62.png"
 "Mods\factions\Mods\knight\Content\Data\swKnight\siege_new\SgCsWa63.png" : "SgCsWa63.png"
-"Mods\factions\Mods\knight\Content\Data\swKnight\siege_new\TOWERIB.png" : "TOWERIB.png"
-"Mods\factions\Mods\knight\Content\Data\swKnight\siege_new\TOWERIS.png" : "TOWERIS.png"
 "Mods\factions\Mods\knight\Content\Data\swKnight\siege_new_081\SgCsArch.png" : "SgCsArch.png"
 "Mods\factions\Mods\knight\Content\Data\swKnight\siege_new_081\SgCsBack.png" : "SgCsBack.png"
 "Mods\factions\Mods\knight\Content\Data\swKnight\siege_new_081\SgCsDrw1.png" : "SgCsDrw1.png"

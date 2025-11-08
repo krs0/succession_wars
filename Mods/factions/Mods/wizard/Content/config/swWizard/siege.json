@@ -2,8 +2,8 @@
 	"swswWizardfaction":{
 		"town":{
 			"siege":{
-				"towerIconSmall": "swWizard/siege/TOWERIS",
-				"towerIconLarge": "swWizard/siege/TOWERIB",
+				"towerIconSmall": "vcmi/creatureIcons/towerSmall",
+				"towerIconLarge": "vcmi/creatureIcons/towerLarge",
 				"shooter": "swWizardMagi",
 				"imagePrefix": "swWizard/siege/SgTw",
 				"gate":

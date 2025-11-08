@@ -68,8 +68,6 @@
 "Mods\factions\Mods\dervish\Content\Data\swOasis\siege_barb\SgStWa61.png" : "SgStWa61.png"
 "Mods\factions\Mods\dervish\Content\Data\swOasis\siege_barb\SgStWa62.png" : "SgStWa62.png"
 "Mods\factions\Mods\dervish\Content\Data\swOasis\siege_barb\SgStWa63.png" : "SgStWa63.png"
-"Mods\factions\Mods\dervish\Content\Data\swOasis\siege_barb\TOWERIB.png" : "TOWERIB.png"
-"Mods\factions\Mods\dervish\Content\Data\swOasis\siege_barb\TOWERIS.png" : "TOWERIS.png"
 "Mods\factions\Mods\dervish\Content\Data\swOasis\town-screen\Background.png" : "Background.png"
 "Mods\factions\Mods\dervish\Content\Data\swOasis\town-screen\Hall.png" : "Hall.png"
 "Mods\factions\Mods\dervish\Content\Data\swOasis\town-screen\buildings-area\TZELMAGe.png" : "TZELMAGe.png"

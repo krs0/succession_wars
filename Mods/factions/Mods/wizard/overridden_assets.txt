@@ -34,8 +34,6 @@
 "Mods\factions\Mods\wizard\Content\Data\swWizard\siege\SgTwWa61.png" : "SgTwWa61.png"
 "Mods\factions\Mods\wizard\Content\Data\swWizard\siege\SgTwWa62.png" : "SgTwWa62.png"
 "Mods\factions\Mods\wizard\Content\Data\swWizard\siege\SgTwWa63.png" : "SgTwWa63.png"
-"Mods\factions\Mods\wizard\Content\Data\swWizard\siege\TOWERIB.png" : "TOWERIB.png"
-"Mods\factions\Mods\wizard\Content\Data\swWizard\siege\TOWERIS.png" : "TOWERIS.png"
 "Mods\factions\Mods\wizard\Content\Data\swWizard\siege_orig\SgTwArch.png" : "SgTwArch.png"
 "Mods\factions\Mods\wizard\Content\Data\swWizard\siege_orig\SgTwBack.png" : "SgTwBack.png"
 "Mods\factions\Mods\wizard\Content\Data\swWizard\siege_orig\SgTwDrw1.png" : "SgTwDrw1.png"

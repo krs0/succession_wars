@@ -2,8 +2,8 @@
 	"swswWarlockfaction":{
 		"town":{
 			"siege":{
-				"towerIconSmall": "swWarlock/siege/TOWERIS",
-				"towerIconLarge": "swWarlock/siege/TOWERIB",
+				"towerIconSmall": "vcmi/creatureIcons/towerSmall",
+				"towerIconLarge": "vcmi/creatureIcons/towerLarge",
 				"shooter": "swWarlockCentaur",
 				"imagePrefix": "swWarlock/siege/SGDN",
 				"gate":

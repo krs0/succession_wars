@@ -2,8 +2,8 @@
 	"swswNecromancerfaction":{
 		"town":{
 			"siege":{
-				"towerIconSmall": "swNecromancer/siege/TOWERIS",
-				"towerIconLarge": "swNecromancer/siege/TOWERIB",
+				"towerIconSmall": "vcmi/creatureIcons/towerSmall",
+				"towerIconLarge": "vcmi/creatureIcons/towerLarge",
 				"shooter": "swNecromancerLich",
 				"imagePrefix": "swNecromancer/siege/SGNC",
 				"gate":

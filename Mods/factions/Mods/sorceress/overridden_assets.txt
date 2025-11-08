@@ -66,8 +66,6 @@
 "Mods\factions\Mods\sorceress\Content\Data\swSorceress\siege_new\SgRmWa61.png" : "SgRmWa61.png"
 "Mods\factions\Mods\sorceress\Content\Data\swSorceress\siege_new\SgRmWa62.png" : "SgRmWa62.png"
 "Mods\factions\Mods\sorceress\Content\Data\swSorceress\siege_new\SgRmWa63.png" : "SgRmWa63.png"
-"Mods\factions\Mods\sorceress\Content\Data\swSorceress\siege_new\TOWERIB.png" : "TOWERIB.png"
-"Mods\factions\Mods\sorceress\Content\Data\swSorceress\siege_new\TOWERIS.png" : "TOWERIS.png"
 "Mods\factions\Mods\sorceress\Content\Data\swSorceress\siege_new_81\SgRmArch.png" : "SgRmArch.png"
 "Mods\factions\Mods\sorceress\Content\Data\swSorceress\siege_new_81\SgRmBack.png" : "SgRmBack.png"
 "Mods\factions\Mods\sorceress\Content\Data\swSorceress\siege_new_81\SgRmDrw1.png" : "SgRmDrw1.png"

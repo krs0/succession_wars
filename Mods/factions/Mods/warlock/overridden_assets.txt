@@ -34,8 +34,6 @@
 "Mods\factions\Mods\warlock\Content\Data\swWarlock\siege\SgDnWa61.png" : "SgDnWa61.png"
 "Mods\factions\Mods\warlock\Content\Data\swWarlock\siege\SgDnWa62.png" : "SgDnWa62.png"
 "Mods\factions\Mods\warlock\Content\Data\swWarlock\siege\SgDnWa63.png" : "SgDnWa63.png"
-"Mods\factions\Mods\warlock\Content\Data\swWarlock\siege\TOWERIB.png" : "TOWERIB.png"
-"Mods\factions\Mods\warlock\Content\Data\swWarlock\siege\TOWERIS.png" : "TOWERIS.png"
 "Mods\factions\Mods\warlock\Content\Data\swWarlock\siege_orig\SgDnArch.png" : "SgDnArch.png"
 "Mods\factions\Mods\warlock\Content\Data\swWarlock\siege_orig\SgDnBack.png" : "SgDnBack.png"
 "Mods\factions\Mods\warlock\Content\Data\swWarlock\siege_orig\SgDnDrw1.png" : "SgDnDrw1.png"
