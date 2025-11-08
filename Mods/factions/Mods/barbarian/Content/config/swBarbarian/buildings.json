@@ -237,8 +237,8 @@
 					}
 				},
 				"resourceSilo": {
-					"name": "Resourse Silo",
-					"description": "The Resourse Deposites provide you with an additional +1 wood and +1 ore each day.",
+					"name": "Resource Silo",
+					"description": "The Resource Deposites provide you with an additional +1 wood and +1 ore each day.",
 					"id": 15,
 					"requires": [
 						"allOf",

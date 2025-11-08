@@ -49,10 +49,8 @@
 					"limiters": [
 						{
 							"type": "CREATURE_TYPE_LIMITER",
-							"parameters": [
-								"ballista",
-								true
-							]
+							"creature": "ballista",
+							"includeUpgrades": true
 						}
 					],
 					"updater": "TIMES_HERO_LEVEL"
@@ -63,10 +61,8 @@
 					"limiters": [
 						{
 							"type": "CREATURE_TYPE_LIMITER",
-							"parameters": [
-								"catapult",
-								true
-							]
+							"creature": "catapult",
+							"includeUpgrades": true
 						}
 					],
 					"updater": "TIMES_HERO_LEVEL"
@@ -77,10 +73,8 @@
 					"limiters": [
 						{
 							"type": "CREATURE_TYPE_LIMITER",
-							"parameters": [
-								"firstAidTent",
-								true
-							]
+							"creature": "firstAidTent",
+							"includeUpgrades": true
 						}
 					],
 					"updater": "TIMES_HERO_LEVEL"
@@ -91,10 +85,8 @@
 					"limiters": [
 						{
 							"type": "CREATURE_TYPE_LIMITER",
-							"parameters": [
-								"ammoCart",
-								true
-							]
+							"creature": "ammoCart",
+							"includeUpgrades": true
 						}
 					],
 					"updater": "TIMES_HERO_LEVEL"
