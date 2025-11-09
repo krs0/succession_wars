@@ -42,7 +42,6 @@
 		"graphics": {
 			"animation": "swNeutralCreatures/battle/c148ammo.def",
 			"map": "swNeutralCreatures/arts/AVA0005.def",
-			
 			"iconSmall": "swNeutralCreatures/CPRSMALL.def:150",
 			"iconLarge": "swNeutralCreatures/TwCrPort.def:150",
 			"timeBetweenFidgets": 1,
