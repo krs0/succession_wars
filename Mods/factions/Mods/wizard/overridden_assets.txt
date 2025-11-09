@@ -147,7 +147,6 @@
 "Mods\factions\Mods\wizard\Content\Data\swWizard\town-screen\buildings-border\totcas2.png" : "totcas2.png"
 "Mods\factions\Mods\wizard\Content\Data\swWizard\town-screen\buildings-border\totcas3.png" : "totcas3.png"
 "Mods\factions\Mods\wizard\Content\Data\swWizard\town-screen\mage-guild.png" : "mage-guild.png"
-"Mods\factions\Mods\wizard\Content\Sprites\PROJECTILE_ANIMATION_PLACEHOLDER.def" : "PROJECTILE_ANIMATION_PLACEHOLDER.def"
 "Mods\factions\Mods\wizard\Content\Sprites\swWizardHeroClasses\AH04_.def" : "AH04_.def"
 "Mods\factions\Mods\wizard\Content\Sprites\swWizardHeroClasses\AH04_E.def" : "AH04_E.def"
 "Mods\factions\Mods\wizard\Content\Sprites\swWizardHeroClasses\AH05_E.def" : "AH05_E.def"

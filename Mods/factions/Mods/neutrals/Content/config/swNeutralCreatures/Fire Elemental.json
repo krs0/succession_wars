@@ -50,7 +50,7 @@
 				"attack": 1
 			},
 			"missile": {
-				"projectile": "PROJECTILE_ANIMATION_PLACEHOLDER",
+				"projectile": "CPRZEAX.DEF", // Placeholder
 				"offset": {
 					"upperX": 36,
 					"upperY": -41,

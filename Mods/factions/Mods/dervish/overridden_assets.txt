@@ -136,7 +136,6 @@
 "Mods\factions\Mods\dervish\Content\Data\swOasis\town-screen\buildings-border\toelup_5.png" : "toelup_5.png"
 "Mods\factions\Mods\dervish\Content\Data\swOasis\town-screen\buildings-border\toelup_6.png" : "toelup_6.png"
 "Mods\factions\Mods\dervish\Content\Data\swOasis\town-screen\mage-guild.png" : "mage-guild.png"
-"Mods\factions\Mods\dervish\Content\Sprites\PROJECTILE_ANIMATION_PLACEHOLDER.def" : "PROJECTILE_ANIMATION_PLACEHOLDER.def"
 "Mods\factions\Mods\dervish\Content\Sprites\swOasisCreatures\CPRSMALL.def" : "CPRSMALL.def"
 "Mods\factions\Mods\dervish\Content\Sprites\swOasisCreatures\battle\PELFX.def" : "PELFX.def"
 "Mods\factions\Mods\dervish\Content\Sprites\swOasisCreatures\battle\PMEDUSX.def" : "PMEDUSX.def"

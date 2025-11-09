@@ -37,7 +37,6 @@
 "Mods\VCMIOverwrites\Content\Sprites\AVMgosn0.def" : "AVMgosn0.def"
 "Mods\VCMIOverwrites\Content\Sprites\AVMgesn0.def" : "AVMgesn0.def"
 "Mods\VCMIOverwrites\Content\Sprites\AVMsawg0.def" : "AVMsawg0.def"
-"Mods\VCMIOverwrites\Content\Sprites\PROJECTILE_ANIMATION_PLACEHOLDER.def" : "PROJECTILE_ANIMATION_PLACEHOLDER.def"
 "Mods\VCMIOverwrites\Content\Sprites\avmgodr0.def" : "avmgodr0.def"
 "Mods\VCMIOverwrites\Content\Sprites\AVMORDR0.def" : "AVMORDR0.def"
 "Mods\VCMIOverwrites\Content\Sprites\AVMords0.def" : "AVMords0.def"

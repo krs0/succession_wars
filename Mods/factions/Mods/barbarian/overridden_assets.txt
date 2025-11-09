@@ -147,7 +147,6 @@
 "Mods\factions\Mods\barbarian\Content\Data\swBarbarian\town-screen\buildings-border\TosMAG4.png" : "TosMAG4.png"
 "Mods\factions\Mods\barbarian\Content\Data\swBarbarian\town-screen\buildings-border\TosMAG5.png" : "TosMAG5.png"
 "Mods\factions\Mods\barbarian\Content\Data\swBarbarian\town-screen\mage-guild.png" : "mage-guild.png"
-"Mods\factions\Mods\barbarian\Content\Sprites\PROJECTILE_ANIMATION_PLACEHOLDER.def" : "PROJECTILE_ANIMATION_PLACEHOLDER.def"
 "Mods\factions\Mods\barbarian\Content\Sprites\swBarbarianCreatures\CPRSMALL.def" : "CPRSMALL.def"
 "Mods\factions\Mods\barbarian\Content\Sprites\swBarbarianCreatures\battle\PMAGEX.def" : "PMAGEX.def"
 "Mods\factions\Mods\barbarian\Content\Sprites\swBarbarianCreatures\map\AVWogrx0.def" : "AVWogrx0.def"

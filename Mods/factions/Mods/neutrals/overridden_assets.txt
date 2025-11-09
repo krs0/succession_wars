@@ -1,6 +1,5 @@
 "Mods\factions\Mods\neutrals\Content\Data\swNeutral\crbkginf.png" : "crbkginf.png"
 "Mods\factions\Mods\neutrals\Content\Sounds\swNeutral\air elemental\AELMSHOT.wav" : "AELMSHOT.wav"
 "Mods\factions\Mods\neutrals\Content\Sounds\swNeutral\pirate\HALFSHOT.wav" : "HALFSHOT.wav"
-"Mods\factions\Mods\neutrals\Content\Sprites\PROJECTILE_ANIMATION_PLACEHOLDER.def" : "PROJECTILE_ANIMATION_PLACEHOLDER.def"
 "Mods\factions\Mods\neutrals\Content\Sprites\swNeutralCreatures\CPRSMALL.def" : "CPRSMALL.def"
 "Mods\factions\Mods\neutrals\Content\Sprites\swNeutral\adventure-map\banks\shipwreck\avadlic2.def" : "avadlic2.def"

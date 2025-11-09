@@ -56,7 +56,7 @@
 			},
 			// ToDo: Fix these dummy values from Arch Mage so that validation passes
 			"missile": {
-				"projectile": "PROJECTILE_ANIMATION_PLACEHOLDER",
+				"projectile": "CPRZEAX.DEF", // Placeholder
 				"offset": {
 					"upperX": 36,
 					"upperY": -41,
