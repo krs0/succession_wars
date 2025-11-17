@@ -40,8 +40,8 @@
 			}
 		},
 		"graphics": {
-			"iconSmall": "swSorceressCreatures/cprsmall.def:26",
-			"iconLarge": "swSorceressCreatures/TWCRPORT.def:26",
+			"iconSmall": "swSorceressCreatures/cprSMALL.def:0:26",
+			"iconLarge": "swSorceressCreatures/TWCRPORT.def:0:26",
 			"map": "swSorceressCreatures/map/AVWunic0",
 			"animation": "swSorceressCreatures/battle/c024unic",
 			"timeBetweenFidgets": 1,

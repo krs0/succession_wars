@@ -32,8 +32,8 @@
 			"swKnightVeteranPikeman"
 		],
 		"graphics": {
-			"iconSmall": "swKnightCreatures/cprsmall.def:6",
-			"iconLarge": "swKnightCreatures/TWCRPORT.def:6",
+			"iconSmall": "swKnightCreatures/cprSMALL.def:0:6",
+			"iconLarge": "swKnightCreatures/TWCRPORT.def:0:6",
 			"map": "swKnightCreatures/map/avwgrif",
 			"animation": "swKnightCreatures/battle/c004pike",
 			"timeBetweenFidgets": 1,

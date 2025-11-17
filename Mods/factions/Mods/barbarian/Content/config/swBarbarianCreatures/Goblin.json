@@ -28,8 +28,8 @@
 		"horde": 6,
 		"hasDoubleWeek": true,
 		"graphics": {
-			"iconSmall": "swBarbarianCreatures/cprsmall.def:86",
-			"iconLarge": "swBarbarianCreatures/TWCRPORT.def:86",
+			"iconSmall": "swBarbarianCreatures/cprSMALL.def:0:86",
+			"iconLarge": "swBarbarianCreatures/TWCRPORT.def:0:86",
 			"map": "swBarbarianCreatures/map/AVWgobl0",
 			"animation": "swBarbarianCreatures/battle/c084gobl",
 			"timeBetweenFidgets": 1,

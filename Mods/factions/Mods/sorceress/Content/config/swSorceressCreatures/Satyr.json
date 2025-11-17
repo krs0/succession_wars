@@ -45,8 +45,8 @@
 			}
 		},
 		"graphics": {
-			"iconSmall": "swSorceressCreatures/cprsmall.def:22",
-			"iconLarge": "swSorceressCreatures/TWCRPORT.def:22",
+			"iconSmall": "swSorceressCreatures/cprSMALL.def:0:22",
+			"iconLarge": "swSorceressCreatures/TWCRPORT.def:0:22",
 			"map": "swSorceressCreatures/map/AVWSatyr",
 			"animation": "swSorceressCreatures/battle/c020styr",
 			"timeBetweenFidgets": 1,

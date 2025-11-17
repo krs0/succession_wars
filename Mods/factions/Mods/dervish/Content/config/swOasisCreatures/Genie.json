@@ -50,8 +50,8 @@
 			}
 		},
 		"graphics": {
-			"iconSmall": "swOasisCreatures/cprsmall.def:132",
-			"iconLarge": "swOasisCreatures/TWCRPORT.def:132",
+			"iconSmall": "swOasisCreatures/cprSMALL.def:0:132",
+			"iconLarge": "swOasisCreatures/TWCRPORT.def:0:132",
 			"map": "swOasisCreatures/map/AVWfbird",
 			"animation": "swOasisCreatures/battle/c130geni",
 			"timeBetweenFidgets": 1,

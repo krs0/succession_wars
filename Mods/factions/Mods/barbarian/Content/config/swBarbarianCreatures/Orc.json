@@ -37,8 +37,8 @@
 			}
 		},
 		"graphics": {
-			"iconSmall": "swBarbarianCreatures/cprsmall.def:88",
-			"iconLarge": "swBarbarianCreatures/TWCRPORT.def:88",
+			"iconSmall": "swBarbarianCreatures/cprSMALL.def:0:88",
+			"iconLarge": "swBarbarianCreatures/TWCRPORT.def:0:88",
 			"map": "swBarbarianCreatures/map/AVWwolf0",
 			"animation": "swBarbarianCreatures/battle/c086orc",
 			"timeBetweenFidgets": 1,

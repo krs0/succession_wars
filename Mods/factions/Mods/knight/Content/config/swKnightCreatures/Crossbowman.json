@@ -37,8 +37,8 @@
 			}
 		},
 		"graphics": {
-			"iconSmall": "swKnightCreatures/cprsmall.def:8",
-			"iconLarge": "swKnightCreatures/TWCRPORT.def:8",
+			"iconSmall": "swKnightCreatures/cprSMALL.def:0:8",
+			"iconLarge": "swKnightCreatures/TWCRPORT.def:0:8",
 			"map": "swKnightCreatures/map/AVWswrd0",
 			"animation": "swKnightCreatures/battle/c006xbow",
 			"timeBetweenFidgets": 1,

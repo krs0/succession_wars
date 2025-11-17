@@ -37,8 +37,8 @@
 			// }
 		},
 		"graphics": {
-			"iconSmall": "swOasisCreatures/cprsmall.def:124",
-			"iconLarge": "swOasisCreatures/TWCRPORT.def:124",
+			"iconSmall": "swOasisCreatures/cprSMALL.def:0:124",
+			"iconLarge": "swOasisCreatures/TWCRPORT.def:0:124",
 			"map": "swOasisCreatures/map/AVWicee",
 			"animation": "swOasisCreatures/battle/c122noma",
 			"timeBetweenFidgets": 1,

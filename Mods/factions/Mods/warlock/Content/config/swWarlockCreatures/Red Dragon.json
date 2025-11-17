@@ -51,8 +51,8 @@
 			}
 		},
 		"graphics": {
-			"iconSmall": "swWarlockCreatures/cprsmall.def:84",
-			"iconLarge": "swWarlockCreatures/TWCRPORT.def:84",
+			"iconSmall": "swWarlockCreatures/cprSMALL.def:0:84",
+			"iconLarge": "swWarlockCreatures/TWCRPORT.def:0:84",
 			"map": "swWarlockCreatures/map/AVWRDrg",
 			"animation": "swWarlockCreatures/battle/c082drg2",
 			"timeBetweenFidgets": 1,

@@ -30,8 +30,8 @@
 		"doubleWide": false,
 		"abilities": {},
 		"graphics": {
-			"iconSmall": "swBarbarianCreatures/cprsmall.def:95",
-			"iconLarge": "swBarbarianCreatures/TWCRPORT.def:95",
+			"iconSmall": "swBarbarianCreatures/cprSMALL.def:0:95",
+			"iconLarge": "swBarbarianCreatures/TWCRPORT.def:0:95",
 			"map": "swBarbarianCreatures/map/AVWrocx0",
 			"animation": "swBarbarianCreatures/battle/c093uogr",
 			"timeBetweenFidgets": 1,

@@ -35,8 +35,8 @@
 			}
 		},
 		"graphics": {
-			"iconSmall": "swNecromancerCreatures/cprsmall.def:58",
-			"iconLarge": "swNecromancerCreatures/TWCRPORT.def:58",
+			"iconSmall": "swNecromancerCreatures/cprSMALL.def:0:58",
+			"iconLarge": "swNecromancerCreatures/TWCRPORT.def:0:58",
 			"map": "swNecromancerCreatures/map/AVWskel0",
 			"animation": "swNecromancerCreatures/battle/c056skel",
 			"timeBetweenFidgets": 1,

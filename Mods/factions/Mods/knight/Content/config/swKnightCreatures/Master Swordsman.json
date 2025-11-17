@@ -30,8 +30,8 @@
 		"doubleWide": false,
 		"abilities": {},
 		"graphics": {
-			"iconSmall": "swKnightCreatures/cprsmall.def:11",
-			"iconLarge": "swKnightCreatures/TWCRPORT.def:11",
+			"iconSmall": "swKnightCreatures/cprSMALL.def:0:11",
+			"iconLarge": "swKnightCreatures/TWCRPORT.def:0:11",
 			"map": "swKnightCreatures/map/AvWMonk",
 			"animation": "swKnightCreatures/battle/c009uswd",
 			"timeBetweenFidgets": 1,

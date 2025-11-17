@@ -31,8 +31,8 @@
 		"upgrades": [],
 		"abilities": {},
 		"graphics": {
-			"iconSmall": "swWizardCreatures/cprsmall.def:32",
-			"iconLarge": "swWizardCreatures/TWCRPORT.def:32",
+			"iconSmall": "swWizardCreatures/cprSMALL.def:0:32",
+			"iconLarge": "swWizardCreatures/TWCRPORT.def:0:32",
 			"map": "swWizardCreatures/map/AVWgarg0",
 			"animation": "swWizardCreatures/battle/c030boar",
 			"timeBetweenFidgets": 1,
