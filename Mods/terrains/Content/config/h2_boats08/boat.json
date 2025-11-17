@@ -7,7 +7,7 @@
 					"mapLimit": 64
 				},
 				"layer": "sail",
-				"actualAnimation": "h2_boats08/Hmm2Boat",
+				"actualAnimation": "AVXboat1.def",
 				//"overlayAnimation": "h2_boats08/Hmm2Boat",
 				"onboardAssaultAllowed": true,
 				"onboardVisitAllowed": true,
@@ -23,7 +23,7 @@
 				],
 				"templates": {
 					"boat00": {
-						"animation": "h2_boats08/Hmm2Boat",
+						"animation": "AVXboat0.def",
 						"mask": [
 							"VVV",
 							"VAV"
