@@ -46,7 +46,7 @@
 		"specialty": {
 			"bonuses": {
 				"ability1": {
-					"type": "MANA_PER_KNOWLEDGE",
+					"type": "MANA_PER_KNOWLEDGE_PERCENTAGE",
 					"valueType": "PERCENT_TO_TARGET_TYPE",
 					"targetSourceType": "SECONDARY_SKILL",
 					"val": 5,
