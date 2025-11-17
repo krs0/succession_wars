@@ -4,49 +4,49 @@
 			"gold": {
 				"templates": {
 					"res": {
-						"animation": "swMapObjects/resources/SWRES03"
+						"animation": "swMapObjects/resources/AVTgold0"
 					 }
 				}
 			},
 			"wood": {
 				"templates": {
 					"res": {
-						"animation": "swMapObjects/resources/SWRES08"
+						"animation": "swMapObjects/resources/AVTwood0"
 					}
 				}
 			},
 			"ore": {
 				"templates": {
 					"res": {
-						"animation": "swMapObjects/resources/SWRES05"
+						"animation": "swMapObjects/resources/AVTore0"
 					 }
 				}
 			},
 			"crystal": {
 				"templates": {
 					"res": {
-						"animation": "swMapObjects/resources/SWRES01"
+						"animation": "swMapObjects/resources/AVTcrys0"
 					}
 				}
 			},
 			"gems": {
 				"templates": {
 					"res": {
-						"animation": "swMapObjects/resources/SWRES02"
+						"animation": "swMapObjects/resources/AVTgems0"
 					}
 				}
 			},
 			"mercury": {
 				"templates": {
 					"res": {
-						"animation": "swMapObjects/resources/SWRES04"
+						"animation": "swMapObjects/resources/AVTmerc0"
 					}
 				}
 			},
 			"sulfur": {
 				"templates": {
 					"res": {
-						"animation": "swMapObjects/resources/SWRES07"
+						"animation": "swMapObjects/resources/AVTsulf0"
 					}
 				}
 			}

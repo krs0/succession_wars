@@ -9,7 +9,7 @@
 				},
 				"templates": {
 					"sw08_AVTwood1": {
-						"animation": "swMapObjects/resources/SWRES09",
+						"animation": "swMapObjects/resources/AVTwood1",
 						"visitableFrom": [
 							"+++",
 							"+++",
@@ -23,7 +23,7 @@
 						]
 					},
 					"sw08_AVTwood0": {
-						"animation": "swMapObjects/resources/SWRES08",
+						"animation": "swMapObjects/resources/AVTwood0",
 						"visitableFrom": [
 							"+++",
 							"+++",
@@ -53,7 +53,7 @@
 				},
 				"templates": {
 					"sw08_AVTmerc0": {
-						"animation": "swMapObjects/resources/SWRES04",
+						"animation": "swMapObjects/resources/AVTmerc0",
 						"visitableFrom": [
 							"+++",
 							"+++",
@@ -84,7 +84,7 @@
 				},
 				"templates": {
 					"sw08_AVTore0": {
-						"animation": "swMapObjects/resources/SWRES05",
+						"animation": "swMapObjects/resources/AVTore0",
 						"visitableFrom": [
 							"+++",
 							"+++",
@@ -115,7 +115,7 @@
 				},
 				"templates": {
 					"sw08_AVTsulf0": {
-						"animation": "swMapObjects/resources/SWRES07",
+						"animation": "swMapObjects/resources/AVTsulf0",
 						"visitableFrom": [
 							"+++",
 							"+++",
@@ -146,7 +146,7 @@
 				},
 				"templates": {
 					"sw08_AVTcrys0": {
-						"animation": "swMapObjects/resources/SWRES01",
+						"animation": "swMapObjects/resources/AVTcrys0",
 						"visitableFrom": [
 							"+++",
 							"+++",
@@ -177,7 +177,7 @@
 				},
 				"templates": {
 					"sw08_AVTgems0": {
-						"animation": "swMapObjects/resources/SWRES02",
+						"animation": "swMapObjects/resources/AVTgems0",
 						"visitableFrom": [
 							"+++",
 							"+++",
@@ -208,7 +208,7 @@
 				},
 				"templates": {
 					"sw08_AVTgold0": {
-						"animation": "swMapObjects/resources/SWRES03",
+						"animation": "swMapObjects/resources/AVTgold0",
 						"visitableFrom": [
 							"+++",
 							"+++",
