@@ -186,8 +186,8 @@
 				},
 				"extraTownHall": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTEXT3",
-					"border": "swBarbarian/town-screen/NODW.png",
-					"area": "swBarbarian/town-screen/NODW.png",
+					//"border": "swBarbarian/town-screen/NODW.png",
+					//"area": "swBarbarian/town-screen/NODW.png",
 					"x": 517,
 					"y": 90,
 					"z": -3

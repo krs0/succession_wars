@@ -2,7 +2,6 @@
 	"core:dragonUtopia": {
 		"types": {
 			"sw08trollBridge": {
-				"handler": "bank",
 				"name": "Troll Bridge",
 				"templates": {
 					"base": {
@@ -25,9 +24,13 @@
 					"value": 3000,
 					"rarity": 100
 				},
-				"levels": [
+				"visitMode": "once",
+				"rewards": [
 					{
-						"chance": 100,
+						"appearChance": {
+							"min": 0,
+							"max": 100
+						},
 						"guards": [
 							{
 								"type": "swBarbarianWarTroll",
@@ -50,24 +53,19 @@
 								"amount": 5
 							}
 						],
-						"combat_value": 900,
-						"reward": {
-							"resources": {
-								"gold": 1500
-							},
-							"value": 3000,
-							"creatures": [
-								{
-									"type": "swBarbarianTroll",
-									"amount": 6
-								}
-							]
-						}
+						"resources": {
+							"gold": 1500
+						},
+						"creatures": [
+							{
+								"type": "swBarbarianTroll",
+								"amount": 6
+							}
+						]
 					}
 				]
 			},
 			"sw08cave": {
-				"handler": "bank",
 				"name": "Ogre Cave",
 				"templates": {
 					"base": {
@@ -90,9 +88,13 @@
 					"value": 4000,
 					"rarity": 80
 				},
-				"levels": [
+				"visitMode": "once",
+				"rewards": [
 					{
-						"chance": 50,
+						"appearChance": {
+							"min": 0,
+							"max": 50
+						},
 						"guards": [
 							{
 								"type": "swBarbarianOgreLord",
@@ -111,22 +113,21 @@
 								"amount": 5
 							}
 						],
-						"combat_value": 900,
-						"reward": {
-							"resources": {
-								"ore": 5
-							},
-							"value": 2000,
-							"creatures": [
-								{
-									"type": "swBarbarianOgreLord",
-									"amount": 5
-								}
-							]
-						}
+						"resources": {
+							"ore": 5
+						},
+						"creatures": [
+							{
+								"type": "swBarbarianOgreLord",
+								"amount": 5
+							}
+						]
 					},
 					{
-						"chance": 50,
+						"appearChance": {
+							"min": 50,
+							"max": 100
+						},
 						"guards": [
 							{
 								"type": "swBarbarianOgre",
@@ -145,19 +146,15 @@
 								"amount": 5
 							}
 						],
-						"combat_value": 900,
-						"reward": {
-							"resources": {
-								"ore": 5
-							},
-							"value": 2000,
-							"creatures": [
-								{
-									"type": "swBarbarianOgre",
-									"amount": 5
-								}
-							]
-						}
+						"resources": {
+							"ore": 5
+						},
+						"creatures": [
+							{
+								"type": "swBarbarianOgre",
+								"amount": 5
+							}
+						]
 					}
 				]
 			}

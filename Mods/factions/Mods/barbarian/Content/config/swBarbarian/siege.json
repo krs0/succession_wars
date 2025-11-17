@@ -1,54 +1,106 @@
 {
-	"swswBarbarianfaction":{
-		"town":{
-			"siege":{
-				"towerIconSmall": "vcmi/creatureIcons/towerSmall",
-				"towerIconLarge": "vcmi/creatureIcons/towerLarge",
+	"swswBarbarianfaction": {
+		"town": {
+			"siege": {
+				"towerIconSmall": "iconsSmall/towerSmall.png",
+				"towerIconLarge": "iconsBig/towerBig.png",
 				"shooter": "swBarbarianOrcChief",
 				"imagePrefix": "swBarbarian/siege/SGST",
-				"gate":
-				{
-					"arch": { "x": 478, "y": 235 },
-					"gate": { "x": 407, "y": 266 }
-				},
-				"moat":
-				{
-					"bank": { "x": 410, "y": 91 },
-					"moat": { "x": 410, "y": 90 }
-				},
-				"static":
-				{
-					"background": { "x": 617, "y": 62 },
-					"bottom": { "x": 511, "y": 380 },
-					"top": { "x": 499, "y": 107}
-				},
-				"towers":
-				{
-					"bottom":
-					{
-						"battlement": { "x": 586, "y": 508 },
-						"creature": { "x": 361, "y": 300 },
-						"tower": { "x": 586, "y": 508 }
+				"gate": {
+					"arch": {
+						"x": 478,
+						"y": 235
 					},
-					"keep":
-					{
-						"battlement": { "x": 731, "y": 168 },
-						"creature": { "x": 524, "y": -38 },
-						"tower": { "x": 731, "y": 176 }
-					},
-					"top":
-					{
-						"battlement": { "x": 568, "y": 30 },
-						"creature": { "x": 342, "y": -180 },
-						"tower": { "x": 568, "y": 30 }
+					"gate": {
+						"x": 407,
+						"y": 266
 					}
 				},
-				"walls":
-				{
-					"bottom": { "x": 553, "y": 440 },
-					"bottomMid": { "x": 483, "y": 304 },
-					"upper": { "x": 534, "y": 69 },
-					"upperMid": { "x": 476, "y": 189 }
+				"moat": {
+					"bank": {
+						"x": 410,
+						"y": 91
+					},
+					"moat": {
+						"x": 410,
+						"y": 90
+					}
+				},
+				"static": {
+					"background": {
+						"x": 617,
+						"y": 62
+					},
+					"bottom": {
+						"x": 511,
+						"y": 380
+					},
+					"top": {
+						"x": 499,
+						"y": 107
+					}
+				},
+				"towers": {
+					"bottom": {
+						"battlement": {
+							"x": 586,
+							"y": 508
+						},
+						"creature": {
+							"x": 361,
+							"y": 300
+						},
+						"tower": {
+							"x": 586,
+							"y": 508
+						}
+					},
+					"keep": {
+						"battlement": {
+							"x": 731,
+							"y": 168
+						},
+						"creature": {
+							"x": 524,
+							"y": -38
+						},
+						"tower": {
+							"x": 731,
+							"y": 176
+						}
+					},
+					"top": {
+						"battlement": {
+							"x": 568,
+							"y": 30
+						},
+						"creature": {
+							"x": 342,
+							"y": -180
+						},
+						"tower": {
+							"x": 568,
+							"y": 30
+						}
+					}
+				},
+				"walls": {
+					"bottom": {
+						"x": 553,
+						"y": 440
+					},
+					"bottomMid": {
+						"x": 483,
+						"y": 304
+					},
+					"upper": {
+						"x": 534,
+						"y": 69
+					},
+					"upperMid": {
+						"x": 476,
+						"y": 189
+					}
 				}
 			}
 		}

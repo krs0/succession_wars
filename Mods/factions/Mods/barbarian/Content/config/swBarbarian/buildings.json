@@ -245,7 +245,8 @@
 					"cost": {
 						"gold": 1000,
 						"wood": 5
-					}
+					},
+					"warMachine": "swNeutralballista"
 				},
 				"special1": {
 					"name": "Emergency Room",
@@ -293,7 +294,9 @@
 							"marketplace"
 						]
 					],
-					"type": "freelancersGuild"
+					"marketModes": [
+						"creature-resource"
+					]
 				},
 				"special3": {
 					"name": "Ballista's Workshop",
@@ -308,7 +311,7 @@
 							"blacksmith"
 						]
 					],
-					"type": "ballistaYard"
+					"warMachine": "ballista"
 				},
 				"special4": {
 					"name": "Coliseum",
@@ -323,7 +326,17 @@
 							"fort"
 						]
 					],
-					"type": "attackVisitingBonus"
+					"configuration": {
+						"visitMode": "hero",
+						"rewards": [
+							{
+								"message": "@core.genrltxt.584",
+								"primary": {
+									"attack": 1
+								}
+							}
+						]
+					}
 				},
 				//"grail":{
 				//                   "mode": "grail",

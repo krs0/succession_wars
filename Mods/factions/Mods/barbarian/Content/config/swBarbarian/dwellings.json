@@ -179,8 +179,8 @@
 					"default": {
 						"animation": "swBarbarian/Adventure-Map/AVGtrll",
 						"mask": [
-							"VVVV",
-							"BBBA"
+							"VVBB",
+							"VVBA"
 						],
 						"allowedTerrains": [
 							"rough"
