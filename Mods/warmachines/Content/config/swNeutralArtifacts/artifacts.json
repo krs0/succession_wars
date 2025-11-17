@@ -19,7 +19,7 @@
 		{
 			"image": "swNeutralCreatures/arts/artifcur.def:3",
 			"map": "swNeutralCreatures/arts/AVA0003.def",
-			"scenarioBonus": "swNeutralCreatures/TwCrPort.def:147"
+			"scenarioBonus": "swNeutralCreatures/TWCRPORT.def:0:147"
 		}
 	},
 
@@ -41,7 +41,7 @@
 		{
 			"image": "swNeutralCreatures/arts/artifcur.def:4",
 			"map": "swNeutralCreatures/arts/AVA0004.def",
-			"scenarioBonus": "swNeutralCreatures/TwCrPort.def:148"
+			"scenarioBonus": "swNeutralCreatures/TWCRPORT.def:0:148"
 		}
 	},
 
@@ -63,7 +63,7 @@
 		{
 			"image": "swNeutralCreatures/arts/artifcur.def:5",
 			"map": "swNeutralCreatures/arts/AVA0005.def",
-			"scenarioBonus": "swNeutralCreatures/TwCrPort.def:150"
+			"scenarioBonus": "swNeutralCreatures/TWCRPORT.def:0:150"
 		}
 	},
 
@@ -85,7 +85,7 @@
 		{
 			"image": "swNeutralCreatures/arts/artifcur.def:6",
 			"map": "swNeutralCreatures/arts/AVA0006.def",
-			"scenarioBonus": "swNeutralCreatures/TwCrPort.def:149"
+			"scenarioBonus": "swNeutralCreatures/TWCRPORT.def:0:149"
 		}
 	}
 }

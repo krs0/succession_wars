@@ -39,8 +39,8 @@
 		"graphics": {
 			"animation": "swNeutralCreatures/battle/c146ball.def",
 			"map": "swNeutralCreatures/arts/AVA0004.def",			
-			"iconSmall": "swNeutralCreatures/CPRSMALL.def:148",
-			"iconLarge": "swNeutralCreatures/TwCrPort.def:148",
+			"iconSmall": "swNeutralCreatures/CPRSMALL.def:0:148",
+			"iconLarge": "swNeutralCreatures/TWCRPORT.def:0:148",
 			"timeBetweenFidgets": 1,
 			"animationTime": {
 				"attack": 1,
