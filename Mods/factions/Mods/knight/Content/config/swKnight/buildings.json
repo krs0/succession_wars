@@ -5,7 +5,6 @@
 				"mageGuild1": {
 					"name": "Mage Guild Level 1",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 0,
 					"cost": {
 						"wood": 5,
 						"ore": 5,
@@ -15,7 +14,6 @@
 				"mageGuild2": {
 					"name": "Mage Guild Level 2",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 1,
 					"upgrades": "mageGuild1",
 					"cost": {
 						"wood": 5,
@@ -30,7 +28,6 @@
 				"mageGuild3": {
 					"name": "Mage Guild Level 3",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 2,
 					"upgrades": "mageGuild2",
 					"cost": {
 						"wood": 5,
@@ -45,7 +42,6 @@
 				"mageGuild4": {
 					"name": "Mage Guild Level 4",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 3,
 					"upgrades": "mageGuild3",
 					"cost": {
 						"wood": 5,
@@ -60,7 +56,6 @@
 				"mageGuild5": {
 					"name": "Mage Guild Level 5",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 4,
 					"upgrades": "mageGuild4",
 					"requires": [
 						"allOf",
@@ -81,7 +76,6 @@
 				"tavern": {
 					"name": "Tavern",
 					"description": "The Tavern provides hiring of heroes.",
-					"id": 5,
 					"cost": {
 						"wood": 5,
 						"gold": 500
@@ -90,7 +84,6 @@
 				"shipyard": {
 					"name": "Shipyard",
 					"description": "The Shipyard provides town with Boats.",
-					"id": 6,
 					"cost": {
 						"wood": 20,
 						"gold": 2000
@@ -99,7 +92,6 @@
 				"fort": {
 					"name": "Fort",
 					"description": "The Fort provides your town with defensive walls.",
-					"id": 7,
 					"cost": {
 						"wood": 20,
 						"ore": 20,
@@ -109,7 +101,6 @@
 				"citadel": {
 					"name": "Citadel",
 					"description": "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"id": 8,
 					"upgrades": "fort",
 					"cost": {
 						"ore": 5,
@@ -119,7 +110,6 @@
 				"castle": {
 					"name": "Castle",
 					"description": "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"id": 9,
 					"upgrades": "citadel",
 					"cost": {
 						"wood": 10,
@@ -130,7 +120,6 @@
 				"villageHall": {
 					"name": "Village Hall",
 					"description": "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"id": 10,
 					"mode": "auto",
 					"cost": {
 						"gold": 500
@@ -142,7 +131,6 @@
 				"townHall": {
 					"name": "Town Hall",
 					"description": "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"id": 11,
 					"upgrades": "villageHall",
 					"requires": [
 						"allOf",
@@ -160,7 +148,6 @@
 				"cityHall": {
 					"name": "City Hall",
 					"description": "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"id": 12,
 					"upgrades": "townHall",
 					"requires": [
 						"allOf",
@@ -184,7 +171,6 @@
 				"capitol": {
 					"name": "Capitol",
 					"description": "The Capitol earns your kingdom 4000 gold per day.",
-					"id": 13,
 					"upgrades": "cityHall",
 					"requires": [
 						"allOf",
@@ -202,7 +188,6 @@
 				"marketplace": {
 					"name": "Marketplace",
 					"description": "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"id": 14,
 					"cost": {
 						"wood": 5,
 						"gold": 500
@@ -211,7 +196,6 @@
 				"resourceSilo": {
 					"name": "Resourse Silo",
 					"description": "The Resourse Silo provides you with an additional +1 ore and +1 wood each day.",
-					"id": 15,
 					"requires": [
 						"allOf",
 						[
@@ -231,7 +215,6 @@
 				"blacksmith": {
 					"name": "Blacksmith",
 					"description": "The Blacksmith provides your armies with Ballistas.",
-					"id": 16,
 					"cost": {
 						"wood": 5,
 						"gold": 1000
@@ -240,7 +223,6 @@
 				"special1": {
 					"name": "Lighthouse",
 					"description": "The Lighthouse grants additional mobility to any ships you control.",
-					"id": 17,
 					"type": "lighthouse",
 					"requires": [
 						"allOf",
@@ -256,7 +238,6 @@
 				"horde1": {
 					"name": "Well",
 					"description": "The Well increases production of Pikemen by 3 per week.",
-					"id": 18,
 					"upgrades": "dwellingLvl3",
 					"cost": {
 						"gold": 1000
@@ -265,7 +246,6 @@
 				"horde1Upgr": {
 					"name": "Well",
 					"description": "The Well increases weekly production of Veteran Pikemen by 3 per week.",
-					"id": 19,
 					"upgrades": "dwellingUpLvl3",
 					"requires": [
 						"allOf",
@@ -281,13 +261,11 @@
 				"ship": {
 					"name": "Ship",
 					"description": "Ship",
-					"id": 20,
 					"upgrades": "shipyard"
 				},
 				"special2": {
 					"name": "Stables",
 					"description": "The Stables increase the land movement rate of any visiting hero.",
-					"id": 21,
 					"type": "stables",
 					"requires": [
 						"allOf",
@@ -303,7 +281,6 @@
 				"special3": {
 					"name": "Guild of the Sword",
 					"description": "During a siege, the Guild of the Sword increases troop morale by +2.",
-					"id": 22,
 					"type": "brotherhoodOfSword",
 					"upgrades": "tavern",
 					"cost": {
@@ -312,7 +289,6 @@
 					}
 				},
 				//"grail":                {
-				//                    "id": 26,
 				//                   "mode": "grail",
 				//					"produce": {
 				//					    "gold": 5000
@@ -329,7 +305,7 @@
 				//                   }
 				//               },
 				//"extraCityHall":                {
-				//                    "id": 28, "name": "Extra City Hall", "description": "Extra city hall appearance",
+				//                    "name": "Extra City Hall", "description": "Extra city hall appearance",
 				///                    "requires": ["allOf" , ["cityHall"] , ["extraCityHall"]],
 				//                    "mode": "auto",
 				//                    "cost": {
@@ -337,7 +313,7 @@
 				//                    }
 				//                },
 				//"extraCapitol":                {
-				//                    "id": 29, "name": "Extra Capitol", "description": "Extra capitol appearance",
+				//                    "name": "Extra Capitol", "description": "Extra capitol appearance",
 				//                    "requires": ["allOf" , ["capitol"] , ["extraCapitol"]],
 				//                    "mode": "auto",
 				//                    "cost": {
@@ -347,7 +323,6 @@
 				"dwellingLvl1": {
 					"name": "Thatched Hut",
 					"description": "Thatched Hut allows to recruit Peasants.",
-					"id": 30,
 					"requires": [
 						"allOf",
 						[
@@ -361,7 +336,6 @@
 				"dwellingLvl2": {
 					"name": "Archery Range",
 					"description": "Archery Range allows to recruit Archers.",
-					"id": 31,
 					"requires": [
 						"allOf",
 						[
@@ -375,7 +349,6 @@
 				"dwellingLvl3": {
 					"name": "Blacksmith",
 					"description": "Blacksmith allows to recruit Pikemen.",
-					"id": 32,
 					"requires": [
 						"allOf",
 						[
@@ -390,7 +363,6 @@
 				"dwellingLvl4": {
 					"name": "Training Grounds",
 					"description": "Training Grounds allow to recruit Crossbowmen.",
-					"id": 33,
 					"requires": [
 						"allOf",
 						[
@@ -411,7 +383,6 @@
 				"dwellingLvl5": {
 					"name": "Armory",
 					"description": "Armory allows to recruit Swordsmen.",
-					"id": 34,
 					"requires": [
 						"allOf",
 						[
@@ -430,7 +401,6 @@
 				"dwellingLvl6": {
 					"name": "Jousting Area",
 					"description": "Jousting Area allows to recruit Cavalries.",
-					"id": 35,
 					"requires": [
 						"allOf",
 						[
@@ -463,7 +433,6 @@
 				"dwellingLvl7": {
 					"name": "Cathedral",
 					"description": "Cathedral allows to recruit Paladins.",
-					"id": 36,
 					"requires": [
 						"allOf",
 						[
@@ -477,7 +446,6 @@
 					}
 				},
 				//"dwellingUpLvl1":                {
-				//                   "id": 37,
 				//                   "upgrades": "dwellingLvl1",
 				//                    "cost": {
 				//                      "gold": 800,
@@ -489,7 +457,6 @@
 				"dwellingUpLvl2": {
 					"name": "Upg. Archery Range",
 					"description": "Upg. Archery Range allows to recruit Rangers.",
-					"id": 38,
 					"upgrades": "dwellingLvl2",
 					"cost": {
 						"gold": 1500,
@@ -499,7 +466,6 @@
 				"dwellingUpLvl3": {
 					"name": "Upg. Guardhouse",
 					"description": "Upg. Guardhouse allows to recruit Veteran Pikemen.",
-					"id": 39,
 					"upgrades": "dwellingLvl3",
 					"cost": {
 						"gold": 1500,
@@ -509,7 +475,6 @@
 				"dwellingUpLvl4": {
 					"name": "Upg. Training Grounds",
 					"description": "Upg. Training Grounds allow to recruit Marksmen.",
-					"id": 40,
 					"upgrades": "dwellingLvl4",
 					"cost": {
 						"ore": 5,
@@ -520,7 +485,6 @@
 				"dwellingUpLvl5": {
 					"name": "Upg. Armory",
 					"description": "Upg. Armory allows to recruit Master Swordsmen.",
-					"id": 41,
 					"upgrades": "dwellingLvl5",
 					"cost": {
 						"wood": 5,
@@ -531,7 +495,6 @@
 				"dwellingUpLvl6": {
 					"name": "Upg. Jousting Ground",
 					"description": "Upg. Jousting Ground allows to recruit Champions.",
-					"id": 42,
 					"upgrades": "dwellingLvl6",
 					"cost": {
 						"gold": 3000,
@@ -541,7 +504,6 @@
 				"dwellingUpLvl7": {
 					"name": "Upg. Cathedral",
 					"description": "Upg. Cathedral allows to recruit Crusaders.",
-					"id": 43,
 					"upgrades": "dwellingLvl7",
 					"cost": {
 						"gold": 5000,

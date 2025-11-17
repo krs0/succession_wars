@@ -5,7 +5,6 @@
 				"mageGuild1": {
 					"name": "Mage Guild Level 1",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 0,
 					"cost": {
 						"wood": 5,
 						"ore": 5,
@@ -15,7 +14,6 @@
 				"mageGuild2": {
 					"name": "Mage Guild Level 2",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 1,
 					"upgrades": "mageGuild1",
 					"cost": {
 						"wood": 5,
@@ -30,7 +28,6 @@
 				"mageGuild3": {
 					"name": "Mage Guild Level 3",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 2,
 					"upgrades": "mageGuild2",
 					"cost": {
 						"wood": 5,
@@ -45,7 +42,6 @@
 				"mageGuild4": {
 					"name": "Mage Guild Level 4",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 3,
 					"upgrades": "mageGuild3",
 					"cost": {
 						"wood": 5,
@@ -60,7 +56,6 @@
 				"mageGuild5": {
 					"name": "Mage Guild Level 5",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 4,
 					"upgrades": "mageGuild4",
 					"cost": {
 						"wood": 5,
@@ -75,7 +70,6 @@
 				"tavern": {
 					"name": "Tavern",
 					"description": "The Tavern provides hiring of heroes.",
-					"id": 5,
 					"cost": {
 						"wood": 5,
 						"gold": 500
@@ -84,7 +78,6 @@
 				"shipyard": {
 					"name": "Shipyard",
 					"description": "The Shipyard allows you to purchase ships.",
-					"id": 6,
 					"cost": {
 						"wood": 15,
 						"gold": 2000
@@ -93,7 +86,6 @@
 				"fort": {
 					"name": "Fort",
 					"description": "The Fort provides your town with defensive walls.",
-					"id": 7,
 					"cost": {
 						"wood": 20,
 						"ore": 20,
@@ -103,7 +95,6 @@
 				"citadel": {
 					"name": "Citadel",
 					"description": "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"id": 8,
 					"upgrades": "fort",
 					"cost": {
 						"ore": 5,
@@ -113,7 +104,6 @@
 				"castle": {
 					"name": "Castle",
 					"description": "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"id": 9,
 					"upgrades": "citadel",
 					"cost": {
 						"wood": 10,
@@ -124,7 +114,6 @@
 				"villageHall": {
 					"name": "Village Hall",
 					"description": "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"id": 10,
 					"mode": "auto",
 					"cost": {
 						"gold": 500
@@ -136,7 +125,6 @@
 				"townHall": {
 					"name": "Town Hall",
 					"description": "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"id": 11,
 					"upgrades": "villageHall",
 					"requires": [
 						"allOf",
@@ -154,7 +142,6 @@
 				"cityHall": {
 					"name": "City Hall",
 					"description": "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"id": 12,
 					"upgrades": "townHall",
 					"requires": [
 						"allOf",
@@ -178,7 +165,6 @@
 				"capitol": {
 					"name": "Capitol",
 					"description": "The Capitol earns your kingdom 4000 gold per day.",
-					"id": 13,
 					"upgrades": "cityHall",
 					"requires": [
 						"allOf",
@@ -196,7 +182,6 @@
 				"marketplace": {
 					"name": "Marketplace",
 					"description": "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"id": 14,
 					"cost": {
 						"wood": 5,
 						"gold": 500
@@ -205,7 +190,6 @@
 				"resourceSilo": {
 					"description": "The Resourse Silo provides you with an additional +1 ore and +1 wood each day.",
 					"name": "Resourse Silo",
-					"id": 15,
 					"requires": [
 						"allOf",
 						[
@@ -224,7 +208,6 @@
 				"blacksmith": {
 					"name": "Blacksmith",
 					"description": "The Blacksmith provides your armies with First Aid Tents.",
-					"id": 16,
 					"cost": {
 						"wood": 5,
 						"gold": 1000
@@ -233,7 +216,6 @@
 				"special1": {
 					"name": "Storm",
 					"description": "Storm covers your city with a permanent shroud to all other players.",
-					"id": 17,
 					"requires": [
 						"allOf",
 						[
@@ -253,7 +235,6 @@
 				"horde1": {
 					"name": "Skull Pile",
 					"description": "Skull Pile increases weekly production of Skeletons by 6 per week.",
-					"id": 18,
 					"requires": [
 						"allOf",
 						[
@@ -267,7 +248,6 @@
 				"horde1Upgr": {
 					"name": "Skull Pile",
 					"description": "Skull Pile increases weekly production of Skeleton Warriors by 6 per week.",
-					"id": 19,
 					"requires": [
 						"allOf",
 						[
@@ -285,13 +265,11 @@
 				"ship": {
 					"name": "Ship",
 					"description": "Ship",
-					"id": 20,
 					"upgrades": "shipyard"
 				},
 				"special2": {
 					"name": "Shrine",
 					"description": "Shrine increases Necromancy skill of all heroes you control (with necromancy skill) by 10%.",
-					"id": 21,
 					"requires": [
 						"allOf",
 						[
@@ -312,7 +290,6 @@
 				"special3": {
 					"name": "Boneyard",
 					"description": "Boneyard allows you to convert any creature to Skeleton.",
-					"id": 22,
 					"type": "creatureTransformer",
 					"requires": [
 						"allOf",
@@ -325,7 +302,6 @@
 					}
 				},
 				//"grail": {
-				//                   "id": 26,
 				//                  "mode": "grail",
 				//					"produce": {
 				//					    "gold": 5000
@@ -336,7 +312,6 @@
 				"extraTownHall": {
 					"name": "Extra Town Hall",
 					"description": "Extra town hall appearance",
-					"id": 27,
 					"requires": [
 						"allOf",
 						[
@@ -354,7 +329,6 @@
 				"extraCityHall": {
 					"name": "Extra City Hall",
 					"description": "Extra city hall appearance",
-					"id": 28,
 					"requires": [
 						"allOf",
 						[
@@ -372,7 +346,6 @@
 				"extraCapitol": {
 					"name": "Extra Capitol",
 					"description": "Extra capitol appearance",
-					"id": 29,
 					"requires": [
 						"allOf",
 						[
@@ -390,7 +363,6 @@
 				"dwellingLvl1": {
 					"name": "Excavation",
 					"description": "The Excavation produces Skeletons.",
-					"id": 30,
 					"requires": [
 						"allOf",
 						[
@@ -404,7 +376,6 @@
 				"dwellingLvl2": {
 					"name": "Graveyard",
 					"description": "The Graveyard produces Zombies.",
-					"id": 31,
 					"requires": [
 						"allOf",
 						[
@@ -418,7 +389,6 @@
 				"dwellingLvl3": {
 					"name": "Pyramid",
 					"description": "The Pyramid produces Mummies.",
-					"id": 32,
 					"requires": [
 						"allOf",
 						[
@@ -433,7 +403,6 @@
 				"dwellingLvl4": {
 					"name": "Mansion",
 					"description": "The Mansion produces Vampires.",
-					"id": 33,
 					"requires": [
 						"allOf",
 						[
@@ -455,7 +424,6 @@
 				"dwellingLvl5": {
 					"name": "Dark Tower",
 					"description": "The Dark Tower produces Death Knights.",
-					"id": 34,
 					"requires": [
 						"allOf",
 						[
@@ -482,7 +450,6 @@
 				"dwellingLvl6": {
 					"name": "Mausoleum",
 					"description": "The Mausoleum produces Liches.",
-					"id": 35,
 					"requires": [
 						"allOf",
 						[
@@ -511,7 +478,6 @@
 				"dwellingLvl7": {
 					"name": "Laboratory",
 					"description": "The Laboratory produces Bone Dragons.",
-					"id": 36,
 					"requires": [
 						"allOf",
 						[
@@ -549,7 +515,6 @@
 				"dwellingUpLvl2": {
 					"name": "Upg. Graveyard",
 					"description": "The Upg. Graveyard produces Mutant Zombies.",
-					"id": 38,
 					"upgrades": "dwellingLvl2",
 					"cost": {
 						"gold": 1000
@@ -558,7 +523,6 @@
 				"dwellingUpLvl3": {
 					"name": "Upg. Pyramid",
 					"description": "The Upg. Pyramid produces Royal Mummies.",
-					"id": 39,
 					"upgrades": "dwellingLvl3",
 					"cost": {
 						"gold": 1500,
@@ -569,7 +533,6 @@
 				"dwellingUpLvl4": {
 					"name": "Upg. Mansion",
 					"description": "The Upg. Mansion produces Vampire Lords.",
-					"id": 40,
 					"upgrades": "dwellingLvl4",
 					"requires": [
 						"allOf",
@@ -587,7 +550,6 @@
 				"dwellingUpLvl6": {
 					"name": "Upg. Mausoleum",
 					"description": "The Upg. Mausuleum produces Power Liches.",
-					"id": 42,
 					"upgrades": "dwellingLvl6",
 					"requires": [
 						"allOf",

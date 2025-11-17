@@ -5,7 +5,6 @@
 				"mageGuild1": {
 					"name": "Mage Guild Level 1",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 0,
 					"cost": {
 						"wood": 5,
 						"ore": 5,
@@ -15,7 +14,6 @@
 				"mageGuild2": {
 					"name": "Mage Guild Level 2",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 1,
 					"upgrades": "mageGuild1",
 					"cost": {
 						"wood": 5,
@@ -30,7 +28,6 @@
 				"mageGuild3": {
 					"name": "Mage Guild Level 3",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 2,
 					"upgrades": "mageGuild2",
 					"cost": {
 						"wood": 5,
@@ -45,7 +42,6 @@
 				"mageGuild4": {
 					"name": "Mage Guild Level 4",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 3,
 					"upgrades": "mageGuild3",
 					"cost": {
 						"wood": 5,
@@ -60,7 +56,6 @@
 				"mageGuild5": {
 					"name": "Mage Guild Level 5",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 4,
 					"upgrades": "mageGuild4",
 					"cost": {
 						"wood": 5,
@@ -75,7 +70,6 @@
 				"tavern": {
 					"name": "Tavern",
 					"description": "The Tavern provides hiring of heroes.",
-					"id": 5,
 					"cost": {
 						"wood": 5,
 						"gold": 500
@@ -84,7 +78,6 @@
 				"shipyard": {
 					"name": "Shipyard",
 					"description": "The Shipyard allows you to purchase ships.",
-					"id": 6,
 					"cost": {
 						"wood": 20,
 						"gold": 5000
@@ -99,7 +92,6 @@
 				"fort": {
 					"name": "Fort",
 					"description": "The Fort provides your town with defensive walls.",
-					"id": 7,
 					"cost": {
 						"wood": 20,
 						"ore": 20,
@@ -109,7 +101,6 @@
 				"citadel": {
 					"name": "Citadel",
 					"description": "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"id": 8,
 					"upgrades": "fort",
 					"cost": {
 						"ore": 5,
@@ -119,7 +110,6 @@
 				"castle": {
 					"name": "Castle",
 					"description": "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"id": 9,
 					"upgrades": "citadel",
 					"cost": {
 						"wood": 10,
@@ -130,7 +120,6 @@
 				"villageHall": {
 					"name": "Village Hall",
 					"description": "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"id": 10,
 					"mode": "auto",
 					"cost": {
 						"gold": 500
@@ -142,7 +131,6 @@
 				"townHall": {
 					"name": "Town Hall",
 					"description": "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"id": 11,
 					"upgrades": "villageHall",
 					"requires": [
 						"allOf",
@@ -160,7 +148,6 @@
 				"cityHall": {
 					"name": "City Hall",
 					"description": "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"id": 12,
 					"upgrades": "townHall",
 					"requires": [
 						"allOf",
@@ -184,7 +171,6 @@
 				"capitol": {
 					"name": "Capitol",
 					"description": "The Capitol earns your kingdom 4000 gold per day.",
-					"id": 13,
 					"upgrades": "cityHall",
 					"requires": [
 						"allOf",
@@ -202,7 +188,6 @@
 				"marketplace": {
 					"name": "Marketplace",
 					"description": "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"id": 14,
 					"cost": {
 						"wood": 5,
 						"gold": 500
@@ -211,7 +196,6 @@
 				"resourceSilo": {
 					"name": "Resource Silo",
 					"description": "The Gem Mine provides you with an additional +1 gems each day.",
-					"id": 15,
 					"requires": [
 						"allOf",
 						[
@@ -229,7 +213,6 @@
 				"blacksmith": {
 					"name": "Blacksmith",
 					"description": "The Blacksmith provides your armies with war machines.",
-					"id": 16,
 					"type": "blacksmith",
 					"cost": {
 						"wood": 5,
@@ -239,7 +222,6 @@
 				"special1": {
 					"name": "Artifact Merchants",
 					"description": "For a nominal fee you can purchase artefacts from Artifact Merchants.",
-					"id": 17,
 					"type": "artifactMerchant",
 					"cost": {
 						"gold": 10000
@@ -254,7 +236,6 @@
 				"horde1": {
 					"name": "Orchard",
 					"description": "Orchard increases weekly production of Halflings by 8 per week.",
-					"id": 18,
 					"type": "orchard",
 					"upgrades": "dwellingLvl2",
 					"cost": {
@@ -264,7 +245,6 @@
 				"horde1Upgr": {
 					"name": "Orchard",
 					"description": "Orchard increases weekly production of War Boars by 4 per week.",
-					"id": 19,
 					"type": "orchard",
 					"requires": [
 						"allOf",
@@ -283,14 +263,12 @@
 				"ship": {
 					"name": "Ship",
 					"description": "Ship",
-					"id": 20,
 					"type": "ship",
 					"upgrades": "shipyard"
 				},
 				"special2": {
 					"name": "Lookout Tower",
 					"description": "Lookout Tower extends a visible distance around your city.",
-					"id": 21,
 					"type": "lookoutTower",
 					"requires": [
 						"allOf",
@@ -307,7 +285,6 @@
 				"special3": {
 					"name": "Library",
 					"description": "Library provides mage guild with additional spells.",
-					"id": 22,
 					"type": "library",
 					"requires": [
 						"allOf",
@@ -328,7 +305,6 @@
 				"special4": {
 					"name": "Statue of the Founder",
 					"description": "The Statue of the Founder increases the Knowledge skill of any visiting hero by +1.",
-					"id": 23,
 					"type": "knowledgeVisitingBonus",
 					"requires": [
 						"allOf",
@@ -342,7 +318,6 @@
 					}
 				},
 				//"grail": {
-				//                   "id": 26,
 				//                   "mode": "grail",
 				//					"produce": {
 				//					    "gold": 5000
@@ -353,7 +328,6 @@
 				"dwellingLvl1": {
 					"name": "Habitat",
 					"description": "The Habitat produces Halflings.",
-					"id": 30,
 					"requires": [
 						"allOf",
 						[
@@ -367,7 +341,6 @@
 				"dwellingLvl2": {
 					"name": "Pen",
 					"description": "The Pen produces Boars.",
-					"id": 31,
 					"requires": [
 						"allOf",
 						[
@@ -381,7 +354,6 @@
 				"dwellingLvl3": {
 					"name": "Mushroom House",
 					"description": "The Mushroom House produces Gnomes.",
-					"id": 32,
 					"requires": [
 						"allOf",
 						[
@@ -396,7 +368,6 @@
 				"dwellingLvl4": {
 					"name": "Foundry",
 					"description": "The Foundry produces Iron Golems.",
-					"id": 33,
 					"requires": [
 						"allOf",
 						[
@@ -412,7 +383,6 @@
 				"dwellingLvl5": {
 					"name": "Cliff Nest",
 					"description": "The Cliff Nest produces Rocs.",
-					"id": 34,
 					"requires": [
 						"allOf",
 						[
@@ -427,7 +397,6 @@
 				"dwellingLvl6": {
 					"name": "Ivory Tower",
 					"description": "The Ivory Tower produces Magi.",
-					"id": 35,
 					"requires": [
 						"allOf",
 						[
@@ -450,7 +419,6 @@
 				"dwellingLvl7": {
 					"name": "Cloud Castle",
 					"description": "The Cloud Castle produces Giants.",
-					"id": 36,
 					"requires": [
 						"allOf",
 						[
@@ -470,7 +438,6 @@
 				"dwellingUpLvl4": {
 					"name": "Upg. Foundry",
 					"description": "The Upg. Foundry produces Steel Golems.",
-					"id": 40,
 					"upgrades": "dwellingLvl4",
 					"cost": {
 						"gold": 1500,
@@ -480,7 +447,6 @@
 				"dwellingUpLvl6": {
 					"name": "Upg. Ivory Tower",
 					"description": "The Upg. Ivory Tower produces Arch Magi.",
-					"id": 42,
 					"upgrades": "dwellingLvl6",
 					"cost": {
 						"gold": 3000,
@@ -491,7 +457,6 @@
 				"dwellingUpLvl7": {
 					"name": "Upg. Cloud Castle",
 					"description": "The Upg. Cloud Castle produces Titans.",
-					"id": 43,
 					"upgrades": "dwellingLvl7",
 					"cost": {
 						"gold": 16500,

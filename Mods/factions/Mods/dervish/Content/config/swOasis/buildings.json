@@ -5,7 +5,6 @@
 				"mageGuild1": {
 					"name": "Mage Guild Level 1",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 0,
 					"cost": {
 						"gold": 2000,
 						"wood": 5,
@@ -15,7 +14,6 @@
 				"mageGuild2": {
 					"name": "Mage Guild Level 2",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 1,
 					"upgrades": "mageGuild1",
 					"cost": {
 						"gold": 1000,
@@ -30,7 +28,6 @@
 				"mageGuild3": {
 					"name": "Mage Guild Level 3",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 2,
 					"upgrades": "mageGuild2",
 					"cost": {
 						"gold": 1000,
@@ -45,7 +42,6 @@
 				"mageGuild4": {
 					"name": "Mage Guild Level 4",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 3,
 					"upgrades": "mageGuild3",
 					"cost": {
 						"gold": 1000,
@@ -60,7 +56,6 @@
 				"mageGuild5": {
 					"name": "Mage Guild Level 5",
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id": 4,
 					"upgrades": "mageGuild4",
 					"cost": {
 						"gold": 1000,
@@ -75,7 +70,6 @@
 				"tavern": {
 					"name": "Tavern",
 					"description": "The Tavern provides hiring of heroes.",
-					"id": 5,
 					"cost": {
 						"gold": 500,
 						"wood": 5
@@ -84,7 +78,6 @@
 				"shipyard": {
 					"name": "Shipyard",
 					"description": "The Shipyard allows you to purchase ships.",
-					"id": 6,
 					"cost": {
 						"gold": 2000,
 						"wood": 20
@@ -93,7 +86,6 @@
 				"fort": {
 					"name": "Fort",
 					"description": "The Fort provides your town with defensive walls.",
-					"id": 7,
 					"cost": {
 						"gold": 5000,
 						"wood": 20,
@@ -103,7 +95,6 @@
 				"citadel": {
 					"name": "Citadel",
 					"description": "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"id": 8,
 					"upgrades": "fort",
 					"cost": {
 						"gold": 2500,
@@ -113,7 +104,6 @@
 				"castle": {
 					"name": "Castle",
 					"description": "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"id": 9,
 					"upgrades": "citadel",
 					"cost": {
 						"gold": 5000,
@@ -124,7 +114,6 @@
 				"villageHall": {
 					"name": "Village Hall",
 					"description": "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"id": 10,
 					"mode": "auto",
 					"cost": {
 						"gold": 500
@@ -136,7 +125,6 @@
 				"townHall": {
 					"name": "Town Hall",
 					"description": "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"id": 11,
 					"upgrades": "villageHall",
 					"requires": [
 						"allOf",
@@ -154,7 +142,6 @@
 				"cityHall": {
 					"name": "City Hall",
 					"description": "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"id": 12,
 					"upgrades": "townHall",
 					"requires": [
 						"allOf",
@@ -178,7 +165,6 @@
 				"capitol": {
 					"name": "Capitol",
 					"description": "The Capitol earns your kingdom 4000 gold per day.",
-					"id": 13,
 					"upgrades": "cityHall",
 					"requires": [
 						"allOf",
@@ -196,7 +182,6 @@
 				"marketplace": {
 					"name": "Marketplace",
 					"description": "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"id": 14,
 					"cost": {
 						"gold": 500,
 						"wood": 5
@@ -205,7 +190,6 @@
 				"resourceSilo": {
 					"name": "Gem Pond",
 					"description": "The Gem Pond provides you with an additional +1 gems each day.",
-					"id": 15,
 					"requires": [
 						"allOf",
 						[
@@ -223,7 +207,6 @@
 				"blacksmith": {
 					"name": "Blacksmith",
 					"description": "The Blacksmith provides your armies with war machines.",
-					"id": 16,
 					"cost": {
 						"gold": 1000,
 						"wood": 5
@@ -233,7 +216,6 @@
 					"description": "For a nominal fee, you can purchase artefacts from the Artifact Merchants.",
 					"name": "Artifact Merchants",
 					"type": "artifactMerchant",
-					"id": 17,
 					"cost": {
 						"gold": 10000
 					},
@@ -247,7 +229,6 @@
 				"horde1": {
 					"name": "Wagon Camp",
 					"description": "Wagon Camp increases weekly production of Rogues by 8 per week.",
-					"id": 18,
 					"upgrades": "dwellingLvl1",
 					"cost": {
 						"gold": 1000
@@ -256,7 +237,6 @@
 				"horde1Upgr": {
 					"name": "Wagon Camp",
 					"description": "Wagon Camp increases weekly production of Bandits by 8 per week.",
-					"id": 19,
 					"upgrades": "dwellingUpLvl1",
 					"cost": {
 						"gold": 1000
@@ -272,7 +252,6 @@
 				"ship": {
 					"name": "Ship",
 					"description": "Ship",
-					"id": 20,
 					"upgrades": "shipyard",
 					"cost": {
 						"gold": 2000,
@@ -280,7 +259,6 @@
 					}
 				},
 				//  "special2":                 {
-				//                   "id": 21,
 				//                    "cost": {
 				//                        "wood": 10,
 				//                        "gold": 2000
@@ -292,7 +270,6 @@
 				"grail": {
 					"name": "Magic Shining",
 					"description": "Magic Shining increases weekly creature generation by 50 percent, adds 5000 gold per day and increases Spell Damage of allied heroes by 25%.",
-					"id": 26,
 					"mode": "grail",
 					"produce": {
 						"gold": 5000
@@ -308,7 +285,6 @@
 				"extraTownHall": {
 					"name": "Extra Town Hall",
 					"description": "Extra town hall appearance",
-					"id": 27,
 					"requires": [
 						"allOf",
 						[
@@ -323,7 +299,6 @@
 				"extraCityHall": {
 					"name": "Extra City Hall",
 					"description": "Extra city hall appearance",
-					"id": 28,
 					"requires": [
 						"allOf",
 						[
@@ -338,7 +313,6 @@
 				"extraCapitol": {
 					"name": "Extra Capitol",
 					"description": "Extra capitol appearance",
-					"id": 29,
 					"requires": [
 						"allOf",
 						[
@@ -353,7 +327,6 @@
 				"dwellingLvl1": {
 					"name": "Wagon Camp",
 					"description": "The Wagon Camp produces Rogues.",
-					"id": 30,
 					"cost": {
 						"gold": 400,
 						"wood": 5
@@ -368,7 +341,6 @@
 				"dwellingLvl2": {
 					"name": "Temple",
 					"description": "The Temple produces Acolytes.",
-					"id": 31,
 					"cost": {
 						"gold": 1000,
 						"wood": 5,
@@ -384,7 +356,6 @@
 				"dwellingLvl3": {
 					"name": "Desert Tent",
 					"description": "The Desert Tent produces Nomads.",
-					"id": 32,
 					"cost": {
 						"gold": 1500
 					},
@@ -398,7 +369,6 @@
 				"dwellingLvl4": {
 					"name": "Chapel",
 					"description": "The Chapel produces Medusas.",
-					"id": 33,
 					"cost": {
 						"gold": 2000,
 						"ore": 10
@@ -413,7 +383,6 @@
 				"dwellingLvl5": {
 					"name": "Pit",
 					"description": "The Pit produces Manticores.",
-					"id": 34,
 					"cost": {
 						"gold": 2500,
 						"wood": 10,
@@ -429,7 +398,6 @@
 				"dwellingLvl6": {
 					"name": "Ancient Tomb",
 					"description": "The Ancient Tomb produces Anubites.",
-					"id": 35,
 					"cost": {
 						"gold": 3000,
 						"ore": 10
@@ -447,7 +415,6 @@
 				"dwellingLvl7": {
 					"name": "Altar of Wishes",
 					"description": "The Altar of Wishes produces Genies.",
-					"id": 36,
 					"cost": {
 						"gold": 6000,
 						"gems": 15,
@@ -464,7 +431,6 @@
 				"dwellingUpLvl1": {
 					"name": "Upg. Wagon Camp",
 					"description": "Upg. Wagon Camp produces Bandits.",
-					"id": 37,
 					"upgrades": "dwellingLvl1",
 					"cost": {
 						"gold": 1000
@@ -473,7 +439,6 @@
 				"dwellingUpLvl4": {
 					"name": "Upg. Chapel",
 					"description": "Upg. Chapel produces Medusa Queens.",
-					"id": 40,
 					"upgrades": "dwellingLvl4",
 					"cost": {
 						"gold": 1500,
