@@ -10,7 +10,6 @@
 		},
 		"town": {
 			"primaryResource": "ore",
-			"warMachine": "swNeutralfirstAidTent",
 			"defaultTavern": 5,
 			"moatAbility": "core:spell.necropolisMoat",
 			// "moatHexes": [ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ],
@@ -22,7 +21,7 @@
 			"guildBackground": "TPMAGE.png",
 			"guildWindow": "swNecromancer/town-screen/TPMAGENC.png",
 
-			"musicTheme": "swNecromancer/music/necroTown.mp3",
+			"musicTheme": ["swNecromancer/necroTown.mp3"],
 			"tavernVideo": "swNecromancer/Tavern.bik",
 
 			"hallSlots": [

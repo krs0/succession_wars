@@ -10,7 +10,6 @@
 		},
 		"town": {
 			"primaryResource": "ore",
-			"warMachine": "swNeutralfirstAidTent",
 			"defaultTavern": 5,
 			"moatAbility": "core:spell.fortressMoat",
 
@@ -23,7 +22,7 @@
 			"guildBackground": "TPMAGE.png",
 			"guildWindow": "swWitch/town-screen/TPMAGEFR.png",
 
-			"musicTheme": "swWitch/music/FortressTown.mp3",
+			"musicTheme": ["swWitch/FortressTown.mp3"],
 			"tavernVideo": "swWitch/Tavern.bik",
 
 			"hallSlots": [

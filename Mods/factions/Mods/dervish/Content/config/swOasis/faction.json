@@ -10,7 +10,6 @@
 		},
 		"town": {
 			"primaryResource": "gems",
-			"warMachine": "swNeutralballista",
 			"defaultTavern": 5,
 			"moatAbility": "core:spell.castleMoat",
 			// "moatHexes": [ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ],
@@ -22,7 +21,7 @@
 			"guildBackground": "TPMAGE.png",
 			"guildWindow": "swOasis/town-screen/TPMAGEEL.png",
 
-			"musicTheme": "swOasis/music/ElemTown.mp3",
+			"musicTheme": ["swOasis/ElemTown.mp3"],
 			"tavernVideo": "swOasis/Tavern.bik",
 
 			"hallSlots": [

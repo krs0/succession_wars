@@ -10,14 +10,13 @@
 		},
 		"town": {
 			"primaryResource": "mercury",
-			"warMachine": "swNeutralfirstAidTent",
 			 "defaultTavern": 5,
 			 "moatAbility": "core:spell.rampartMoat",
 			 // "moatHexes": [ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ],
 
 			"mageGuild": 5,
 
-			"musicTheme": "swSorceress/music/RAMPART.MP3",
+			"musicTheme": ["swSorceress/RAMPART.MP3"],
 			"tavernVideo": "swSorceress/Tavern.bik",
 
 			"hallBackground": "swSorceress/town-screen/TpThBkRm.png",
