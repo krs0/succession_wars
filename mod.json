@@ -8,12 +8,13 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "0.0.1",
 	"downloadSize" : 1,
-	"depends" :
-	[
+	"depends" : [
 		"ban-mod"
 	],
-	"compatibility" :
-	{
-		"min" : "1.4.0"
+	"softDepends" : [
+		"vcmi-extras"
+	],
+	"compatibility" : {
+		"min" : "1.6.0"
 	}
 }
