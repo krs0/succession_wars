@@ -235,7 +235,6 @@
 				"horde1": {
 					"name": "Lumberjacks' Guild",
 					"description": "The Lumberjacks' Guild increases weekly production of Dwarves by 4 per week.",
-					// "upgrades": "dwellingLvl2"  ,
 					"cost": {
 						"gold": 1000
 					}
@@ -300,20 +299,15 @@
 						"gold": 5000
 					}
 				},
-				//"special4":  	{ "requires": ["allOf" , ["special2"]],
-				//"cost": {
-				///						"gems": 5,
-				//
-				//						"gold": 2000
-				//					},
-				//"description": "The Rainbow increases the luck of the garrison hero by +2 when defending //against a siege.",
-				//					"name": "Rainbow" },
 				"horde2": {
 					"name": "Crystal Garden",
 					"description": "The Crystal Garden increases weekly production of Druids by 2 per week.",
-					/"upgrades": "dwellingLvl5"  ,
+					"upgrades": "dwellingLvl5",
 					"requires": [
-						"dwellingLvl5"
+						"allOf",
+						[
+							"dwellingLvl5"
+						]
 					],
 					"cost": {
 						"gold": 2000
@@ -322,7 +316,7 @@
 				"horde2Upgr": {
 					"name": "Crystal Garden",
 					"description": "The Crystal Garden increases weekly production of Greater Druids by 2 per week.",
-					/"upgrades": "dwellingUpLvl5",
+					"upgrades": "dwellingUpLvl5",
 					"requires": [
 						"allOf",
 						[
@@ -337,21 +331,6 @@
 						"gold": 2000
 					}
 				},
-				//"grail":  { "mode": "grail",
-				//					"produce": {
-				//					    "gold": 5000
-				//					},
-				//"description": "The Spirit Guardian increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
-				//					"name": "Spirit Guardian"},
-				//"extraTownHall":  { "name": "Extra Town Hall", "description": "Extra town hall appearance", "requires": ["allOf" , ["townHall"] , ["extraTownHall"]], "mode": "auto","cost": {
-				//						"gold": 1000
-				//					} },
-				//"extraCityHall":  { "name": "Extra City Hall", "description": "Extra city hall appearance", "requires": ["allOf" , ["cityHall"] , ["extraCityHall"]], "mode": "auto","cost": {
-				//						"gold": 1000
-				//					} },
-				//"extraCapitol":  { "name": "Extra Capitol", "description": "Extra capitol appearance", "requires": ["allOf" , ["capitol"] , ["extraCapitol"]], "mode": "auto","cost": {
-				//						"gold": 1000
-				//					} },
 				"dwellingLvl1": {
 					"name": "Treehouse",
 					"description": "The Treehouse produces Sprites.",
