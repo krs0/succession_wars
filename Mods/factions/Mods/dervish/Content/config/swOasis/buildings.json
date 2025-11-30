@@ -215,15 +215,15 @@
 				"special1": {
 					"description": "For a nominal fee, you can purchase artefacts from the Artifact Merchants.",
 					"name": "Artifact Merchants",
-					"type": "artifactMerchant",
 					"cost": {
 						"gold": 10000
 					},
 					"requires": [
-						"allOf",
-						[
-							"marketplace"
-						]
+						"marketplace"
+					],
+					"marketModes": [
+						"resource-artifact",
+						"artifact-resource"
 					]
 				},
 				"horde1": {
@@ -276,9 +276,14 @@
 					},
 					"bonuses": [
 						{
+							"type": "CREATURE_GROWTH",
+							"val": 50,
+							"propagator": "PLAYER"
+						},
+						{
 							"type": "SPELL_DAMAGE",
 							"val": 25,
-							"propagator": "PLAYER_PROPAGATOR"
+							"propagator": "PLAYER"
 						}
 					]
 				},

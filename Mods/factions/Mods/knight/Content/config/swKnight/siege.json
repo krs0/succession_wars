@@ -2,8 +2,8 @@
 	"swKnight":{
 		"town":{
 			"siege":{
-				"towerIconSmall": "vcmi/creatureIcons/towerSmall",
-				"towerIconLarge": "vcmi/creatureIcons/towerLarge",
+				"towerIconSmall": "iconsSmall/towerSmall.png",
+				"towerIconLarge": "iconsBig/towerBig.png",
 				"shooter": "swKnightArcher",
 				"imagePrefix": "swKnight/siege_new/SgCs",
 				"gate":

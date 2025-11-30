@@ -1,8 +1,8 @@
 {
-	"core:dragonUtopia": {
+	"core:creatureBank": {
+		"handler": "configurable",
 		"types": {
 			"sw08shadowGuild": {
-				"handler": "bank",
 				"name": "Shadow Guild",
 				"templates": {
 					"base": {
@@ -26,57 +26,58 @@
 					"value": 200,
 					"rarity": 100
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankNarrow",
+				"rewards": [
 					{
-						"chance": 100,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 100
+						},
 						"guards": [
 							{
-								"type": "swOasisRogue",
-								"amount": 20
+								"amount": 20,
+								"type": "swOasisRogue"
 							},
 							{
-								"type": "swOasisRogue",
-								"amount": 20
+								"amount": 20,
+								"type": "swOasisRogue"
 							},
 							{
-								"type": "swOasisRogue",
-								"amount": 20
+								"amount": 20,
+								"type": "swOasisRogue"
 							},
 							{
-								"type": "swOasisRogue",
-								"amount": 20
+								"amount": 20,
+								"type": "swOasisRogue"
 							},
 							{
-								"type": "swOasisMarauder",
-								"amount": 20
+								"amount": 20,
+								"type": "swOasisMarauder"
 							},
 							{
-								"type": "swOasisMarauder",
-								"amount": 20
+								"amount": 20,
+								"type": "swOasisMarauder"
 							},
 							{
-								"type": "swOasisMarauder",
-								"amount": 20
+								"amount": 20,
+								"type": "swOasisMarauder"
 							}
 						],
-						"combat_value": 370,
-						"reward": {
-							"resources": {
-								"gold": 1000,
-								"wood": 4,
-								//	"mercury": 4,
-								"ore": 4,
-								//	"sulfur": 4,
-								"gems": 4
-								//	"crystal": 4
-							},
-							"value": 3000
+						"resources": {
+							"gold": 1000,
+							"wood": 4,
+							"ore": 4,
+							"gems": 4
 						}
 					}
 				]
 			},
 			"sw08tabor": {
-				"handler": "bank",
 				"name": "Gypsy Tabor",
 				"templates": {
 					"base": {
@@ -100,78 +101,59 @@
 					"value": 400,
 					"rarity": 100
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankNarrow",
+				"rewards": [
 					{
-						"chance": 100,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 100
+						},
 						"guards": [
 							{
-								"type": "swOasisRogue",
-								"amount": 10
+								"amount": 10,
+								"type": "swOasisRogue"
 							},
 							{
-								"type": "swOasisRogue",
-								"amount": 10
+								"amount": 10,
+								"type": "swOasisRogue"
 							},
 							{
-								"type": "swOasisRogue",
-								"amount": 10
+								"amount": 10,
+								"type": "swOasisRogue"
 							},
 							{
-								"type": "swOasisMarauder",
-								"amount": 10
+								"amount": 10,
+								"type": "swOasisMarauder"
 							},
 							{
-								"type": "swOasisMarauder",
-								"amount": 10
+								"amount": 10,
+								"type": "swOasisMarauder"
 							},
 							{
-								"type": "swOasisMarauder",
-								"amount": 10
+								"amount": 10,
+								"type": "swOasisMarauder"
 							}
 						],
-						"combat_value": 370,
-						"reward": {
-							"resources": {
-								"gold": 500
-								//"wood": 4,
-								//	"mercury": 4,
-								//"ore": 4,
-								//	"sulfur": 4,
-								//"gems": 4,
-								//	"crystal": 4
-							},
-							"value": 3000,
-							"artifacts": [
-								{
-									"class": "TREASURE"
-								}
-							]
-						}
+						"resources": {
+							"gold": 500
+						},
+						"artifacts": [
+							{
+								"class": "TREASURE"
+							}
+						]
 					}
 				]
 			},
 			"sw08hallOfSecrets": {
-				"handler": "bank",
 				"name": "Hall of Secrets",
 				"templates": {
 					"base": {
-						"animation": "swOasis/adventure-map/banks/hallOfSecrets/avxbnk30",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VVVV",
-							"VVVV",
-							"VBAB"
-						],
-						"allowedTerrains": [
-							"sand",
-							"hmm2desert"
-						]
-					},
-					"base2": {
 						"animation": "swOasis/adventure-map/banks/hallOfSecrets/avxbnk30",
 						"visitableFrom": [
 							"---",
@@ -193,44 +175,32 @@
 					"value": 300,
 					"rarity": 50
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankNarrow",
+				"rewards": [
 					{
-						"chance": 100,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 100
+						},
 						"guards": [
 							{
-								"type": "swOasisAnubite",
-								"amount": 4
-							},
-							{
-								"type": "swOasisAnubite",
-								"amount": 4
-							},
-							{
-								"type": "swOasisAnubite",
-								"amount": 4
-							},
-							{
-								"type": "swOasisAnubite",
-								"amount": 4
-							},
-							{
-								"type": "swOasisAnubite",
-								"amount": 4
+								"amount": 5,
+								"type": "swOasisAnubite"
 							}
 						],
-						"combat_value": 8000,
-						"reward": {
-							"resources": {
-								"crystal": 8,
-								"gold": 8000
-							},
-							"value": 6000
+						"resources": {
+							"crystal": 8,
+							"gold": 8000
 						}
 					}
 				]
 			},
 			"sw08medusaStores": {
-				"handler": "bank",
 				"name": "Medusa Stores",
 				"templates": {
 					"base": {
@@ -266,42 +236,47 @@
 					"value": 200,
 					"rarity": 80
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankNarrow",
+				"rewards": [
 					{
-						"chance": 100,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 100
+						},
 						"guards": [
 							{
-								"type": "swOasisMedusa",
-								"amount": 5
+								"amount": 5,
+								"type": "swOasisMedusa"
 							},
 							{
-								"type": "swOasisMedusa",
-								"amount": 5
+								"amount": 5,
+								"type": "swOasisMedusa"
 							},
 							{
-								"type": "swOasisMedusa",
-								"amount": 5
+								"amount": 5,
+								"type": "swOasisMedusa"
 							},
 							{
-								"type": "swOasisMedusa",
-								"amount": 5
+								"amount": 5,
+								"type": "swOasisMedusa"
 							},
 							{
-								"type": "swOasisMedusa",
-								"amount": 5
+								"amount": 5,
+								"type": "swOasisMedusa"
 							},
 							{
-								"type": "swOasisMedusa",
-								"amount": 5
+								"amount": 5,
+								"type": "swOasisMedusa"
 							}
 						],
-						"combat_value": 5000,
-						"reward": {
-							"resources": {
-								"sulfur": 6,
-								"gold": 3000
-							},
-							"value": 3000
+						"resources": {
+							"sulfur": 6,
+							"gold": 3000
 						}
 					}
 				]
