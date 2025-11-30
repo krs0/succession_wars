@@ -4,8 +4,8 @@
 			"structures": {
 				"ext1": {
 					"animation": "swOasis/town-screen/buildings/TBELEXT3",
-					"border": "swOasis/town-screen/buildings-border/TOELEXT3.png",
-					"area": "swOasis/town-screen/buildings-area/TZELEXT3.png",
+					"border": "swOasis/town-screen/buildings-border/TOELUP_3.png", // was TOELEXT3.png
+					"area": "swOasis/town-screen/buildings-area/TZELEXT6.png", // was tzelext3
 					"x": 91,
 					"y": 247,
 					"z": -20
@@ -182,7 +182,7 @@
 				//"special2":{  "animation": "swOasis/town-screen/buildings/TBELEXT6", "x": 320, "y": 30, "z": 3,  "border": "swOasis/town-screen/buildings-border/TOELEXT6.png", "area": "swOasis/town-screen/buildings-area/TZELEXT6.png" },
 				"grail": {
 					"animation": "swOasis/town-screen/buildings/TBELHoly",
-					"border": "swOasis/town-screen/buildings-border/TOELHoly.png",
+					"border": "swOasis/town-screen/buildings-border/TOELHALL.png", //was TOELHoly.png
 					"area": "swOasis/town-screen/buildings-area/TZELHoly.png",
 					"x": 307,
 					"y": -10

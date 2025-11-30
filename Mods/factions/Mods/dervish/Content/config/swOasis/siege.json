@@ -2,8 +2,8 @@
 	"swOasisfaction":{
 		"town":{
 			"siege":{
-				"towerIconSmall": "vcmi-extras.arrowtowericons/iconsSmall/towerSmall.png",
-				"towerIconLarge": "vcmi-extras.arrowtowericons/iconsBig/towerBig.png",
+				"towerIconSmall": "iconsSmall/towerSmall.png",
+				"towerIconLarge": "iconsBig/towerBig.png",
 				"shooter": "swOasisAcolyte",
 				"imagePrefix": "swOasis/siege_barb/SGST",
 				"gate":

@@ -4,7 +4,6 @@
 		"handler": "configurable",
 		"base": {
 			"sounds": {
-				//	"visit": ["CHEST"],
 				"removal": [
 					"PICKUP01",
 					"PICKUP02",
@@ -38,7 +37,6 @@
 							}
 						],
 						"message": "You have found a old lamp. You shrug it on the back and a strange figure appears before you in a cloud of smoke and calls you a master.",
-						"selectChance": 100,
 						"removeObject": true
 					},
 					{
@@ -55,7 +53,6 @@
 							}
 						],
 						"message": "You have found a old lamp. You shrug it on the back and a strange figures appear before you in a cloud of smoke and call you a master.",
-						"selectChance": 100,
 						"removeObject": true
 					},
 					{
@@ -72,7 +69,6 @@
 							}
 						],
 						"message": "You have found a old lamp. You shrug it on the back and a strange figures appear before you in a cloud of smoke and call you a master.",
-						"selectChance": 100,
 						"removeObject": true
 					}
 				],
@@ -81,7 +77,7 @@
 				"selectMode": "selectFirst",
 				"templates": {
 					"FALME001": {
-						"animation": "swOasis/adventure-map/objects/ZGENLAM",
+						"animation": "swOasis/adventure-map/objects/genieLamp.json",
 						"visitableFrom": [
 							"---",
 							"+++",
