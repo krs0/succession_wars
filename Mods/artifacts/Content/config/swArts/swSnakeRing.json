@@ -1,6 +1,8 @@
 {
 	"swSnakeRing": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "RING",
 		"class": "TREASURE",
 		"value": 3000,
@@ -9,17 +11,18 @@
 			"description": "The Snake Ring maxes Bless spell.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"blessSpellPower": {
 				"type": "SPELL",
 				"subtype": "spell.bless",
 				"val": 3,
 				"valueType": "INDEPENDENT_MAX"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:76",
-			"map": "swArts/AVA0076"
+			"image": "swArts/ARTIFACT.def:0:76",
+			"map": "swArts/AVA0076.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:76"
 		}
 	}
 }

@@ -1,6 +1,8 @@
 {
 	"swSphereOfNegation": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "MAJOR",
 		"value": 8000,
@@ -9,15 +11,16 @@
 			"description": "The Sphere of Negation disables all level 3 or higher spells for both sides, in combat.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"levelSpellImmunity": {
 				"type": "LEVEL_SPELL_IMMUNITY",
 				"val": 3
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:80",
-			"map": "swArts/AVA0080"
+			"image": "swArts/ARTIFACT.def:0:80",
+			"map": "swArts/AVA0080.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:80"
 		}
 	}
 }

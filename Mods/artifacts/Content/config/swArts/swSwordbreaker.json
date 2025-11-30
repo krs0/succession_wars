@@ -1,6 +1,8 @@
 {
 	"swSwordbreaker": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "RIGHT_HAND",
 		"class": "MINOR",
 		"value": 7000,
@@ -9,21 +11,22 @@
 			"description": "The Swordbreaker increases your attack skill by +1 and defence skill by +4.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"attackBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.attack",
 				"val": 1
 			},
-			{
+			"defenceBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.defence",
 				"val": 4
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:31",
-			"map": "swArts/AVA0031"
+			"image": "swArts/ARTIFACT.def:0:31",
+			"map": "swArts/AVA0031.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:31"
 		}
 	}
 }

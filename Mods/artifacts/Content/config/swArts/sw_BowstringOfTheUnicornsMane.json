@@ -1,6 +1,8 @@
 {
 	"sw_BowstringOfTheUnicornsMane": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "MAJOR",
 		"value": 6000,
@@ -9,17 +11,17 @@
 			"description": "The Bowstring of the Unicorn's Mane increases your Archery skill by 15%.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"rangedDamageBoost": {
 				"type": "PERCENTAGE_DAMAGE_BOOST",
 				"subtype": "damageTypeRanged",
-				"valueType": "ADDITIVE_VALUE",
 				"val": 15
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:62",
-			"map": "swArts/AVA0062"
+			"image": "swArts/ARTIFACT.def:0:62",
+			"map": "swArts/AVA0062.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:62"
 		}
 	}
 }

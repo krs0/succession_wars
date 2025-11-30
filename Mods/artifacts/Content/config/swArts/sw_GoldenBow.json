@@ -1,6 +1,8 @@
 {
 	"sw_GoldenBow": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "RIGHT_HAND",
 		"class": "MAJOR",
 		"value": 8000,
@@ -9,14 +11,26 @@
 			"description": "The Golden Bow eliminates 50% penalty for your troops shooting past obstacles.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
-				"type": "NO_DISTANCE_PENALTY"
+		"bonuses": {
+			"noDistancePenalty": {
+				"limiters": [
+					"SHOOTER_ONLY"
+				],
+				"type": "NO_DISTANCE_PENALTY",
+				"val": 0
+			},
+			"noWallPenalty": {
+				"limiters": [
+					"SHOOTER_ONLY"
+				],
+				"type": "NO_WALL_PENALTY",
+				"val": 0
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:91",
-			"map": "swArts/AVA0091"
+			"image": "swArts/ARTIFACT.def:0:91",
+			"map": "swArts/AVA0091.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:91"
 		}
 	}
 }

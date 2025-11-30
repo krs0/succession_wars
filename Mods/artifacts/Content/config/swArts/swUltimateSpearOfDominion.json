@@ -1,6 +1,8 @@
 {
 	"swUltimateSpearOfDominion": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "RIGHT_HAND",
 		"class": "RELIC",
 		"value": 30000,
@@ -9,19 +11,20 @@
 			"description": "The Ultimate Spear of Dominion increases your attack skill by 11 and gives charge immunity.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"attackBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.attack",
 				"val": 11
 			},
-			{
+			"chargeImmunity": {
 				"type": "CHARGE_IMMUNITY"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:93",
-			"map": "swArts/AVA0093"
+			"image": "swArts/ARTIFACT.def:0:93",
+			"map": "swArts/AVA0093.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:93"
 		}
 	}
 }

@@ -1,6 +1,8 @@
 {
 	"swHeartOfFire": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "RELIC",
 		"value": 20000,
@@ -9,15 +11,16 @@
 			"description": "The Heart of Fire provides to you all spells in the school of Fire Magic. It must be equipped for the spells to be available.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
-				"subtype": "spellSchool.fire",
-				"type": "SPELLS_OF_SCHOOL"
+		"bonuses": {
+			"fireSchoolSpells": {
+				"type": "SPELLS_OF_SCHOOL",
+				"subtype": "spellSchool.fire"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:57",
-			"map": "swArts/AVA0057"
+			"image": "swArts/ARTIFACT.def:0:57",
+			"map": "swArts/AVA0057.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:57"
 		}
 	}
 }

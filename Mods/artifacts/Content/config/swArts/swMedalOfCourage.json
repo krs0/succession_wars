@@ -9,15 +9,16 @@
 			"description": "The Medal of Courage increases your morale.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"moraleBonus": {
 				"type": "MORALE",
 				"val": 1
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:49",
-			"map": "swArts/AVA0049"
+			"image": "swArts/ARTIFACT.def:0:49",
+			"map": "swArts/AVA0049.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:49"
 		}
 	}
 }

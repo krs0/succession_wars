@@ -1,6 +1,8 @@
 {
 	"swElementalRing": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "RING",
 		"class": "MAJOR",
 		"value": 9000,
@@ -9,31 +11,32 @@
 			"description": "Increases effectiveness of elemental summoning spells by 50%.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"airElementalBonus": {
 				"type": "SPECIAL_SPELL_LEV",
-				"val": 50,
-				"subtype": "spell.airElemental"
+				"subtype": "spell.airElemental",
+				"val": 50
 			},
-			{
+			"waterElementalBonus": {
 				"type": "SPECIAL_SPELL_LEV",
-				"val": 50,
-				"subtype": "spell.waterElemental"
+				"subtype": "spell.waterElemental",
+				"val": 50
 			},
-			{
+			"fireElementalBonus": {
 				"type": "SPECIAL_SPELL_LEV",
-				"val": 50,
-				"subtype": "spell.fireElemental"
+				"subtype": "spell.fireElemental",
+				"val": 50
 			},
-			{
+			"earthElementalBonus": {
 				"type": "SPECIAL_SPELL_LEV",
-				"val": 50,
-				"subtype": "spell.earthElemental"
+				"subtype": "spell.earthElemental",
+				"val": 50
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:65",
-			"map": "swArts/AVA0065"
+			"image": "swArts/ARTIFACT.def:0:65",
+			"map": "swArts/AVA0065.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:65"
 		}
 	}
 }

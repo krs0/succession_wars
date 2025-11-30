@@ -1,6 +1,8 @@
 {
 	"swLionsBootsOfCourage": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "FEET",
 		"class": "RELIC",
 		"value": 16000,
@@ -9,31 +11,32 @@
 			"description": "The Lion's Boots of Courage increases your Attack, Defense, Spell Power and Knowledge by 4 each.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"attackBonus": {
 				"type": "PRIMARY_SKILL",
-				"subtype": "primarySkill.spellpower",
+				"subtype": "primarySkill.attack",
 				"val": 4
 			},
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "primarySkill.knowledge",
-				"val": 4
-			},
-			{
+			"defenceBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.defence",
 				"val": 4
 			},
-			{
+			"spellpowerBonus": {
 				"type": "PRIMARY_SKILL",
-				"subtype": "primarySkill.attack",
+				"subtype": "primarySkill.spellpower",
+				"val": 4
+			},
+			"knowledgeBonus": {
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
 				"val": 4
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:58",
-			"map": "swArts/AVA0058"
+			"image": "swArts/ARTIFACT.def:0:58",
+			"map": "swArts/AVA0058.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:58"
 		}
 	}
 }

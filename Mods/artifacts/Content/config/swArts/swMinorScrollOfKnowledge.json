@@ -9,16 +9,17 @@
 			"description": "The Minor Scroll of Knowledge increases your knowledge skill by 1.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"knowledgeBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.knowledge",
 				"val": 1
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:27",
-			"map": "swArts/AVA0027"
+			"image": "swArts/ARTIFACT.def:0:27",
+			"map": "swArts/AVA0027.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:27"
 		}
 	}
 }

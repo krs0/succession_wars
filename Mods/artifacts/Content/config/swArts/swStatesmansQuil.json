@@ -1,6 +1,8 @@
 {
 	"swStatesmansQuil": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "MAJOR",
 		"value": 5000,
@@ -9,15 +11,16 @@
 			"description": "The Statesman's Quill reduces the cost of surrender to 20% of the total cost of troops you have in your army.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"surrenderDiscount": {
 				"type": "SURRENDER_DISCOUNT",
 				"val": 80
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:67",
-			"map": "swArts/AVA0067"
+			"image": "swArts/ARTIFACT.def:0:67",
+			"map": "swArts/AVA0067.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:67"
 		}
 	}
 }

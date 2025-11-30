@@ -1,6 +1,8 @@
 {
 	"swDivineBreastplateOfProtection": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "TORSO",
 		"class": "MAJOR",
 		"value": 5000,
@@ -9,16 +11,17 @@
 			"description": "The Divine Breastplate of Protection increases your defense skill by 4.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"defenceBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.defence",
 				"val": 4
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:19",
-			"map": "swArts/AVA0019"
+			"image": "swArts/ARTIFACT.def:0:19",
+			"map": "swArts/AVA0019.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:19"
 		}
 	}
 }

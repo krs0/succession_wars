@@ -1,6 +1,8 @@
 {
 	"sw_SpearOfCounterpoise": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "RIGHT_HAND",
 		"class": "MAJOR",
 		"value": 4000,
@@ -9,16 +11,16 @@
 			"description": "The Spear of Counterpoise increases your Magic Resistance by 10%.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"magicResistance": {
 				"type": "MAGIC_RESISTANCE",
-				"val": 10,
-				"valueType": "ADDITIVE_VALUE"
+				"val": 10
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:58",
-			"map": "swArts/AVA0058"
+			"image": "swArts/ARTIFACT.def:0:58",
+			"map": "swArts/AVA0058.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:58"
 		}
 	}
 }

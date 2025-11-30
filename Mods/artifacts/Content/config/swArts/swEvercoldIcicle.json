@@ -1,6 +1,8 @@
 {
 	"swEvercoldIcicle": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "MAJOR",
 		"value": 6000,
@@ -9,17 +11,17 @@
 			"description": "The Evercold Icicle causes your water spells to do 50% more damage to enemy troops.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"waterSpellDamage": {
 				"type": "SPELL_DAMAGE",
 				"subtype": "spellSchool.water",
-				"val": 50,
-				"valueType": "PERCENT_TO_BASE"
+				"val": 50
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:82",
-			"map": "swArts/AVA0082"
+			"image": "swArts/ARTIFACT.def:0:82",
+			"map": "swArts/AVA0082.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:82"
 		}
 	}
 }

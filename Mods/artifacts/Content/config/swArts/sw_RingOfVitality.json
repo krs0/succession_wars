@@ -1,6 +1,8 @@
 {
 	"sw_RingOfVitality": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "RING",
 		"class": "TREASURE",
 		"value": 5000,
@@ -9,15 +11,16 @@
 			"description": "The Ring of Vitality increases the health of all your units.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"healthBonus": {
 				"type": "STACK_HEALTH",
 				"val": 1
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:94",
-			"map": "swArts/AVA0094"
+			"image": "swArts/ARTIFACT.def:0:94",
+			"map": "swArts/AVA0094.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:94"
 		}
 	}
 }

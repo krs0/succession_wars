@@ -1,6 +1,8 @@
 {
 	"swLegsOfLegion": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "MINOR",
 		"value": 8000,
@@ -9,17 +11,18 @@
 			"description": "The Legs of Legion increases growth of level 1 creatures by 5. Hero must be present in town at first day of week.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"creatureLevel1Growth": {
 				"type": "CREATURE_GROWTH",
 				"subtype": "creatureLevel1",
 				"val": 5,
-				"propagator": "VISITED_TOWN_AND_VISITOR"
+				"propagator": "TOWN_AND_VISITOR"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:118",
-			"map": "swArts/AVA0118"
+			"image": "swArts/ARTIFACT.def:0:118",
+			"map": "swArts/AVA0118.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:118"
 		}
 	}
 }

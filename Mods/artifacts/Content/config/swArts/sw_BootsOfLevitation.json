@@ -1,6 +1,8 @@
 {
 	"sw_BootsOfLevitation": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "FEET",
 		"class": "RELIC",
 		"value": 20000,
@@ -9,14 +11,17 @@
 			"description": "The Boots of Levitation allows to you to walk across water.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
-				"type": "WATER_WALKING"
+		"bonuses": {
+			"waterWalking": {
+				"type": "WATER_WALKING",
+				"val": 40,
+				"valueType": "INDEPENDENT_MIN"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:90",
-			"map": "swArts/AVA0090"
+			"image": "swArts/ARTIFACT.def:0:90",
+			"map": "swArts/AVA0090.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:90"
 		}
 	}
 }

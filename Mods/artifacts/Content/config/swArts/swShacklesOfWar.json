@@ -1,6 +1,8 @@
 {
 	"swShacklesOfWar": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "MAJOR",
 		"value": 5000,
@@ -9,15 +11,16 @@
 			"description": "The Shackles of War prevents any try of retreat or surrender for you and your opponent.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"noFleeing": {
 				"type": "BATTLE_NO_FLEEING",
 				"propagator": "BATTLE_WIDE"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:125",
-			"map": "swArts/AVA0125"
+			"image": "swArts/ARTIFACT.def:0:125",
+			"map": "swArts/AVA0125.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:125"
 		}
 	}
 }

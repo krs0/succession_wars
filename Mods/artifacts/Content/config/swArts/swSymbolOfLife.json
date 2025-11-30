@@ -1,6 +1,8 @@
 {
 	"swSymbolOfLife": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "NECK",
 		"class": "MAJOR",
 		"value": 3000,
@@ -9,21 +11,22 @@
 			"description": "The AnKh doubles the efectiveness of all your resurrect and animated spells.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"resurrectionDamage": {
 				"type": "SPECIFIC_SPELL_DAMAGE",
 				"subtype": "spell.resurrection",
 				"val": 100
 			},
-			{
+			"animateDeadDamage": {
 				"type": "SPECIFIC_SPELL_DAMAGE",
 				"subtype": "spell.animateDead",
 				"val": 100
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:64",
-			"map": "swArts/AVA0064"
+			"image": "swArts/ARTIFACT.def:0:64",
+			"map": "swArts/AVA0064.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:64"
 		}
 	}
 }

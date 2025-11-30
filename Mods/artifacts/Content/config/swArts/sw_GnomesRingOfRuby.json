@@ -1,6 +1,8 @@
 {
 	"sw_GnomesRingOfRuby": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "RING",
 		"class": "MINOR",
 		"value": 2000,
@@ -9,19 +11,22 @@
 			"description": "The Gnome's Ring of Ruby increases your luck and morale.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"moraleBonus": {
 				"type": "MORALE",
-				"val": 1
+				"val": 1,
+				"valueType": "BASE_NUMBER"
 			},
-			{
+			"luckBonus": {
 				"type": "LUCK",
-				"val": 1
+				"val": 1,
+				"valueType": "BASE_NUMBER"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:45",
-			"map": "swArts/AVA0045"
+			"image": "swArts/ARTIFACT.def:0:45",
+			"map": "swArts/AVA0045.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:45"
 		}
 	}
 }

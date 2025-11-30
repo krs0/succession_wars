@@ -1,6 +1,8 @@
 {
 	"sw_SpikedGloves": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "RING",
 		"class": "MAJOR",
 		"value": 6000,
@@ -9,21 +11,22 @@
 			"description": "The Spiked Gloves increases your Attack and Defense skills by 3 each.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"defenceBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.defence",
 				"val": 3
 			},
-			{
+			"attackBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.attack",
 				"val": 3
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:39",
-			"map": "swArts/AVA0039"
+			"image": "swArts/ARTIFACT.def:0:39",
+			"map": "swArts/AVA0039.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:39"
 		}
 	}
 }

@@ -1,6 +1,8 @@
 {
 	"swSeafarerShield": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "LEFT_HAND",
 		"class": "MINOR",
 		"value": 5000,
@@ -9,13 +11,8 @@
 			"description": "The Seafarer Shield increases your defence skill by 3 and increases morale by +1 on sea.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "primarySkill.attack",
-				"val": 3
-			},
-			{
+		"bonuses": {
+			"seaMorale": {
 				"type": "MORALE",
 				"val": 1,
 				"limiters": [
@@ -27,10 +24,11 @@
 					}
 				]
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:10",
-			"map": "swArts/AVA0010"
+			"image": "swArts/ARTIFACT.def:0:10",
+			"map": "swArts/AVA0010.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:10"
 		}
 	}
 }

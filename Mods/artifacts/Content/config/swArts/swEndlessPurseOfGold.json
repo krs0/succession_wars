@@ -1,6 +1,8 @@
 {
 	"swEndlessPurseOfGold": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "MAJOR",
 		"value": 5000,
@@ -9,16 +11,17 @@
 			"description": "The Endless Purse of Gold provides you with 500 gold per day.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"goldIncome": {
 				"type": "GENERATE_RESOURCE",
 				"subtype": "resource.gold",
 				"val": 500
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:117",
-			"map": "swArts/AVA0117"
+			"image": "swArts/ARTIFACT.def:0:117",
+			"map": "swArts/AVA0117.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:117"
 		}
 	}
 }

@@ -9,15 +9,16 @@
 			"description": "The Golden Horseshoe increases your luck in combat.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"goodLuck": {
 				"type": "LUCK",
 				"val": 1
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:44",
-			"map": "swArts/AVA0044"
+			"image": "swArts/ARTIFACT.def:0:44",
+			"map": "swArts/AVA0044.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:44"
 		}
 	}
 }

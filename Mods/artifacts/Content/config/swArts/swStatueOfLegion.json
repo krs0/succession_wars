@@ -1,6 +1,8 @@
 {
 	"swStatueOfLegion": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "RELIC",
 		"value": 25000,
@@ -16,17 +18,18 @@
 			"description": "The Statue of Legion increases growth by 50% in all towns player has.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"creatureLevel5Growth": {
 				"type": "CREATURE_GROWTH",
 				"subtype": "creatureLevel5",
 				"val": 1,
-				"propagator": "VISITED_TOWN_AND_VISITOR"
+				"propagator": "TOWN_AND_VISITOR"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:133",
-			"map": "swArts/AVA0134"
+			"image": "swArts/ARTIFACT.def:0:133",
+			"map": "swArts/AVA0134.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:133"
 		}
 	}
 }

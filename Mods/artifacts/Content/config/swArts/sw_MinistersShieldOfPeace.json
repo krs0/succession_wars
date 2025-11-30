@@ -1,6 +1,8 @@
 {
 	"sw_MinistersShieldOfPeace": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "LEFT_HAND",
 		"class": "MAJOR",
 		"value": 5000,
@@ -9,15 +11,16 @@
 			"description": "The Minister's Shield of Peace reduces the cost of surrender to 10% of the total cost of troops you have in your army.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"surrenderDiscount": {
 				"type": "SURRENDER_DISCOUNT",
 				"val": 10
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:68",
-			"map": "swArts/AVA0068"
+			"image": "swArts/ARTIFACT.def:0:68",
+			"map": "swArts/AVA0068.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:68"
 		}
 	}
 }

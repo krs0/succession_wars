@@ -1,6 +1,8 @@
 {
 	"swElementalBook": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "MAJOR",
 		"value": 16000,
@@ -9,31 +11,32 @@
 			"description": "Elemental Book increases effectiveness of elemental summoning spells by 50%.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"airElementalBonus": {
 				"type": "SPECIAL_SPELL_LEV",
-				"val": 100,
-				"subtype": "spell.airElemental"
+				"subtype": "spell.airElemental",
+				"val": 100
 			},
-			{
+			"waterElementalBonus": {
 				"type": "SPECIAL_SPELL_LEV",
-				"val": 100,
-				"subtype": "spell.waterElemental"
+				"subtype": "spell.waterElemental",
+				"val": 100
 			},
-			{
+			"fireElementalBonus": {
 				"type": "SPECIAL_SPELL_LEV",
-				"val": 100,
-				"subtype": "spell.fireElemental"
+				"subtype": "spell.fireElemental",
+				"val": 100
 			},
-			{
+			"earthElementalBonus": {
 				"type": "SPECIAL_SPELL_LEV",
-				"val": 100,
-				"subtype": "spell.earthElemental"
+				"subtype": "spell.earthElemental",
+				"val": 100
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:66",
-			"map": "swArts/AVA0066"
+			"image": "swArts/ARTIFACT.def:0:66",
+			"map": "swArts/AVA0066.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:66"
 		}
 	}
 }

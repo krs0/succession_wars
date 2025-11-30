@@ -1,6 +1,8 @@
 {
 	"sw_SpikedPlate": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "TORSO",
 		"class": "RELIC",
 		"value": 8000,
@@ -9,21 +11,22 @@
 			"description": "The Spiked Plate increases your Attack and Defense skills by 4 each.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"defenceBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.defence",
 				"val": 4
 			},
-			{
+			"attackBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.attack",
 				"val": 4
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:40",
-			"map": "swArts/AVA0040"
+			"image": "swArts/ARTIFACT.def:0:40",
+			"map": "swArts/AVA0040.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:40"
 		}
 	}
 }

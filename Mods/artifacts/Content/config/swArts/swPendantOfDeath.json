@@ -1,6 +1,8 @@
 {
 	"swPendantOfDeath": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "NECK",
 		"class": "TREASURE",
 		"value": 2500,
@@ -9,19 +11,20 @@
 			"description": "The Pendant of death makes all your troops inmune to holy spells.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"destroyUndeadImmunity": {
 				"type": "SPELL_IMMUNITY",
 				"subtype": "spell.destroyUndead"
 			},
-			{
+			"prayerImmunity": {
 				"type": "SPELL_IMMUNITY",
 				"subtype": "spell.prayer"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:104",
-			"map": "swArts/AVA0104"
+			"image": "swArts/ARTIFACT.def:0:104",
+			"map": "swArts/AVA0104.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:104"
 		}
 	}
 }

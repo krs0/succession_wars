@@ -1,6 +1,8 @@
 {
 	"swEnchantedHourglass": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "TREASURE",
 		"value": 1000,
@@ -9,16 +11,16 @@
 			"description": "The Enchanted Hourglass extends the duration of all your spells by 2 turns.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"spellDurationBonus": {
 				"type": "SPELL_DURATION",
-				"val": 2,
-				"valueType": "ADDITIVE_VALUE"
+				"val": 2
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:85",
-			"map": "swArts/AVA0085"
+			"image": "swArts/ARTIFACT.def:0:85",
+			"map": "swArts/AVA0085.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:85"
 		}
 	}
 }

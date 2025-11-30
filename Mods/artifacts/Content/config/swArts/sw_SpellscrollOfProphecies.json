@@ -1,6 +1,8 @@
 {
 	"sw_SpellscrollOfProphecies": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "TREASURE",
 		"value": 1500,
@@ -9,15 +11,16 @@
 			"description": "The Power Ring returns 3 extra spell points per turn to your hero.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"manaRegeneration": {
 				"type": "MANA_REGENERATION",
 				"val": 3
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:75",
-			"map": "swArts/AVA0075"
+			"image": "swArts/ARTIFACT.def:0:75",
+			"map": "swArts/AVA0075.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:75"
 		}
 	}
 }

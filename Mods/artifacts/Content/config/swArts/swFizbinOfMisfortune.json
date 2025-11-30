@@ -1,6 +1,8 @@
 {
 	"swFizbinOfMisfortune": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "MAJOR",
 		"value": 7000,
@@ -9,15 +11,16 @@
 			"description": "The Fizbin of Misfortune lowers morale by -2.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"badMorale": {
 				"type": "MORALE",
 				"val": -2
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:41",
-			"map": "swArts/AVA0041"
+			"image": "swArts/ARTIFACT.def:0:41",
+			"map": "swArts/AVA0041.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:41"
 		}
 	}
 }

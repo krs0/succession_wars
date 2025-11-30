@@ -1,6 +1,8 @@
 {
 	"swLightningHelm": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "HEAD",
 		"class": "MAJOR",
 		"value": 5000,
@@ -9,23 +11,24 @@
 			"description": "The Lightning Helm makes your units immune to the lightning spells.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"chainLightningImmunity": {
 				"type": "SPELL_IMMUNITY",
 				"subtype": "spell.chainLightning"
 			},
-			{
+			"lightningBoltImmunity": {
 				"type": "SPELL_IMMUNITY",
 				"subtype": "spell.lightningBolt"
 			},
-			{
+			"thunderboltImmunity": {
 				"type": "SPELL_IMMUNITY",
 				"subtype": "spell.thunderbolt"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:106",
-			"map": "swArts/AVA0106"
+			"image": "swArts/ARTIFACT.def:0:106",
+			"map": "swArts/AVA0106.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:106"
 		}
 	}
 }

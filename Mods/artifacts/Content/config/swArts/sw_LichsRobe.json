@@ -1,6 +1,8 @@
 {
 	"sw_LichsRobe": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "TORSO",
 		"class": "MINOR",
 		"value": 4000,
@@ -9,16 +11,16 @@
 			"description": "The Lich's Robe increases your Necromancy skill by 10%.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"necromancyBonus": {
 				"type": "UNDEAD_RAISE_PERCENTAGE",
-				"val": 10,
-				"valueType": "ADDITIVE_VALUE"
+				"val": 10
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:55",
-			"map": "swArts/AVA0055"
+			"image": "swArts/ARTIFACT.def:0:55",
+			"map": "swArts/AVA0055.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:55"
 		}
 	}
 }

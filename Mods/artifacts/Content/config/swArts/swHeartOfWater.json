@@ -1,6 +1,8 @@
 {
 	"swHeartOfWater": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "RELIC",
 		"value": 20000,
@@ -9,15 +11,16 @@
 			"description": "The Heart of Water provides to you all spells in the school of Water Magic. It must be equipped for the spells to be available.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
-				"subtype": "spellSchool.water",
-				"type": "SPELLS_OF_SCHOOL"
+		"bonuses": {
+			"waterSchoolSpells": {
+				"type": "SPELLS_OF_SCHOOL",
+				"subtype": "spellSchool.water"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:56",
-			"map": "swArts/AVA0056"
+			"image": "swArts/ARTIFACT.def:0:56",
+			"map": "swArts/AVA0056.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:56"
 		}
 	}
 }

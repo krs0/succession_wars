@@ -1,6 +1,8 @@
 {
 	"sw_CollarOfTheMagician": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "TREASURE",
 		"value": 500,
@@ -9,16 +11,17 @@
 			"description": "The Collar of the Magician extends the duration of all your spells by 1 turns.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"spellDurationBonus": {
 				"type": "SPELL_DURATION",
 				"val": 1,
-				"valueType": "ADDITIVE_VALUE"
+				"valueType": "BASE_NUMBER"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:76",
-			"map": "swArts/AVA0076"
+			"image": "swArts/ARTIFACT.def:0:76",
+			"map": "swArts/AVA0076.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:76"
 		}
 	}
 }

@@ -1,6 +1,8 @@
 {
 	"swArmsOfLegion": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "MINOR",
 		"value": 8000,
@@ -9,17 +11,18 @@
 			"description": "The Hands of Legion increases growth of level 4 creatures by 2. Hero must be present in town at first day of week.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"creatureGrowthBonus": {
 				"type": "CREATURE_GROWTH",
 				"subtype": "creatureLevel4",
 				"val": 2,
-				"propagator": "VISITED_TOWN_AND_VISITOR"
+				"propagator": "TOWN_AND_VISITOR"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:121",
-			"map": "swArts/AVA0121"
+			"image": "swArts/ARTIFACT.def:0:121",
+			"map": "swArts/AVA0121.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:121"
 		}
 	}
 }

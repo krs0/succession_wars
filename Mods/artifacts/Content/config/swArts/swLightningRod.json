@@ -1,6 +1,8 @@
 {
 	"swLightningRod": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "MAJOR",
 		"value": 6000,
@@ -9,17 +11,17 @@
 			"description": "The Lightning Rod causes your air spells to do 50% more damage to enemy troops.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"airSpellDamage": {
 				"type": "SPELL_DAMAGE",
 				"subtype": "spellSchool.air",
-				"val": 50,
-				"valueType": "PERCENT_TO_BASE"
+				"val": 50
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:79",
-			"map": "swArts/AVA0079"
+			"image": "swArts/ARTIFACT.def:0:79",
+			"map": "swArts/AVA0079.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:79"
 		}
 	}
 }

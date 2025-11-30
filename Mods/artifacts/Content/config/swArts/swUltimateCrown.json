@@ -1,6 +1,8 @@
 {
 	"swUltimateCrown": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "HEAD",
 		"class": "RELIC",
 		"value": 30000,
@@ -9,31 +11,32 @@
 			"description": "The Ultimate Crown increases each of your basic skills by 6 points.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"spellPowerBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.spellpower",
 				"val": 6
 			},
-			{
+			"knowledgeBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.knowledge",
 				"val": 6
 			},
-			{
+			"defenceBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.defence",
 				"val": 6
 			},
-			{
+			"attackBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.attack",
 				"val": 6
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:98",
-			"map": "swArts/AVA0098"
+			"image": "swArts/ARTIFACT.def:0:98",
+			"map": "swArts/AVA0098.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:98"
 		}
 	}
 }

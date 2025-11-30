@@ -1,6 +1,8 @@
 {
 	"swBrainteaserOfAncients": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "RELIC",
 		"value": 35000,
@@ -9,17 +11,18 @@
 			"description": "Brainteaser of Ancients increases knowledge by 10.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"creatureGrowthBonus": {
 				"type": "CREATURE_GROWTH",
 				"subtype": "creatureLevel5",
 				"val": 1,
-				"propagator": "VISITED_TOWN_AND_VISITOR"
+				"propagator": "TOWN_AND_VISITOR"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:128",
-			"map": "swArts/AVA0128"
+			"image": "swArts/ARTIFACT.def:0:128",
+			"map": "swArts/AVA0128.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:128"
 		}
 	}
 }

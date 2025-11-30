@@ -1,6 +1,8 @@
 {
 	"swGamblersLuckyCoin": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "TREASURE",
 		"value": 2000,
@@ -9,15 +11,16 @@
 			"description": "The Gambler's Lucky Coin increases your luck in combat.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"goodLuck": {
 				"type": "LUCK",
 				"val": 1
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:47",
-			"map": "swArts/AVA0047"
+			"image": "swArts/ARTIFACT.def:0:47",
+			"map": "swArts/AVA0047.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:47"
 		}
 	}
 }

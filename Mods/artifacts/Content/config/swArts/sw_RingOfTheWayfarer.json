@@ -1,6 +1,8 @@
 {
 	"sw_RingOfTheWayfarer": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "RING",
 		"class": "MAJOR",
 		"value": 5000,
@@ -9,15 +11,16 @@
 			"description": "When placed on the finger, this ring increases the combat speed of all your units by +1.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"speedBonus": {
 				"type": "STACKS_SPEED",
 				"val": 1
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:69",
-			"map": "swArts/AVA0069"
+			"image": "swArts/ARTIFACT.def:0:69",
+			"map": "swArts/AVA0069.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:69"
 		}
 	}
 }

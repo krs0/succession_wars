@@ -1,6 +1,8 @@
 {
 	"swPendantOfLife": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "NECK",
 		"class": "TREASURE",
 		"value": 2500,
@@ -9,23 +11,24 @@
 			"description": "The Pendant of life makes all your troops inmune to death spells.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"deathRippleImmunity": {
 				"type": "SPELL_IMMUNITY",
 				"subtype": "spell.deathRipple"
 			},
-			{
+			"deathCloudImmunity": {
 				"type": "SPELL_IMMUNITY",
 				"subtype": "spell.deathCloud"
 			},
-			{
+			"deathStareImmunity": {
 				"type": "SPELL_IMMUNITY",
 				"subtype": "spell.deathStare"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:103",
-			"map": "swArts/AVA0103"
+			"image": "swArts/ARTIFACT.def:0:103",
+			"map": "swArts/AVA0103.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:103"
 		}
 	}
 }

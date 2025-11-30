@@ -1,6 +1,8 @@
 {
 	"swCelestialShield": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "LEFT_HAND",
 		"class": "RELIC",
 		"value": 12000,
@@ -9,31 +11,32 @@
 			"description": "The Celestial Shield increases your Attack, Defense, Spell Power and Knowledge by 3 each.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"attackBonus": {
 				"type": "PRIMARY_SKILL",
-				"subtype": "primarySkill.spellpower",
+				"subtype": "primarySkill.attack",
 				"val": 3
 			},
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "primarySkill.knowledge",
-				"val": 3
-			},
-			{
+			"defenceBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.defence",
 				"val": 3
 			},
-			{
+			"spellpowerBonus": {
 				"type": "PRIMARY_SKILL",
-				"subtype": "primarySkill.attack",
+				"subtype": "primarySkill.spellpower",
+				"val": 3
+			},
+			"knowledgeBonus": {
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
 				"val": 3
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:20",
-			"map": "swArts/AVA0020"
+			"image": "swArts/ARTIFACT.def:0:20",
+			"map": "swArts/AVA0020.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:20"
 		}
 	}
 }

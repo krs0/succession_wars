@@ -1,6 +1,8 @@
 {
 	"sw_SkullCap": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "HEAD",
 		"class": "MINOR",
 		"value": 4000,
@@ -9,21 +11,22 @@
 			"description": "The Skull Cap increases your Attack, Defense by 1 each.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"defenceBonus": {
 				"type": "PRIMARY_SKILL",
-				"subtype": "defence",
+				"subtype": "primarySkill.defence",
 				"val": 2
 			},
-			{
+			"attackBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.attack",
 				"val": 2
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:33",
-			"map": "swArts/AVA0033"
+			"image": "swArts/ARTIFACT.def:0:33",
+			"map": "swArts/AVA0033.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:33"
 		}
 	}
 }

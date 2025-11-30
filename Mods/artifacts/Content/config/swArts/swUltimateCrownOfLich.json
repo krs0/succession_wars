@@ -1,6 +1,8 @@
 {
 	"swUltimateCrownOfLich": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "HEAD",
 		"class": "RELIC",
 		"value": 34000,
@@ -9,26 +11,27 @@
 			"description": "The Ultimate Crown of Lich increases your spell power skill by 13 and gives Animate Dead spell with +100% effectiveness.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"spellPowerBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.spellpower",
 				"val": 13
 			},
-			{
+			"animateDeadSpellBonus": {
 				"type": "SPELL",
 				"subtype": "spell.animateDead",
 				"val": 3
 			},
-			{
+			"animateDeadSpecialLevel": {
 				"type": "SPECIAL_SPELL_LEV",
 				"subtype": "spell.animateDead",
 				"val": 100
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:31",
-			"map": "swArts/AVA0031"
+			"image": "swArts/ARTIFACT.def:0:31",
+			"map": "swArts/AVA0031.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:31"
 		}
 	}
 }

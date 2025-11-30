@@ -1,6 +1,8 @@
 {
 	"swThunderMaceOfDominion": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "RIGHT_HAND",
 		"class": "MINOR",
 		"value": 4000,
@@ -9,16 +11,17 @@
 			"description": "The Thunder Mace of Dominion increases your attack skill by 2.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"attackBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.attack",
 				"val": 2
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:7",
-			"map": "swArts/AVA0007"
+			"image": "swArts/ARTIFACT.def:0:7",
+			"map": "swArts/AVA0007.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:7"
 		}
 	}
 }

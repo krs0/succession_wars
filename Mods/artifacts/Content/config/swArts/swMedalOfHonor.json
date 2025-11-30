@@ -9,15 +9,16 @@
 			"description": "The Medal of Honor increases your morale.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"moraleBonus": {
 				"type": "MORALE",
 				"val": 1
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:51",
-			"map": "swArts/AVA0051"
+			"image": "swArts/ARTIFACT.def:0:51",
+			"map": "swArts/AVA0051.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:51"
 		}
 	}
 }

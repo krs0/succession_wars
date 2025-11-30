@@ -1,6 +1,8 @@
 {
 	"swPendantOfFreeWill": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "NECK",
 		"class": "TREASURE",
 		"value": 1000,
@@ -9,19 +11,20 @@
 			"description": "The Pendant of free will makes all your troops inmune to hypnotize spells.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"hypnotizeImmunity": {
 				"type": "SPELL_IMMUNITY",
 				"subtype": "spell.hypnotize"
 			},
-			{
+			"forgetfulnessImmunity": {
 				"type": "SPELL_IMMUNITY",
 				"subtype": "spell.forgetfulness"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:105",
-			"map": "swArts/AVA0105"
+			"image": "swArts/ARTIFACT.def:0:105",
+			"map": "swArts/AVA0105.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:105"
 		}
 	}
 }

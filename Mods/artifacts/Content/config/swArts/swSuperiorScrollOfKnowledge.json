@@ -1,6 +1,8 @@
 {
 	"swSuperiorScrollOfKnowledge": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "MINOR",
 		"value": 4000,
@@ -9,16 +11,17 @@
 			"description": "The Superior Scroll of Knowledge increases your knowledge skill by 3.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"knowledgeBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.knowledge",
 				"val": 3
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:29",
-			"map": "swArts/AVA0029"
+			"image": "swArts/ARTIFACT.def:0:29",
+			"map": "swArts/AVA0029.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:29"
 		}
 	}
 }

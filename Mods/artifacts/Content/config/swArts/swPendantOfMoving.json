@@ -1,6 +1,8 @@
 {
 	"swPendantOfMoving": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "HEAD",
 		"class": "TREASURE",
 		"value": 3000,
@@ -9,15 +11,16 @@
 			"description": "The Pendant of Total Recall makes all your troops immune to Paralyze.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"paralyzeImmunity": {
 				"type": "SPELL_IMMUNITY",
 				"subtype": "spell.paralyze"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:107",
-			"map": "swArts/AVA0107"
+			"image": "swArts/ARTIFACT.def:0:107",
+			"map": "swArts/AVA0107.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:107"
 		}
 	}
 }

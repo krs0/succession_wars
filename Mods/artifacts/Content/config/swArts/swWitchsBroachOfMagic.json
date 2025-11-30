@@ -1,6 +1,8 @@
 {
 	"swWitchsBroachOfMagic": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "NECK",
 		"class": "MINOR",
 		"value": 4000,
@@ -9,16 +11,17 @@
 			"description": "The Witch's Broach of Magic increases your spell power by 3.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"spellPowerBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.spellpower",
 				"val": 3
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:23",
-			"map": "swArts/AVA0023"
+			"image": "swArts/ARTIFACT.def:0:23",
+			"map": "swArts/AVA0023.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:23"
 		}
 	}
 }

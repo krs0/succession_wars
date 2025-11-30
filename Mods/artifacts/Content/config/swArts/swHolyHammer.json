@@ -1,6 +1,8 @@
 {
 	"swHolyHammer": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "RIGHT_HAND",
 		"class": "RELIC",
 		"value": 20000,
@@ -9,31 +11,32 @@
 			"description": "The Holy Hammer increases your Attack, Defense, Spell Power and Knowledge by 5 each.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"attackBonus": {
 				"type": "PRIMARY_SKILL",
-				"subtype": "primarySkill.spellpower",
+				"subtype": "primarySkill.attack",
 				"val": 5
 			},
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "primarySkill.knowledge",
-				"val": 5
-			},
-			{
+			"defenceBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.defence",
 				"val": 5
 			},
-			{
+			"spellpowerBonus": {
 				"type": "PRIMARY_SKILL",
-				"subtype": "primarySkill.attack",
+				"subtype": "primarySkill.spellpower",
+				"val": 5
+			},
+			"knowledgeBonus": {
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
 				"val": 5
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:12",
-			"map": "swArts/AVA0012"
+			"image": "swArts/ARTIFACT.def:0:12",
+			"map": "swArts/AVA0012.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:12"
 		}
 	}
 }

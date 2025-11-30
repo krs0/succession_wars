@@ -1,6 +1,8 @@
 {
 	"swEverhotLavaRock": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "MAJOR",
 		"value": 6000,
@@ -9,17 +11,17 @@
 			"description": "The Everhot Lava Rock causes your fire spells to do 50% more damage to enemy troops.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"fireSpellDamage": {
 				"type": "SPELL_DAMAGE",
 				"subtype": "spellSchool.fire",
-				"val": 50,
-				"valueType": "PERCENT_TO_BASE"
+				"val": 50
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:81",
-			"map": "swArts/AVA0081"
+			"image": "swArts/ARTIFACT.def:0:81",
+			"map": "swArts/AVA0081.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:81"
 		}
 	}
 }

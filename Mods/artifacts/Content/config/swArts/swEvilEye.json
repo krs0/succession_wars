@@ -1,6 +1,8 @@
 {
 	"swEvilEye": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "TREASURE",
 		"value": 3000,
@@ -9,17 +11,17 @@
 			"description": "The Evil Eye maxes Curse spell.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"curseSpell": {
 				"type": "SPELL",
-				"val": 3,
 				"subtype": "spell.curse",
-				"valueType": "INDEPENDENT_MAX"
+				"val": 3
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:75",
-			"map": "swArts/AVA0075"
+			"image": "swArts/ARTIFACT.def:0:75",
+			"map": "swArts/AVA0075.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:75"
 		}
 	}
 }

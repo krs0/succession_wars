@@ -1,6 +1,8 @@
 {
 	"sw_NecklaceOfSwiftness": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "NECK",
 		"class": "TREASURE",
 		"value": 5000,
@@ -9,15 +11,16 @@
 			"description": "Worn about the neck, this necklace increases the combat speed of all your units by +1.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"speedBonus": {
 				"type": "STACKS_SPEED",
 				"val": 1
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:97",
-			"map": "swArts/AVA0097"
+			"image": "swArts/ARTIFACT.def:0:97",
+			"map": "swArts/AVA0097.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:97"
 		}
 	}
 }

@@ -1,6 +1,8 @@
 {
 	"swNomadsBootsOfMobility": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "FEET",
 		"class": "MINOR",
 		"value": 3000,
@@ -9,17 +11,17 @@
 			"description": "The Nomad's Boots of Mobility increases your movement on land.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"landMovementBonus": {
 				"type": "MOVEMENT",
 				"subtype": "heroMovementLand",
-				"valueType": "ADDITIVE_VALUE",
 				"val": 10
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:70",
-			"map": "swArts/AVA0070"
+			"image": "swArts/ARTIFACT.def:0:70",
+			"map": "swArts/AVA0070.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:70"
 		}
 	}
 }

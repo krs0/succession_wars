@@ -1,6 +1,8 @@
 {
 	"sw_HelmOfMana": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "HEAD",
 		"class": "TREASURE",
 		"value": 500,
@@ -9,15 +11,16 @@
 			"description": "The Helm of Mana returns 1 extra spell points per turn to your hero.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"manaRegeneration": {
 				"type": "MANA_REGENERATION",
 				"val": 1
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:73",
-			"map": "swArts/AVA0073"
+			"image": "swArts/ARTIFACT.def:0:73",
+			"map": "swArts/AVA0073.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:73"
 		}
 	}
 }

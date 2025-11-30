@@ -1,6 +1,8 @@
 {
 	"sw_AngelWings": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "SHOULDERS",
 		"class": "RELIC",
 		"value": 20000,
@@ -9,14 +11,17 @@
 			"description": "The Angel Wings allow you to fly.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
-				"type": "FLYING_MOVEMENT"
+		"bonuses": {
+			"flyingMovement": {
+				"type": "FLYING_MOVEMENT",
+				"val": 0,
+				"valueType": "INDEPENDENT_MIN"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:72",
-			"map": "swArts/AVA0072"
+			"image": "swArts/ARTIFACT.def:0:72",
+			"map": "swArts/AVA0072.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:72"
 		}
 	}
 }

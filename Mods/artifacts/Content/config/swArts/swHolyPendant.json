@@ -1,6 +1,8 @@
 {
 	"swHolyPendant": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "NECK",
 		"class": "TREASURE",
 		"value": 5000,
@@ -9,23 +11,24 @@
 			"description": "The Holy Pendant Pendant makes all your troops inmune to Curse spells.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"curseImmunity": {
 				"type": "SPELL_IMMUNITY",
 				"subtype": "spell.curse"
 			},
-			{
+			"weaknessImmunity": {
 				"type": "SPELL_IMMUNITY",
 				"subtype": "spell.weakness"
 			},
-			{
+			"slowImmunity": {
 				"type": "SPELL_IMMUNITY",
 				"subtype": "spell.slow"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:102",
-			"map": "swArts/AVA0102"
+			"image": "swArts/ARTIFACT.def:0:102",
+			"map": "swArts/AVA0102.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:102"
 		}
 	}
 }

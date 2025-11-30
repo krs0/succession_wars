@@ -1,6 +1,8 @@
 {
 	"swMasthead": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "TREASURE",
 		"value": 2000,
@@ -9,8 +11,8 @@
 			"description": "The Masthead gives +1 luck and +1 morale on sea.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"waterLuck": {
 				"type": "LUCK",
 				"val": 1,
 				"limiters": [
@@ -22,7 +24,7 @@
 					}
 				]
 			},
-			{
+			"waterMorale": {
 				"type": "MORALE",
 				"val": 1,
 				"limiters": [
@@ -34,10 +36,11 @@
 					}
 				]
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:45",
-			"map": "swArts/AVA0045"
+			"image": "swArts/ARTIFACT.def:0:45",
+			"map": "swArts/AVA0045.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:45"
 		}
 	}
 }

@@ -1,6 +1,8 @@
 {
 	"sw_EyeOfFeline": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "NECK",
 		"class": "TREASURE",
 		"value": 1000,
@@ -9,16 +11,16 @@
 			"description": "The Eye of Feline increases your eagle eye skill by 5%.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"eagleEyeBonus": {
 				"type": "LEARN_BATTLE_SPELL_CHANCE",
-				"valueType": "ADDITIVE_VALUE",
 				"val": 5
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:63",
-			"map": "swArts/AVA0063"
+			"image": "swArts/ARTIFACT.def:0:63",
+			"map": "swArts/AVA0063.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:63"
 		}
 	}
 }

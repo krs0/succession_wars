@@ -1,6 +1,8 @@
 {
 	"sw_RedPearl": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "RELIC",
 		"value": 8000,
@@ -9,21 +11,22 @@
 			"description": "The Red Pearl increases your Spell Power and Knowledge by 4 each.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"spellpowerBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.spellpower",
 				"val": 4
 			},
-			{
+			"knowledgeBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.knowledge",
 				"val": 4
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:44",
-			"map": "swArts/AVA0044"
+			"image": "swArts/ARTIFACT.def:0:44",
+			"map": "swArts/AVA0044.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:44"
 		}
 	}
 }

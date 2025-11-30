@@ -1,6 +1,8 @@
 {
 	"swSpikedShield": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "LEFT_HAND",
 		"class": "MINOR",
 		"value": 4000,
@@ -9,21 +11,22 @@
 			"description": "The Spiked Shield increases your Attack and Defense skills by 2 each.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"defenceBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.defence",
 				"val": 2
 			},
-			{
+			"attackBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.attack",
 				"val": 2
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:34",
-			"map": "swArts/AVA0034"
+			"image": "swArts/ARTIFACT.def:0:34",
+			"map": "swArts/AVA0034.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:34"
 		}
 	}
 }

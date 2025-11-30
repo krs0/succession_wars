@@ -1,6 +1,8 @@
 {
 	"swEndlessCordOfWood": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "MINOR",
 		"value": 5000,
@@ -9,16 +11,17 @@
 			"description": "The Endless Cord of Wood provides 1 unit of wood per day.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"woodIncome": {
 				"type": "GENERATE_RESOURCE",
 				"subtype": "resource.wood",
 				"val": 1
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:114",
-			"map": "swArts/AVA0114"
+			"image": "swArts/ARTIFACT.def:0:114",
+			"map": "swArts/AVA0114.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:114"
 		}
 	}
 }

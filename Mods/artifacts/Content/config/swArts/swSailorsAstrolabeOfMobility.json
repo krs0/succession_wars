@@ -9,17 +9,17 @@
 			"description": "The Sailor's Astrolabe of Mobility increases your movement on sea.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"seaMovementBonus": {
 				"type": "MOVEMENT",
 				"subtype": "heroMovementSea",
-				"valueType": "ADDITIVE_VALUE",
 				"val": 20
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:71",
-			"map": "swArts/AVA0071"
+			"image": "swArts/ARTIFACT.def:0:71",
+			"map": "swArts/AVA0071.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:71"
 		}
 	}
 }

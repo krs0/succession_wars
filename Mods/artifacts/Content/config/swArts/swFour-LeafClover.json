@@ -1,6 +1,8 @@
 {
 	"swFour-LeafClover": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "TREASURE",
 		"value": 2000,
@@ -9,15 +11,16 @@
 			"description": "The Four-Leaf Clover increases your luck in combat.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"goodLuck": {
 				"type": "LUCK",
 				"val": 1
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:46",
-			"map": "swArts/AVA0046"
+			"image": "swArts/ARTIFACT.def:0:46",
+			"map": "swArts/AVA0046.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:46"
 		}
 	}
 }

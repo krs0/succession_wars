@@ -1,6 +1,8 @@
 {
 	"swSpadeOfNecromancy": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "TREASURE",
 		"value": 2000,
@@ -9,16 +11,17 @@
 			"description": "The Spade of Necromancy increases your Necromancy skill by 5%.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"undeadRaiseBonus": {
 				"type": "UNDEAD_RAISE_PERCENTAGE",
 				"val": 5,
 				"valueType": "ADDITIVE_VALUE"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:55",
-			"map": "swArts/AVA0055"
+			"image": "swArts/ARTIFACT.def:0:55",
+			"map": "swArts/AVA0055.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:55"
 		}
 	}
 }

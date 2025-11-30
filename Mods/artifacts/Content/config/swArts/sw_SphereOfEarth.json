@@ -1,6 +1,8 @@
 {
 	"sw_SphereOfEarth": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "MAJOR",
 		"value": 6000,
@@ -9,17 +11,18 @@
 			"description": "The Sphere of Earth causes your earth spells to do 50% more damage to enemy troops.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"earthSpellDamage": {
 				"type": "SPELL_DAMAGE",
 				"subtype": "spellSchool.earth",
 				"val": 50,
 				"valueType": "PERCENT_TO_BASE"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:80",
-			"map": "swArts/AVA0080"
+			"image": "swArts/ARTIFACT.def:0:80",
+			"map": "swArts/AVA0080.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:80"
 		}
 	}
 }

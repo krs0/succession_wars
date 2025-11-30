@@ -9,16 +9,17 @@
 			"description": "The Major Scroll of Knowledge increases your knowledge skill by 2.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
+		"bonuses": {
+			"knowledgeBonus": {
 				"type": "PRIMARY_SKILL",
 				"subtype": "primarySkill.knowledge",
 				"val": 2
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:28",
-			"map": "swArts/AVA0028"
+			"image": "swArts/ARTIFACT.def:0:28",
+			"map": "swArts/AVA0028.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:28"
 		}
 	}
 }

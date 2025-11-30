@@ -1,6 +1,8 @@
 {
 	"swHeartOfAir": {
-		"type": [ "HERO" ],
+		"type": [
+			"HERO"
+		],
 		"slot": "MISC",
 		"class": "RELIC",
 		"value": 20000,
@@ -9,15 +11,16 @@
 			"description": "The Heart of Air provides to you all spells in the school of Air Magic. It must be equipped for the spells to be available.",
 			"event": "You found something useful."
 		},
-		"bonuses": [
-			{
-				"subtype": "spellSchool.air",
-				"type": "SPELLS_OF_SCHOOL"
+		"bonuses": {
+			"airSchoolSpells": {
+				"type": "SPELLS_OF_SCHOOL",
+				"subtype": "spellSchool.air"
 			}
-		],
+		},
 		"graphics": {
-			"image": "swArts/ARTIFACT.def:87",
-			"map": "swArts/AVA0087"
+			"image": "swArts/ARTIFACT.def:0:87",
+			"map": "swArts/AVA0087.def",
+			"scenarioBonus": "swArts/ARTIFACT.def:0:87"
 		}
 	}
 }
