@@ -1,8 +1,9 @@
 {
 	"core:dragonUtopia": {
+		"handler": "configurable",
 		"types": {
 			"swWizardWizardSanctum": {
-				"handler": "bank",
+				"handler": "configurable",
 				"name": "Wizard Sanctum",
 				"templates": {
 					"base": {
@@ -27,9 +28,18 @@
 					"value": 1600,
 					"rarity": 70
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankWide",
+				"rewards": [
 					{
-						"chance": 100,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 100
+						},
 						"guards": [
 							{
 								"type": "swWizardMagi",
@@ -56,13 +66,9 @@
 								"amount": 15
 							}
 						],
-						"combat_value": 1400,
-						"reward": {
-							"resources": {
-								"gold": 8000,
-								"mercury": 8
-							},
-							"value": 5000
+						"resources": {
+							"gold": 8000,
+							"mercury": 8
 						}
 					}
 				]

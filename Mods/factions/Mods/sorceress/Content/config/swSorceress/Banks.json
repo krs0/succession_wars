@@ -1,8 +1,9 @@
 {
 	"core:dragonUtopia": {
+		"handler": "configurable",
 		"types": {
 			"sw08DwarvenBarrow": {
-				"handler": "bank",
+				"handler": "configurable",
 				"name": "Dwarven Barrow",
 				"templates": {
 					"base": {
@@ -28,9 +29,18 @@
 					"value": 100,
 					"rarity": 110
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankNarrow",
+				"rewards": [
 					{
-						"chance": 100,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 100
+						},
 						"guards": [
 							{
 								"type": "swSorceressBattleDwarf",
@@ -53,13 +63,9 @@
 								"amount": 17
 							}
 						],
-						"combat_value": 600,
-						"reward": {
-							"resources": {
-								"gold": 1000,
-								"gems": 5
-							},
-							"value": 1000
+						"resources": {
+							"gold": 1000,
+							"gems": 5
 						}
 					}
 				]

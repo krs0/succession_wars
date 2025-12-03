@@ -1,8 +1,9 @@
 {
 	"core:dragonUtopia": {
+		"handler": "configurable",
 		"types": {
 			"sw08Crypt": {
-				"handler": "bank",
+				"handler": "configurable",
 				"name": "Crypt",
 				"templates": {
 					"base": {
@@ -48,9 +49,18 @@
 					"value": 700,
 					"rarity": 150
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankNarrow",
+				"rewards": [
 					{
-						"chance": 100,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 100
+						},
 						"guards": [
 							{
 								"type": "swNecromancerSkeleton",
@@ -73,24 +83,20 @@
 								"amount": 5
 							}
 						],
-						"combat_value": 600,
-						"reward": {
-							"resources": {
-								"gold": 2500,
-								"gems": 5
-							},
-							"value": 2000,
-							"artifacts": [
-								{
-									"class": "TREASURE"
-								}
-							]
-						}
+						"resources": {
+							"gold": 2500,
+							"gems": 5
+						},
+						"artifacts": [
+							{
+								"class": "TREASURE"
+							}
+						]
 					}
 				]
 			},
 			"sw08Graveyard": {
-				"handler": "bank",
+				"handler": "configurable",
 				"name": "Graveyard",
 				"templates": {
 					"avxbnk90": {
@@ -217,9 +223,18 @@
 					"value": 900,
 					"rarity": 130
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankNarrow",
+				"rewards": [
 					{
-						"chance": 100,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 100
+						},
 						"guards": [
 							{
 								"type": "swNecromancerMutantZombie",
@@ -242,23 +257,19 @@
 								"amount": 20
 							}
 						],
-						"combat_value": 500,
-						"reward": {
-							"resources": {
-								"gold": 2000
-							},
-							"value": 2000,
-							"artifacts": [
-								{
-									"class": "MINOR"
-								}
-							]
-						}
+						"resources": {
+							"gold": 2000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						]
 					}
 				]
 			},
 			"sw08CityOfTheDead": {
-				"handler": "bank",
+				"handler": "configurable",
 				"name": "City of the Dead",
 				"templates": {
 					"base": {
@@ -296,9 +307,18 @@
 					"value": 2000,
 					"rarity": 70
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankWide",
+				"rewards": [
 					{
-						"chance": 40,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 40
+						},
 						"guards": [
 							{
 								"type": "swNecromancerZombie",
@@ -321,22 +341,22 @@
 								"amount": 20
 							}
 						],
-						"combat_value": 1000,
-						"reward": {
-							"resources": {
-								"gold": 1500
-							},
-							"value": 3000,
-							"creatures": [
-								{
-									"type": "swNecromancerPowerLich",
-									"amount": 6
-								}
-							]
-						}
+						"resources": {
+							"gold": 1500
+						},
+						"creatures": [
+							{
+								"type": "swNecromancerPowerLich",
+								"amount": 6
+							}
+						]
 					},
 					{
-						"chance": 30,
+						"message": 34,
+						"appearChance": {
+							"min": 40,
+							"max": 70
+						},
 						"guards": [
 							{
 								"type": "swNecromancerZombie",
@@ -359,22 +379,22 @@
 								"amount": 20
 							}
 						],
-						"combat_value": 1000,
-						"reward": {
-							"resources": {
-								"gold": 1500
-							},
-							"value": 2800,
-							"creatures": [
-								{
-									"type": "swNecromancerPowerLich",
-									"amount": 5
-								}
-							]
-						}
+						"resources": {
+							"gold": 1500
+						},
+						"creatures": [
+							{
+								"type": "swNecromancerPowerLich",
+								"amount": 5
+							}
+						]
 					},
 					{
-						"chance": 30,
+						"message": 34,
+						"appearChance": {
+							"min": 70,
+							"max": 100
+						},
 						"guards": [
 							{
 								"type": "swNecromancerZombie",
@@ -397,25 +417,20 @@
 								"amount": 20
 							}
 						],
-						"combat_value": 1000,
-						"reward": {
-							"resources": {
-								"gold": 1500
-							},
-							"value": 2500,
-							"creatures": [
-								{
-									"type": "swNecromancerPowerLich",
-									"amount": 4
-								}
-							]
-						}
+						"resources": {
+							"gold": 1500
+						},
+						"creatures": [
+							{
+								"type": "swNecromancerPowerLich",
+								"amount": 4
+							}
+						]
 					}
 				]
 			},
-			//custom
 			"sw08DarkCastle": {
-				"handler": "bank",
+				"handler": "configurable",
 				"name": "Crypt",
 				"templates": {
 					"base": {
@@ -438,9 +453,18 @@
 					"value": 1800,
 					"rarity": 70
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankWide",
+				"rewards": [
 					{
-						"chance": 40,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 40
+						},
 						"guards": [
 							{
 								"type": "swNecromancerDeathKnight",
@@ -459,8 +483,6 @@
 								"amount": 5
 							}
 						],
-						"combat_value": 900,
-						"value": 3000,
 						"artifacts": [
 							{
 								"class": "MINOR"
@@ -468,7 +490,11 @@
 						]
 					},
 					{
-						"chance": 30,
+						"message": 34,
+						"appearChance": {
+							"min": 40,
+							"max": 70
+						},
 						"guards": [
 							{
 								"type": "swNecromancerDeathKnight",
@@ -487,8 +513,6 @@
 								"amount": 7
 							}
 						],
-						"combat_value": 900,
-						"value": 3000,
 						"artifacts": [
 							{
 								"class": "MINOR"
@@ -496,7 +520,11 @@
 						]
 					},
 					{
-						"chance": 30,
+						"message": 34,
+						"appearChance": {
+							"min": 70,
+							"max": 100
+						},
 						"guards": [
 							{
 								"type": "swNecromancerDeathKnight",
@@ -515,8 +543,6 @@
 								"amount": 10
 							}
 						],
-						"combat_value": 1500,
-						"value": 5000,
 						"artifacts": [
 							{
 								"class": "MAJOR"
@@ -528,9 +554,10 @@
 		}
 	},
 	"core:shipwreck": {
+		"handler": "configurable",
 		"types": {
 			"sw08ShipwreckSkeletons": {
-				"handler": "bank",
+				"handler": "configurable",
 				"name": "Shipwreck",
 				"templates": {
 					"avawre10": {
@@ -598,9 +625,18 @@
 					"value": 3000,
 					"rarity": 90
 				},
-				"levels": [
+				"onGuardedMessage": 122,
+				"onVisitedMessage": 123,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankNarrow",
+				"rewards": [
 					{
-						"chance": 100,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 100
+						},
 						"guards": [
 							{
 								"type": "swNecromancerSkeleton",
@@ -623,12 +659,8 @@
 								"amount": 40
 							}
 						],
-						"combat_value": 800,
-						"reward": {
-							"resources": {
-								"gold": 5000
-							},
-							"value": 3500
+						"resources": {
+							"gold": 5000
 						}
 					}
 				]
@@ -636,7 +668,7 @@
 		}
 	},
 	"core:pyramid": {
-		"handler": "bank",
+		"handler": "configurable",
 		"base": {
 			"sounds": {
 				"visit": [
@@ -646,7 +678,6 @@
 		},
 		"types": {
 			"sw08pyramid": {
-				"resetDuration": 0,
 				"name": "Pyramid",
 				"aiValue": 8000,
 				"rmg": {
@@ -670,9 +701,18 @@
 						]
 					}
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankNarrow",
+				"rewards": [
 					{
-						"chance": 100,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 100
+						},
 						"guards": [
 							{
 								"type": "swNecromancerRoyalMummy",
@@ -695,15 +735,11 @@
 								"amount": 15
 							}
 						],
-						"combat_value": 1086,
-						"reward": {
-							"value": 15000,
-							"spells": [
-								{
-									"level": 5
-								}
-							]
-						}
+						"spells": [
+							{
+								"level": 5
+							}
+						]
 					}
 				]
 			}

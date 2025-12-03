@@ -1,8 +1,8 @@
 {
 	"core:dragonUtopia": {
+		"handler": "configurable",
 		"types": {
 			"swKnightKeep": {
-				"handler": "bank",
 				"name": "Renegade Keep",
 				"templates": {
 					"base": {
@@ -26,9 +26,18 @@
 					"value": 800,
 					"rarity": 100
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankWide",
+				"rewards": [
 					{
-						"chance": 100,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 100
+						},
 						"guards": [
 							{
 								"type": "swKnightMasterSwordsman",
@@ -55,23 +64,18 @@
 								"amount": 10
 							}
 						],
-						"combat_value": 1400,
-						"reward": {
-							"resources": {
-								"gold": 2500
-							},
-							"value": 4000,
-							"artifacts": [
-								{
-									"class": "MINOR"
-								}
-							]
-						}
+						"resources": {
+							"gold": 2500
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						]
 					}
 				]
 			},
 			"swKnightBastion": {
-				"handler": "bank",
 				"name": "Forpost",
 				"templates": {
 					"base": {
@@ -94,9 +98,18 @@
 					"value": 50,
 					"rarity": 120
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankNarrow",
+				"rewards": [
 					{
-						"chance": 100,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 100
+						},
 						"guards": [
 							{
 								"type": "swKnightPikeman",
@@ -119,15 +132,11 @@
 								"amount": 5
 							}
 						],
-						"combat_value": 500,
-						"reward": {
-							"value": 800,
-							"artifacts": [
-								{
-									"class": "TREASURE"
-								}
-							]
-						}
+						"artifacts": [
+							{
+								"class": "TREASURE"
+							}
+						]
 					}
 				]
 			}

@@ -1,8 +1,9 @@
 {
 	"core:dragonUtopia": {
+		"handler": "configurable",
 		"types": {
 			"swWitchHive": {
-				"handler": "bank",
+				"handler": "configurable",
 				"name": "Wasp Hive",
 				"templates": {
 					"base": {
@@ -25,9 +26,18 @@
 					"value": 1200,
 					"rarity": 120
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankWide",
+				"rewards": [
 					{
-						"chance": 100,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 100
+						},
 						"guards": [
 							{
 								"type": "swWitchWasp",
@@ -54,12 +64,8 @@
 								"amount": 10
 							}
 						],
-						"combat_value": 800,
-						"reward": {
-							"resources": {
-								"gold": 1500
-							},
-							"value": 1000
+						"resources": {
+							"gold": 1500
 						}
 					}
 				]

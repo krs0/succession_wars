@@ -1,8 +1,9 @@
 {
 	"core:dragonUtopia": {
+		"handler": "configurable",
 		"types": {
 			"sw08utopia": {
-				"handler": "bank",
+				"handler": "configurable",
 				"name": "Dragon City",
 				"templates": {
 					"base": {
@@ -32,9 +33,18 @@
 					"value": 9000,
 					"rarity": 50
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankWide",
+				"rewards": [
 					{
-						"chance": 100,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 100
+						},
 						"guards": [
 							{
 								"type": "swWarlockGreenDragon",
@@ -57,33 +67,29 @@
 								"amount": 2
 							}
 						],
-						"combat_value": 600,
-						"reward": {
-							"resources": {
-								"gold": 15000,
-								"gems": 5
+						"resources": {
+							"gold": 15000,
+							"gems": 5
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
 							},
-							"value": 30000,
-							"artifacts": [
-								{
-									"class": "MINOR"
-								},
-								{
-									"class": "MAJOR"
-								},
-								{
-									"class": "MAJOR"
-								},
-								{
-									"class": "RELIC"
-								}
-							]
-						}
+							{
+								"class": "MAJOR"
+							},
+							{
+								"class": "MAJOR"
+							},
+							{
+								"class": "RELIC"
+							}
+						]
 					}
 				]
 			},
 			"sw08utopia2": {
-				"handler": "bank",
+				"handler": "configurable",
 				"name": "Dragon Utopia",
 				"templates": {
 					"base": {
@@ -113,9 +119,18 @@
 					"value": 6000,
 					"rarity": 70
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankWide",
+				"rewards": [
 					{
-						"chance": 100,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 100
+						},
 						"guards": [
 							{
 								"type": "swWarlockGreenDragon",
@@ -138,26 +153,22 @@
 								"amount": 3
 							}
 						],
-						"combat_value": 600,
-						"reward": {
-							"resources": {
-								"gold": 10000
+						"resources": {
+							"gold": 10000
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
 							},
-							"value": 20000,
-							"artifacts": [
-								{
-									"class": "MINOR"
-								},
-								{
-									"class": "MAJOR"
-								}
-							]
-						}
+							{
+								"class": "MAJOR"
+							}
+						]
 					}
 				]
 			},
 			"sw08centaurCave": {
-				"handler": "bank",
+				"handler": "configurable",
 				"name": "Centaur Cave",
 				"templates": {
 					"ZCrbank3": {
@@ -180,9 +191,18 @@
 					"value": 500,
 					"rarity": 150
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankNarrow",
+				"rewards": [
 					{
-						"chance": 40,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 40
+						},
 						"guards": [
 							{
 								"type": "swWarlockCentaur",
@@ -205,16 +225,16 @@
 								"amount": 10
 							}
 						],
-						"combat_value": 500,
-						"reward": {
-							"resources": {
-								"gold": 1000
-							},
-							"value": 500
+						"resources": {
+							"gold": 1000
 						}
 					},
 					{
-						"chance": 30,
+						"message": 34,
+						"appearChance": {
+							"min": 40,
+							"max": 70
+						},
 						"guards": [
 							{
 								"type": "swWarlockCentaur",
@@ -237,16 +257,16 @@
 								"amount": 15
 							}
 						],
-						"combat_value": 670,
-						"reward": {
-							"resources": {
-								"gold": 1500
-							},
-							"value": 500
+						"resources": {
+							"gold": 1500
 						}
 					},
 					{
-						"chance": 30,
+						"message": 34,
+						"appearChance": {
+							"min": 70,
+							"max": 100
+						},
 						"guards": [
 							{
 								"type": "swWarlockCentaur",
@@ -269,18 +289,14 @@
 								"amount": 20
 							}
 						],
-						"combat_value": 900,
-						"reward": {
-							"resources": {
-								"gold": 2000
-							},
-							"value": 500
+						"resources": {
+							"gold": 2000
 						}
 					}
 				]
 			},
 			"swWarlockTOwer": {
-				"handler": "bank",
+				"handler": "configurable",
 				"name": "Warlock Tower",
 				"templates": {
 					"avxbnk50": {
@@ -305,9 +321,18 @@
 					"value": 2000,
 					"rarity": 70
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankWide",
+				"rewards": [
 					{
-						"chance": 50,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 50
+						},
 						"guards": [
 							{
 								"type": "swWarlockCentaur",
@@ -330,21 +355,21 @@
 								"amount": 5
 							}
 						],
-						"combat_value": 1200,
-						"reward": {
-							"resources": {
-								"gold": 3000
-							},
-							"value": 4000,
-							"artifacts": [
-								{
-									"class": "MAJOR"
-								}
-							]
-						}
+						"resources": {
+							"gold": 3000
+						},
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						]
 					},
 					{
-						"chance": 50,
+						"message": 34,
+						"appearChance": {
+							"min": 50,
+							"max": 100
+						},
 						"guards": [
 							{
 								"type": "swWarlockCentaur",
@@ -367,24 +392,19 @@
 								"amount": 3
 							}
 						],
-						"combat_value": 900,
-						"reward": {
-							"resources": {
-								"gold": 2500
-							},
-							"value": 4000,
-							"artifacts": [
-								{
-									"class": "MINOR"
-								}
-							]
-						}
+						"resources": {
+							"gold": 2500
+						},
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						]
 					}
 				]
 			},
-			//custom
 			"sw08dungeon": {
-				"handler": "bank",
+				"handler": "configurable",
 				"name": "Dungeon Entrance",
 				"templates": {
 					"avxbnk00": {
@@ -409,9 +429,18 @@
 					"value": 900,
 					"rarity": 100
 				},
-				"levels": [
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"guardsLayout": "creatureBankNarrow",
+				"rewards": [
 					{
-						"chance": 50,
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 50
+						},
 						"guards": [
 							{
 								"type": "swWarlockBeholder",
@@ -434,8 +463,6 @@
 								"amount": 5
 							}
 						],
-						"combat_value": 900,
-						"value": 1000,
 						"artifacts": [
 							{
 								"class": "TREASURE"
@@ -446,7 +473,11 @@
 						]
 					},
 					{
-						"chance": 30,
+						"message": 34,
+						"appearChance": {
+							"min": 50,
+							"max": 80
+						},
 						"guards": [
 							{
 								"type": "swWarlockBeholder",
@@ -469,8 +500,6 @@
 								"amount": 10
 							}
 						],
-						"combat_value": 1500,
-						"value": 4000,
 						"artifacts": [
 							{
 								"class": "MINOR"
@@ -478,7 +507,11 @@
 						]
 					},
 					{
-						"chance": 20,
+						"message": 34,
+						"appearChance": {
+							"min": 80,
+							"max": 100
+						},
 						"guards": [
 							{
 								"type": "swWarlockBeholder",
@@ -501,8 +534,6 @@
 								"amount": 15
 							}
 						],
-						"combat_value": 2000,
-						"value": 7000,
 						"artifacts": [
 							{
 								"class": "MAJOR"
