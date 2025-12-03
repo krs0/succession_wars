@@ -45,36 +45,8 @@
 			}
 		],
 		"specialty": {
-			"bonuses": {
-				"abilityAttackSkill": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "primarySkill.attack",
-					"limiters": [
-						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"parameters": [
-								"ballista",
-								true
-							]
-						}
-					],
-					"updater": "TIMES_HERO_LEVEL"
-				},
-				"abilityDefenseSkill": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "primarySkill.defence",
-					"limiters": [
-						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"parameters": [
-								"ballista",
-								true
-							]
-						}
-					],
-					"updater": "TIMES_HERO_LEVEL"
-				}
-			}
+			"creature": "ballista",
+			"creatureLevel": 5
 		}
 	}
 }

@@ -223,7 +223,6 @@
 				"special1": {
 					"name": "Lighthouse",
 					"description": "The Lighthouse grants additional mobility to any ships you control.",
-					"type": "lighthouse",
 					"requires": [
 						"allOf",
 						[
@@ -233,7 +232,15 @@
 					"cost": {
 						"ore": 10,
 						"gold": 2000
-					}
+					},
+					"bonuses": [
+						{
+							"propagator": "PLAYER",
+							"type": "MOVEMENT",
+							"subtype": "heroMovementSea",
+							"val": 500
+						}
+					]
 				},
 				"horde1": {
 					"name": "Well",
@@ -266,7 +273,6 @@
 				"special2": {
 					"name": "Stables",
 					"description": "The Stables increase the land movement rate of any visiting hero.",
-					"type": "stables",
 					"requires": [
 						"allOf",
 						[
@@ -276,17 +282,43 @@
 					"cost": {
 						"wood": 10,
 						"gold": 2000
+					},
+					"mapObjectLikeBonuses": "stables",
+					"configuration": {
+						"visitMode": "bonus",
+						"rewards": [
+							{
+								"message": "@core.genrltxt.580",
+								"movePoints": 400,
+								"bonuses": [
+									{
+										"type": "MOVEMENT",
+										"subtype": "heroMovementLand",
+										"val": 400,
+										"valueType": "ADDITIVE_VALUE",
+										"stacking": "stables",
+										"duration": "ONE_WEEK"
+									}
+								]
+							}
+						]
 					}
 				},
 				"special3": {
 					"name": "Guild of the Sword",
 					"description": "During a siege, the Guild of the Sword increases troop morale by +2.",
-					"type": "brotherhoodOfSword",
 					"upgrades": "tavern",
+					"upgradeReplacesBonuses": true,
 					"cost": {
 						"wood": 5,
 						"gold": 500
-					}
+					},
+					"bonuses": [
+						{
+							"type": "MORALE",
+							"val": 2
+						}
+					]
 				},
 				//"grail":                {
 				//                   "mode": "grail",

@@ -61,7 +61,7 @@
 			"defend": "swKnight/pikeman/pikeDFND.wav",
 			"killed": "swKnight/pikeman/pikeKILL.wav",
 			"move": "swKnight/pikeman/pikeMOVE.wav",
-			"wince": "swKnight/pikeman/pikeWNCE"
+			"wince": "swKnight/pikeman/pikeWNCE.wav"
 		},
 		"abilities": {
 			"ability1": {
