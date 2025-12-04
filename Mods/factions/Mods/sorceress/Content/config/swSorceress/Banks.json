@@ -3,7 +3,6 @@
 		"handler": "configurable",
 		"types": {
 			"sw08DwarvenBarrow": {
-				"handler": "configurable",
 				"name": "Dwarven Barrow",
 				"templates": {
 					"base": {

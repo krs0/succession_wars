@@ -47,7 +47,7 @@
 		"graphics": {
 			"iconSmall": "swSorceressCreatures/cprSMALL.def:0:22",
 			"iconLarge": "swSorceressCreatures/TWCRPORT.def:0:22",
-			"map": "swSorceressCreatures/map/AVWSatyr",
+			"map": "swSorceressCreatures/map/AVWcent0",
 			"animation": "swSorceressCreatures/battle/c020styr",
 			"timeBetweenFidgets": 1,
 			"animationTime": {

@@ -268,7 +268,6 @@
 				"special2": {
 					"name": "Rainbow",
 					"description": "The Rainbow increases the luck of garrizon hero by +2 when defending against the siege.",
-					"type": "fountainOfFortune",
 					"requires": [
 						"allOf",
 						[
@@ -278,7 +277,13 @@
 					"cost": {
 						"crystal": 10,
 						"gold": 1500
-					}
+					},
+					"bonuses": [
+						{
+							"type": "LUCK",
+							"val": 2
+						}
+					]
 				},
 				"special3": {
 					"name": "Treasury",
