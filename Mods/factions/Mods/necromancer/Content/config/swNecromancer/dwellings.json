@@ -8,9 +8,6 @@
 						"swNecromancerSkeleton"
 					]
 				],
-				//				"guards": [
-				//					{ "amount": 50, "type": "swNecromancerSkeleton" }
-				//				],
 				"templates": {
 					"default": {
 						"animation": "swNecromancer/Adventure-Map/AVGskel0",
@@ -22,7 +19,8 @@
 					"default2": {
 						"animation": "swNecromancer/Adventure-Map/AVGskel1",
 						"mask": [
-							"BBA"
+							"VV",
+							"BA"
 						],
 						"allowedTerrains": [
 							"sand"
@@ -233,9 +231,12 @@
 					"def2": {
 						"animation": "swNecromancer/Adventure-Map/AVGbone2",
 						"mask": [
-							"VVVV",
-							"VVVV",
-							"VBBA"
+							"VVV",
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains": [
+							"lava"
 						]
 					}
 				}

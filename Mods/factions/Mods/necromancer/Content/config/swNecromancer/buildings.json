@@ -283,14 +283,13 @@
 						{
 							"type": "UNDEAD_RAISE_PERCENTAGE",
 							"val": 10,
-							"propagator": "PLAYER_PROPAGATOR"
+							"propagator": "PLAYER"
 						}
 					]
 				},
 				"special3": {
 					"name": "Boneyard",
 					"description": "Boneyard allows you to convert any creature to Skeleton.",
-					"type": "creatureTransformer",
 					"requires": [
 						"allOf",
 						[
@@ -299,7 +298,10 @@
 					],
 					"cost": {
 						"gold": 1000
-					}
+					},
+					"marketModes": [
+						"creature-undead"
+					]
 				},
 				//"grail": {
 				//                  "mode": "grail",

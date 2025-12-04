@@ -3,7 +3,6 @@
 		"handler": "configurable",
 		"types": {
 			"sw08Crypt": {
-				"handler": "configurable",
 				"name": "Crypt",
 				"templates": {
 					"base": {
@@ -96,7 +95,6 @@
 				]
 			},
 			"sw08Graveyard": {
-				"handler": "configurable",
 				"name": "Graveyard",
 				"templates": {
 					"avxbnk90": {
@@ -269,7 +267,6 @@
 				]
 			},
 			"sw08CityOfTheDead": {
-				"handler": "configurable",
 				"name": "City of the Dead",
 				"templates": {
 					"base": {
@@ -430,7 +427,6 @@
 				]
 			},
 			"sw08DarkCastle": {
-				"handler": "configurable",
 				"name": "Crypt",
 				"templates": {
 					"base": {
@@ -557,7 +553,6 @@
 		"handler": "configurable",
 		"types": {
 			"sw08ShipwreckSkeletons": {
-				"handler": "configurable",
 				"name": "Shipwreck",
 				"templates": {
 					"avawre10": {

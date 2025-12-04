@@ -49,49 +49,7 @@
 			}
 		],
 		"specialty": {
-			"bonuses": {
-				"abilityAttackSkill": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "primarySkill.attack",
-					"val": 5,
-					"limiters": [
-						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"parameters": [
-								"swNecromancerDeathKnight",
-								true
-							]
-						}
-					]
-				},
-				"abilityDefenseSkill": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "primarySkill.defence",
-					"val": 5,
-					"limiters": [
-						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"parameters": [
-								"swNecromancerDeathKnight",
-								true
-							]
-						}
-					]
-				},
-				"abilityCreatureDamage": {
-					"type": "CREATURE_DAMAGE",
-					"val": 10,
-					"limiters": [
-						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"parameters": [
-								"swNecromancerDeathKnight",
-								true
-							]
-						}
-					]
-				}
-			}
+			"creature": "swNecromancerDeathKnight"
 		}
 	}
 }
