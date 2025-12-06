@@ -3,7 +3,6 @@
 		"handler": "configurable",
 		"types": {
 			"swWitchHive": {
-				"handler": "configurable",
 				"name": "Wasp Hive",
 				"templates": {
 					"base": {

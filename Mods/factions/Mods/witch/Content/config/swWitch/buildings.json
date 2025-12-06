@@ -257,7 +257,6 @@
 				"special1": {
 					"name": "Cage Of Warlords",
 					"description": "Cage Of Warlords increases defence skill of visiting hero by +1.",
-					"type": "defenceVisitingBonus",
 					"cost": {
 						"gold": 1000
 					},
@@ -269,12 +268,22 @@
 						[
 							"special2"
 						]
-					]
+					],
+					"configuration": {
+						"visitMode": "hero",
+						"rewards": [
+							{
+								"message": "The Cage of Warlords hardens your resolve. Your defense skill has increased by +1.",
+								"primary": {
+									"defence": 1
+								}
+							}
+						]
+					}
 				},
 				"special2": {
 					"name": "Glyphs of Fear",
 					"description": "Glyphs of Fear adds +2 to defence skill of garnizon hero during siege.",
-					"type": "defenseGarrisonBonus",
 					"cost": {
 						"gold": 1000
 					},
@@ -283,12 +292,18 @@
 						[
 							"fort"
 						]
+					],
+					"bonuses": [
+						{
+							"type": "PRIMARY_SKILL",
+							"subtype": "primarySkill.defence",
+							"val": 2
+						}
 					]
 				},
 				"special3": {
 					"name": "Blood Obelisk",
 					"description": "Blood Obelisk increases the Attack skill of defending hero by +2.",
-					"type": "attackGarrisonBonus",
 					"cost": {
 						"gold": 1000
 					},
@@ -297,6 +312,13 @@
 						[
 							"special2"
 						]
+					],
+					"bonuses": [
+						{
+							"type": "PRIMARY_SKILL",
+							"subtype": "primarySkill.attack",
+							"val": 2
+						}
 					]
 				},
 				//"grail":				{

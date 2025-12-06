@@ -47,19 +47,6 @@
 				"idle": 10,
 				"walk": 1,
 				"attack": 1
-			},
-			"missile": {
-				"projectile": "swWitchCreatures/battle/CPRZEAX",
-				"offset": {
-					"upperX": 41,
-					"upperY": -92,
-					"middleX": 58,
-					"middleY": -79,
-					"lowerX": 29,
-					"lowerY": -14
-				},
-				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame": 8
 			}
 		},
 		"sound": {

@@ -78,8 +78,8 @@
 					"default": {
 						"animation": "swWitch/adventure-map/AVGbasl0",
 						"mask": [
-							"BBB",
-							"BBA"
+							"BB",
+							"BA"
 						]
 					}
 				}

@@ -44,38 +44,7 @@
 			}
 		],
 		"specialty": {
-			"bonuses": {
-				"abilityAttackSkill": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "primarySkill.attack",
-					"val": 1,
-					"limiters": [
-						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"parameters": [
-								"swWitchTreeant",
-								true
-							]
-						}
-					],
-					"updater": "TIMES_HERO_LEVEL"
-				},
-				"abilityDefenseSkill": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "primarySkill.defence",
-					"val": 1,
-					"limiters": [
-						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"parameters": [
-								"swWitchTreeant",
-								true
-							]
-						}
-					],
-					"updater": "TIMES_HERO_LEVEL"
-				}
-			}
+			"creature": "swWitchTreeant"
 		}
 	}
 }
