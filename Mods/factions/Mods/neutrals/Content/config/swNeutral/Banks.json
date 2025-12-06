@@ -3,7 +3,6 @@
 		"handler": "configurable",
 		"types": {
 			"sw08DemonCave": {
-				"handler": "configurable",
 				"name": "Demon Cave",
 				"aiValue": 4000,
 				"templates": {
@@ -470,7 +469,6 @@
 		"handler": "configurable",
 		"types": {
 			"sw08ShipwreckGhosts": {
-				"handler": "configurable",
 				"name": "Shipwreck",
 				"templates": {
 					"avawre10": {

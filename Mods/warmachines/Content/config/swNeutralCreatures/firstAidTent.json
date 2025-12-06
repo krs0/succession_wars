@@ -4,7 +4,7 @@
 			"plural": "First Aid Tents",
 			"singular": "First Aid Tent"
 		},
-		"faction": "swNeutral",
+		"faction": "swNeutralWarmachines",
 		"level": 0,
 		"cost": {
 			"gold": 750

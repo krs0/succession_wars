@@ -18,8 +18,7 @@
 					"default": {
 						"animation": "swNeutral/adventure-map/AVGair0",
 						"mask": [
-							"VVVV",
-							"VBAB"
+							"AB"
 						],
 						"allowedTerrains": [
 							"grass",
@@ -51,8 +50,7 @@
 					"default": {
 						"animation": "swNeutral/adventure-map/AVGerth0",
 						"mask": [
-							"VVVV",
-							"VBAB"
+							"AB"
 						],
 						"allowedTerrains": [
 							"grass",
@@ -84,8 +82,7 @@
 					"default": {
 						"animation": "swNeutral/adventure-map/AVGfire0",
 						"mask": [
-							"VVVV",
-							"VBAB"
+							"AB"
 						],
 						"allowedTerrains": [
 							"grass",
@@ -117,8 +114,7 @@
 					"default": {
 						"animation": "swNeutral/adventure-map/AVMsavu0",
 						"mask": [
-							"VVVV",
-							"VBAB"
+							"AB"
 						],
 						"allowedTerrains": [
 							"grass",
@@ -150,8 +146,7 @@
 					"default": {
 						"animation": "swNeutral/adventure-map/AVGghst0",
 						"mask": [
-							"VVV",
-							"VBA"
+							"AB"
 						],
 						"visitableFrom": [
 							"---",
@@ -172,8 +167,7 @@
 					"default2": {
 						"animation": "swNeutral/adventure-map/AVGfirb1",
 						"mask": [
-							"VVV",
-							"VBA"
+							"AB"
 						],
 						"visitableFrom": [
 							"---",
@@ -210,8 +204,7 @@
 					"default": {
 						"animation": "swNeutral/adventure-map/AVGhalf",
 						"mask": [
-							"VVV",
-							"VBA"
+							"AB"
 						],
 						"visitableFrom": [
 							"---",

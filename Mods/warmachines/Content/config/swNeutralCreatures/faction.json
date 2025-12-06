@@ -1,5 +1,5 @@
 {
-	"swNeutral": {
+	"swNeutralWarmachines": { // cannot be same as swNeutral because of circular dependency
 		"name": "Neutral",
 		"alignment": "neutral",
 		"nativeTerrain": "grass",

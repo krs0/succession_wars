@@ -4,7 +4,7 @@
 			"plural": "Ballistas",
 			"singular": "Ballista"
 		},
-		"faction": "swNeutral",
+		"faction": "swNeutralWarmachines",
 		"level": 0,
 		"cost": {
 			"gold": 1000
