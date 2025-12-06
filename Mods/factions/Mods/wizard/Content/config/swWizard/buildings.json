@@ -213,30 +213,32 @@
 				"blacksmith": {
 					"name": "Blacksmith",
 					"description": "The Blacksmith provides your armies with war machines.",
-					"type": "blacksmith",
 					"cost": {
 						"wood": 5,
 						"gold": 1000
-					}
+					},
+					"warMachine": "ballista"
 				},
 				"special1": {
 					"name": "Artifact Merchants",
 					"description": "For a nominal fee you can purchase artefacts from Artifact Merchants.",
-					"type": "artifactMerchant",
-					"cost": {
-						"gold": 10000
-					},
 					"requires": [
 						"allOf",
 						[
 							"marketplace"
 						]
+					],
+					"cost": {
+						"gold": 10000
+					},
+					"marketModes": [
+						"resource-artifact",
+						"artifact-resource"
 					]
 				},
 				"horde1": {
 					"name": "Orchard",
 					"description": "Orchard increases weekly production of Halflings by 8 per week.",
-					"type": "orchard",
 					"upgrades": "dwellingLvl2",
 					"cost": {
 						"gold": 1000
@@ -245,14 +247,13 @@
 				"horde1Upgr": {
 					"name": "Orchard",
 					"description": "Orchard increases weekly production of War Boars by 4 per week.",
-					"type": "orchard",
 					"requires": [
 						"allOf",
 						[
 							"horde1"
 						],
 						[
-							"horde1Upgr"
+							"dwellingLvl2"
 						]
 					],
 					"mode": "auto",
@@ -263,13 +264,11 @@
 				"ship": {
 					"name": "Ship",
 					"description": "Ship",
-					"type": "ship",
 					"upgrades": "shipyard"
 				},
 				"special2": {
 					"name": "Lookout Tower",
 					"description": "Lookout Tower extends a visible distance around your city.",
-					"type": "lookoutTower",
 					"requires": [
 						"allOf",
 						[
@@ -280,7 +279,12 @@
 						"ore": 5,
 						"gold": 1000
 					},
-					"height": "average"
+					"bonuses": [
+						{
+							"type": "SIGHT_RADIUS",
+							"val": 5
+						}
+					]
 				},
 				"special3": {
 					"name": "Library",
@@ -305,7 +309,6 @@
 				"special4": {
 					"name": "Statue of the Founder",
 					"description": "The Statue of the Founder increases the Knowledge skill of any visiting hero by +1.",
-					"type": "knowledgeVisitingBonus",
 					"requires": [
 						"allOf",
 						[
@@ -315,6 +318,17 @@
 					"cost": {
 						"ore": 5,
 						"gold": 1000
+					},
+					"configuration": {
+						"visitMode": "hero",
+						"rewards": [
+							{
+								"message": "The Statue of the Founder imparts ancient wisdom. Your knowledge has increased by +1.",
+								"primary": {
+									"knowledge": 1
+								}
+							}
+						]
 					}
 				},
 				//"grail": {

@@ -62,7 +62,7 @@
 				"attack": 1
 			},
 			"missile": {
-				"projectile": "swWizardCreatures/battle/cprgtix",
+				"projectile": "swWizardCreatures/battle/Ptitnx",
 				"offset": {
 					"upperX": 11,
 					"upperY": -131,

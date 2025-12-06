@@ -8,26 +8,23 @@
 						"swWizardHalfling"
 					]
 				],
-				//				"guards": [
-				//					{ "amount": 50, "type": "swWizardHalfling" }
-				//				],
 				"templates": {
 					"default": {
 						"animation": "swWizard/Adventure-Map/AVGgrem0",
 						"mask": [
-							"VAB"
+							"AB"
 						]
 					},
 					"default2": {
 						"animation": "swWizard/Adventure-Map/AVGgrem1",
 						"mask": [
-							"VABB"
+							"AB"
 						]
 					},
 					"AVJhalf": {
 						"animation": "swWizard/Adventure-Map/AVJhalf",
 						"mask": [
-							"VBAB"
+							"AB"
 						],
 						"allowedTerrains": [
 							"dirt"
@@ -36,7 +33,7 @@
 					"AVJhalf2": {
 						"animation": "swWizard/Adventure-Map/AVJhalf2",
 						"mask": [
-							"VBAB"
+							"AB"
 						],
 						"allowedTerrains": [
 							"lava"
@@ -45,7 +42,7 @@
 					"AVJhalf3": {
 						"animation": "swWizard/Adventure-Map/AVJhalf3",
 						"mask": [
-							"VBAB"
+							"AB"
 						],
 						"allowedTerrains": [
 							"snow"

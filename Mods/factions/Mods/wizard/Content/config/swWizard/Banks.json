@@ -3,7 +3,6 @@
 		"handler": "configurable",
 		"types": {
 			"swWizardWizardSanctum": {
-				"handler": "configurable",
 				"name": "Wizard Sanctum",
 				"templates": {
 					"base": {
