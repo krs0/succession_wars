@@ -3,7 +3,6 @@
 		"handler": "configurable",
 		"types": {
 			"sw08utopia": {
-				"handler": "configurable",
 				"name": "Dragon City",
 				"templates": {
 					"base": {
@@ -89,7 +88,6 @@
 				]
 			},
 			"sw08utopia2": {
-				"handler": "configurable",
 				"name": "Dragon Utopia",
 				"templates": {
 					"base": {
@@ -168,7 +166,6 @@
 				]
 			},
 			"sw08centaurCave": {
-				"handler": "configurable",
 				"name": "Centaur Cave",
 				"templates": {
 					"ZCrbank3": {
@@ -296,7 +293,6 @@
 				]
 			},
 			"swWarlockTOwer": {
-				"handler": "configurable",
 				"name": "Warlock Tower",
 				"templates": {
 					"avxbnk50": {
@@ -404,7 +400,6 @@
 				]
 			},
 			"sw08dungeon": {
-				"handler": "configurable",
 				"name": "Dungeon Entrance",
 				"templates": {
 					"avxbnk00": {

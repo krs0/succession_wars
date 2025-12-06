@@ -245,7 +245,10 @@
 					"cost": {
 						"gold": 10000
 					},
-					"type": "artifactMerchant"
+					"marketModes": [
+						"resource-artifact",
+						"artifact-resource"
+					]
 				},
 				"horde1": {
 					"name": "Dormitories",
@@ -285,16 +288,43 @@
 					"cost": {
 						"gold": 1000
 					},
-					"type": "manaVortex"
+					"configuration": {
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
+						},
+						"visitMode": "hero",
+						"rewards": [
+							{
+								"limiter": {
+									"noneOf": [
+										{
+											"manaPercentage": 200
+										}
+									]
+								},
+								"message": "The Enchanted Waterfall fills you with magical energy. Your spell points have been doubled.",
+								"manaPercentage": 200
+							}
+						]
+					}
 				},
 				"special4": {
 					"name": "Hall of Honor",
 					"description": "The Hall of Honor teaches new skills for any hero (+1000 experience) once.",
-					"type": "experienceVisitingBonus",
 					"cost": {
 						"ore": 5,
 						"wood": 5,
 						"gold": 1000
+					},
+					"configuration": {
+						"visitMode": "hero",
+						"rewards": [
+							{
+								"message": "The Hall of Honor imparts ancient wisdom upon you. You have gained 1000 experience.",
+								"heroExperience": 1000
+							}
+						]
 					}
 				},
 				"dwellingLvl1": {
@@ -436,6 +466,7 @@
 				"building50": {
 					"name": "Black Tower",
 					"description": "The Black Tower produces Black Dragons.",
+					"id": 50,
 					"requires": [
 						"allOf",
 						[

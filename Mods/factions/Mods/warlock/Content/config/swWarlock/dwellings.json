@@ -211,9 +211,8 @@
 					"default": {
 						"animation": "swWarlock/Adventure-Map/avcprmd0",
 						"mask": [
-							"VVVV",
-							"VVVV",
-							"VBBA"
+							"BB",
+							"BA"
 						]
 					}
 				}
