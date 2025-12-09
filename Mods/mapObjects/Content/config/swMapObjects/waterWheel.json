@@ -9,7 +9,21 @@
 					"value": 1000,
 					"rarity": 90
 				},
-				"handler": "bank",
+				"compatibilityIdentifiers": ["object"],
+				"onVisitedMessage": 151,
+				"resetParameters": {
+					"period": 7,
+					"visitors": true,
+					"rewards": true
+				},
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"message": 150,
+						"resources": { "gold": 500 }
+					}
+				],
 				"templates": {
 					"AVMwwhl0": {
 						"animation": "swMapObjects/waterWheel/AVMwwhl0",

@@ -9,6 +9,20 @@
 					"value": 100,
 					"rarity": 100
 				},
+				"compatibilityIdentifiers": ["object"],
+				"blockedVisitable": true,
+				"onVisitedMessage": 62,
+				"visitMode": "bonus",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"message": 61,
+						"bonuses": [
+							{ "type": "LUCK", "val": 1, "duration": "ONE_BATTLE", "description": 69 },
+							{ "type": "MORALE", "val": 1, "duration": "ONE_BATTLE", "description": 94 }
+						]
+					}
+				],
 				"templates": {
 					"AVSidol0": {
 						"animation": "swMapObjects/idolOfFortune/AVSidol0",

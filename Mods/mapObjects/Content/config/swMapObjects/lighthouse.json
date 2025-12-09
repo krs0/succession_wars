@@ -9,6 +9,15 @@
 					"value": 100,
 					"rarity": 60
 				},
+				"message": "@core.advevent.69",
+				"bonuses": {
+					"seaMovement": {
+						"type": "MOVEMENT",
+						"subtype": "heroMovementSea",
+						"val": 500,
+						"propagator": "PLAYER"
+					}
+				},
 				"templates": {
 					"AVXlths0": {
 						"animation": "swMapObjects/lighthouse/AVXlths0",

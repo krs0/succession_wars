@@ -14,7 +14,7 @@
 				//	"handler": "obelisk",
 				"templates": {
 					"AVXobla": {
-						"animation": "swMapObjects_mines/SWOBEL01", //"swMapObjects/obelisk/AVXobla",
+						"animation": "swMapObjects/obelisk/SWOBEL01", //"swMapObjects/obelisk/AVXobla",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -30,7 +30,7 @@
 						]
 					},
 					"AvXOblB": {
-						"animation": "swMapObjects_mines/SWOBEL02", //"swMapObjects/obelisk/AvXOblB",
+						"animation": "swMapObjects/obelisk/SWOBEL02", //"swMapObjects/obelisk/AvXOblB",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -45,7 +45,7 @@
 						]
 					},
 					"AvXOblG": {
-						"animation": "swMapObjects_mines/SWOBEL03", //"swMapObjects/obelisk/AvXOblG",
+						"animation": "swMapObjects/obelisk/SWOBEL03", //"swMapObjects/obelisk/AvXOblG",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -60,7 +60,7 @@
 						]
 					},
 					"AvXOblK": {
-						"animation": "swMapObjects_mines/SWOBEL04", //"swMapObjects/obelisk/AvXOblK",
+						"animation": "swMapObjects/obelisk/SWOBEL04", //"swMapObjects/obelisk/AvXOblK",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -75,7 +75,7 @@
 						]
 					},
 					"AvXOblO": {
-						"animation": "swMapObjects_mines/SWOBEL05", //"swMapObjects/obelisk/AvXOblO",
+						"animation": "swMapObjects/obelisk/SWOBEL05", //"swMapObjects/obelisk/AvXOblO",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -90,7 +90,7 @@
 						]
 					},
 					"AvXOblP": {
-						"animation": "swMapObjects_mines/SWOBEL06", //"swMapObjects/obelisk/AvXOblP",
+						"animation": "swMapObjects/obelisk/SWOBEL06", //"swMapObjects/obelisk/AvXOblP",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -105,7 +105,7 @@
 						]
 					},
 					"AvXOblq": {
-						"animation": "swMapObjects_mines/SWOBEL07", //"swMapObjects/obelisk/AvXOblq",
+						"animation": "swMapObjects/obelisk/SWOBEL07", //"swMapObjects/obelisk/AvXOblq",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -126,7 +126,7 @@
 						]
 					},
 					"AVXoblr": {
-						"animation": "swMapObjects_mines/SWOBEL08", //"swMapObjects/obelisk/AVXoblr",
+						"animation": "swMapObjects/obelisk/SWOBEL08", //"swMapObjects/obelisk/AVXoblr",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -147,7 +147,7 @@
 						]
 					},
 					"AvXObls": {
-						"animation": "swMapObjects_mines/SWOBEL09", //"swMapObjects/obelisk/AvXObls",
+						"animation": "swMapObjects/obelisk/SWOBEL09", //"swMapObjects/obelisk/AvXObls",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -168,7 +168,7 @@
 						]
 					},
 					"AvXOblt": {
-						"animation": "swMapObjects_mines/SWOBEL10", //"swMapObjects/obelisk/AvXOblt",
+						"animation": "swMapObjects/obelisk/SWOBEL10", //"swMapObjects/obelisk/AvXOblt",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -189,7 +189,7 @@
 						]
 					},
 					"AvXOblu": {
-						"animation": "swMapObjects_mines/SWOBEL11", //"swMapObjects/obelisk/AvXOblu",
+						"animation": "swMapObjects/obelisk/SWOBEL11", //"swMapObjects/obelisk/AvXOblu",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -210,7 +210,7 @@
 						]
 					},
 					"AvXOblW": {
-						"animation": "swMapObjects_mines/SWOBEL12", //"swMapObjects/obelisk/AvXOblW",
+						"animation": "swMapObjects/obelisk/SWOBEL12", //"swMapObjects/obelisk/AvXOblW",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -226,7 +226,7 @@
 						]
 					},
 					"AvXOblx": {
-						"animation": "swMapObjects_mines/SWOBEL13", //"swMapObjects/obelisk/AvXOblx",
+						"animation": "swMapObjects/obelisk/SWOBEL13", //"swMapObjects/obelisk/AvXOblx",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -241,7 +241,7 @@
 						]
 					},
 					"AvXOblY": {
-						"animation": "swMapObjects_mines/SWOBEL14", //"swMapObjects/obelisk/AvXOblY",
+						"animation": "swMapObjects/obelisk/SWOBEL14", //"swMapObjects/obelisk/AvXOblY",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -256,7 +256,7 @@
 						]
 					},
 					"AvXOblz": {
-						"animation": "swMapObjects_mines/SWOBEL15", //"swMapObjects/obelisk/AvXOblz",
+						"animation": "swMapObjects/obelisk/SWOBEL15", //"swMapObjects/obelisk/AvXOblz",
 						"visitableFrom": [
 							"---",
 							"+++",

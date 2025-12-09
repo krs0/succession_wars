@@ -9,6 +9,16 @@
 					"rarity": 100,
 					"zoneLimit": 3
 				},
+				"compatibilityIdentifiers": ["object"],
+				"onSelectMessage": 73,
+				"onVisitedMessage": 74,
+				"visitMode": "hero",
+				"selectMode": "selectPlayer",
+				"rewards": [
+					{
+						"primary": { "defence": 1 }
+					}
+				],
 				"templates": {
 					"avsmarg": {
 						"animation": "swMapObjects/marlettoTower/avsmarg",

@@ -8,6 +8,27 @@
 					"value": 500,
 					"rarity": 70
 				},
+				"compatibilityIdentifiers": ["object"],
+				"blockedVisitable": true,
+				"onVisitedMessage": 38,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"appearChance": { "max": 10 },
+						"message": 37,
+						"artifacts": [{ "class": "TREASURE" }]
+					},
+					{
+						"appearChance": { "min": 10, "max": 20 },
+						"message": 37,
+						"artifacts": [{ "class": "MINOR" }]
+					},
+					{
+						"appearChance": { "min": 20, "max": 100 },
+						"message": 38
+					}
+				],
 				"templates": {
 					"AVXskds0": {
 						"animation": "swMapObjects/skeleton/AVXskds0",

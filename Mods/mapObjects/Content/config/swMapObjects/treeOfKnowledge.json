@@ -9,6 +9,27 @@
 					"value": 2500,
 					"rarity": 50
 				},
+				"compatibilityIdentifiers": ["object"],
+				"onSelectMessage": 138,
+				"onVisitedMessage": 140,
+				"visitMode": "hero",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"limiter": { "resources": { "gems": 10 } },
+						"message": 139,
+						"resources": { "gems": -10 },
+						"primary": { "knowledge": 1 },
+						"heroExperience": 1000
+					},
+					{
+						"limiter": { "resources": { "gold": 2000 } },
+						"message": 139,
+						"resources": { "gold": -2000 },
+						"primary": { "knowledge": 1 },
+						"heroExperience": 1000
+					}
+				],
 				"templates": {
 					"AVXTREK0": {
 						"animation": "swMapObjects/treeOfKnowledge/AVXTREK0",

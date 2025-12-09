@@ -8,6 +8,27 @@
 					"value": 1500,
 					"rarity": 80
 				},
+				"compatibilityIdentifiers": ["object"],
+				"onVisitedMessage": 155,
+				"resetParameters": {
+					"period": 7,
+					"visitors": true,
+					"rewards": true
+				},
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"message": 154,
+						"resources": [
+							{
+								"anyOf": ["wood", "ore"],
+								"min": 3,
+								"max": 6
+							}
+						]
+					}
+				],
 				"templates": {
 					"AVMwmsn0": {
 						"animation": "swMapObjects/windmill/AVMwmsn0",

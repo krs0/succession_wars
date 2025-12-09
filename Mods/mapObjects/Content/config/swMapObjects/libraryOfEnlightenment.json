@@ -9,6 +9,18 @@
 					"rarity": 20,
 					"zoneLimit": 1
 				},
+				"compatibilityIdentifiers": ["object"],
+				"onSelectMessage": 66,
+				"onVisitedMessage": 68,
+				"visitMode": "hero",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"limiter": { "heroLevel": { "min": 10 } },
+						"message": 67,
+						"primary": { "attack": 2, "defence": 2, "spellpower": 2, "knowledge": 2 }
+					}
+				],
 				"templates": {
 					"avslibr0": {
 						"animation": "swMapObjects/libraryOfEnlightenment/avslibr0",

@@ -8,6 +8,24 @@
 					"value": 2000,
 					"rarity": 100
 				},
+				"compatibilityIdentifiers": ["object"],
+				"blockedVisitable": true,
+				"removable": true,
+				"onVisitedMessage": 83,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"message": 82,
+						"resources": [
+							{
+								"anyOf": ["wood"],
+								"min": 5,
+								"max": 10
+							}
+						]
+					}
+				],
 				"templates": {
 					"AVAflot0": {
 						"animation": "swMapObjects/flotsam/AVAflot0",

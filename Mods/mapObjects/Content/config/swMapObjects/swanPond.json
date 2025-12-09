@@ -9,6 +9,17 @@
 					"value": 100,
 					"rarity": 100
 				},
+				"compatibilityIdentifiers": ["object"],
+				"blockedVisitable": true,
+				"onVisitedMessage": 131,
+				"visitMode": "bonus",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"message": 130,
+						"bonuses": [{ "type": "LUCK", "val": 1, "duration": "ONE_BATTLE", "description": 69 }]
+					}
+				],
 				"templates": {
 					"avsclvd0": {
 						"animation": "swMapObjects/swanPound/avsclvd0",

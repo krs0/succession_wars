@@ -2,7 +2,6 @@
 	"core:mermaids": {
 		"types": {
 			"swmermaids01": {
-				"handler": "bonusingObject",
 				//	"base": {
 				//		"sounds": {
 				//			"visit": ["LUCK"]
@@ -14,6 +13,17 @@
 					"value": 100,
 					"rarity": 20
 				},
+				"compatibilityIdentifiers": ["object"],
+				"blockedVisitable": true,
+				"onVisitedMessage": 81,
+				"visitMode": "bonus",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"message": 80,
+						"bonuses": [{ "type": "LUCK", "val": 1, "duration": "ONE_BATTLE", "description": 69 }]
+					}
+				],
 				"templates": {
 					"AVXmerm0": {
 						"animation": "swMapObjects/mermaids/AVXmerm0",

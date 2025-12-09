@@ -9,6 +9,34 @@
 					"value": 500,
 					"rarity": 50
 				},
+				"compatibilityIdentifiers": ["object"],
+				"blockedVisitable": true,
+				"removable": true,
+				"onVisitedMessage": 145,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"appearChance": { "max": 10 },
+						"message": 143,
+						"artifacts": [{ "class": "TREASURE" }]
+					},
+					{
+						"appearChance": { "min": 10, "max": 20 },
+						"message": 144,
+						"resources": [
+							{
+								"anyOf": ["wood", "ore"],
+								"min": 2,
+								"max": 5
+							}
+						]
+					},
+					{
+						"appearChance": { "min": 20, "max": 100 },
+						"message": 145
+					}
+				],
 				"templates": {
 					"AVTwagn0": {
 						"animation": "swMapObjects/wagon/AVTwagn0",

@@ -9,6 +9,18 @@
 					"value": 100,
 					"rarity": 60
 				},
+				"compatibilityIdentifiers": ["object"],
+				"blockedVisitable": true,
+				"onVisitedMessage": 103,
+				"visitMode": "bonus",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"message": 102,
+						"bonuses": [{ "type": "MORALE", "val": 1, "duration": "ONE_BATTLE", "description": 94 }],
+						"movePoints": 800
+					}
+				],
 				"templates": {
 					"AVXosis0": {
 						"animation": "swMapObjects/oasis/AVXosis0",

@@ -9,6 +9,21 @@
 					"rarity": 100,
 					"zoneLimit": 1
 				},
+				"compatibilityIdentifiers": ["object"],
+				"blockedVisitable": true,
+				"onVisitedMessage": 112,
+				"visitMode": "bonus",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"message": 111,
+						"bonuses": [
+							{ "type": "LUCK", "val": 1, "duration": "ONE_BATTLE", "description": 69 },
+							{ "type": "MORALE", "val": 1, "duration": "ONE_BATTLE", "description": 94 }
+						],
+						"movePoints": 400
+					}
+				],
 				"templates": {
 					"AVXrlly0": {
 						"animation": "swMapObjects/rallyFlag/AVXrlly0",

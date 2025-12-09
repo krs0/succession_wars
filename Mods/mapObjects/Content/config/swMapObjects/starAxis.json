@@ -9,6 +9,16 @@
 					"value": 1500,
 					"rarity": 100
 				},
+				"compatibilityIdentifiers": ["object"],
+				"onSelectMessage": 128,
+				"onVisitedMessage": 129,
+				"visitMode": "hero",
+				"selectMode": "selectPlayer",
+				"rewards": [
+					{
+						"bonuses": [{ "type": "MORALE", "val": 1, "duration": "ONE_BATTLE", "description": 94 }]
+					}
+				],
 				"templates": {
 					"AVSaxis20": {
 						"animation": "swMapObjects/starAxis/AVSaxis20",
@@ -42,6 +52,16 @@
 					"value": 1500,
 					"rarity": 100
 				},
+				"compatibilityIdentifiers": ["object"],
+				"onSelectMessage": 128,
+				"onVisitedMessage": 129,
+				"visitMode": "hero",
+				"selectMode": "selectPlayer",
+				"rewards": [
+					{
+						"bonuses": [{ "type": "MORALE", "val": 1, "duration": "ONE_BATTLE", "description": 94 }]
+					}
+				],
 				"templates": {
 					"AVSaxis20": {
 						"animation": "swMapObjects/starAxis/AVSaxis0",

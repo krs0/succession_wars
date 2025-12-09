@@ -9,6 +9,16 @@
 					"value": 1500,
 					"rarity": 100
 				},
+				"compatibilityIdentifiers": ["object"],
+				"onSelectMessage": 58,
+				"onVisitedMessage": 59,
+				"visitMode": "hero",
+				"selectMode": "selectPlayer",
+				"rewards": [
+					{
+						"primary": { "knowledge": 1 }
+					}
+				],
 				"templates": {
 					"AVSgzb1": {
 						"animation": "swMapObjects/gardenOfRevelation/AVSgzb1",

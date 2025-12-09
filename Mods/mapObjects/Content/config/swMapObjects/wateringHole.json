@@ -9,6 +9,18 @@
 					"value": 500,
 					"rarity": 50
 				},
+				"compatibilityIdentifiers": ["object"],
+				"blockedVisitable": true,
+				"onVisitedMessage": 153,
+				"visitMode": "bonus",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"message": 152,
+						"bonuses": [{ "type": "MORALE", "val": 1, "duration": "ONE_BATTLE", "description": 94 }],
+						"movePoints": 400
+					}
+				],
 				"templates": {
 					"AVXwtrh0": {
 						"animation": "swMapObjects/wateringHole/AVXwtrh0",

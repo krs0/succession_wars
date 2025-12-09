@@ -7,6 +7,19 @@
 					"value": 6000,
 					"rarity": 30
 				},
+				"compatibilityIdentifiers": ["object"],
+				"blockedVisitable": true,
+				"removable": true,
+				"onVisitedMessage": 142,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"message": 141,
+						"artifacts": [{ "class": "MINOR" }],
+						"resources": { "gold": 1000 }
+					}
+				],
 				"templates": {
 					"zsphnx10": {
 						"animation": "swMapObjects/sphinx/zsphnx10",

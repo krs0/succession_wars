@@ -9,6 +9,17 @@
 					"value": 100,
 					"rarity": 100
 				},
+				"compatibilityIdentifiers": ["object"],
+				"blockedVisitable": true,
+				"onVisitedMessage": 135,
+				"visitMode": "bonus",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"message": 134,
+						"bonuses": [{ "type": "MORALE", "val": 1, "duration": "ONE_BATTLE", "description": 94 }]
+					}
+				],
 				"templates": {
 					"avstmpl0": {
 						"animation": "swMapObjects/temple/avstmpl0",

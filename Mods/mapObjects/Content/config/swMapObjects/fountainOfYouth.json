@@ -9,6 +9,17 @@
 					"value": 100,
 					"rarity": 100
 				},
+				"compatibilityIdentifiers": ["object"],
+				"blockedVisitable": true,
+				"onVisitedMessage": 57,
+				"visitMode": "bonus",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"message": 56,
+						"bonuses": [{ "type": "MORALE", "val": 1, "duration": "ONE_BATTLE", "description": 94 }]
+					}
+				],
 				"templates": {
 					"avxfyth0": {
 						"animation": "swMapObjects/fountainOfYouth/avxfyth0",

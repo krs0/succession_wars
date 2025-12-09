@@ -9,6 +9,13 @@
 					"rarity": 20,
 					"zoneLimit": 1
 				},
+				"modes": ["resource-skill"],
+				"offer": [
+					{ "noneOf": ["necromancy"] },
+					{ "noneOf": ["necromancy"] },
+					{ "noneOf": ["necromancy"] },
+					{ "noneOf": ["necromancy"] }
+				],
 				"templates": {
 					"AVSuniv0": {
 						"animation": "swMapObjects/university/AVSuniv0",

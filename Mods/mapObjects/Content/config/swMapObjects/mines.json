@@ -587,7 +587,7 @@
 						]
 					},
 					"sw08_AVOsulf0": {
-						"animation": "swMapObjects/mines/sulfur/AVOsulf04", //"swMapObjects_mines/SWMIN0", 
+						"animation": "swMapObjects/mines/sulfur/AVOsulf0", //"swMapObjects_mines/SWMIN0",
 						"visitableFrom": [
 							"---",
 							"+++",

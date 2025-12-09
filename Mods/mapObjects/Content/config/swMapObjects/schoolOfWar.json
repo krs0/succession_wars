@@ -8,6 +8,19 @@
 					"value": 1000,
 					"rarity": 50
 				},
+				"compatibilityIdentifiers": ["object"],
+				"onSelectMessage": 117,
+				"onVisitedMessage": 118,
+				"visitMode": "hero",
+				"selectMode": "selectPlayer",
+				"rewards": [
+					{
+						"primary": { "attack": 1 }
+					},
+					{
+						"primary": { "defence": 1 }
+					}
+				],
 				"templates": {
 					"AVSwar20": {
 						"animation": "swMapObjects/schoolOfWar/AVSwar20",

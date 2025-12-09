@@ -8,6 +8,19 @@
 					"value": 3000,
 					"rarity": 50
 				},
+				"compatibilityIdentifiers": ["object"],
+				"onSelectMessage": 0,
+				"onVisitedMessage": 1,
+				"visitMode": "hero",
+				"selectMode": "selectPlayer",
+				"rewards": [
+					{
+						"primary": { "attack": 2 }
+					},
+					{
+						"primary": { "defence": 2 }
+					}
+				],
 				"templates": {
 					"AVSarna0": {
 						"animation": "swMapObjects/arena/AVSarna0",

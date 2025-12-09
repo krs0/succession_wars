@@ -8,6 +8,19 @@
 					"value": 1000,
 					"rarity": 50
 				},
+				"compatibilityIdentifiers": ["object"],
+				"onSelectMessage": 115,
+				"onVisitedMessage": 116,
+				"visitMode": "hero",
+				"selectMode": "selectPlayer",
+				"rewards": [
+					{
+						"primary": { "spellpower": 1 }
+					},
+					{
+						"primary": { "knowledge": 1 }
+					}
+				],
 				"templates": {
 					"AVSschm0": {
 						"animation": "swMapObjects/schoolOfMagic/AVSschm0",

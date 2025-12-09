@@ -9,6 +9,16 @@
 					"value": 100,
 					"rarity": 120
 				},
+				"compatibilityIdentifiers": ["object"],
+				"onSelectMessage": 75,
+				"onVisitedMessage": 76,
+				"visitMode": "hero",
+				"selectMode": "selectPlayer",
+				"rewards": [
+					{
+						"primary": { "attack": 1 }
+					}
+				],
 				"templates": {
 					"avsmerc0": {
 						"animation": "swMapObjects/mercenaryCamp/avsmerc0",

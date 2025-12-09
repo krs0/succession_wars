@@ -8,6 +8,24 @@
 					"value": 6000,
 					"rarity": 30
 				},
+				"compatibilityIdentifiers": ["object"],
+				"blockedVisitable": true,
+				"removable": true,
+				"onVisitedMessage": 148,
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"message": 146,
+						"artifacts": [{ "class": "TREASURE" }],
+						"bonuses": [{ "type": "MORALE", "val": -3, "duration": "ONE_BATTLE", "description": 95 }]
+					},
+					{
+						"message": 147,
+						"artifacts": [{ "class": "MINOR" }],
+						"bonuses": [{ "type": "MORALE", "val": -3, "duration": "ONE_BATTLE", "description": 95 }]
+					}
+				],
 				"templates": {
 					"AVXtomb0": {
 						"animation": "swMapObjects/warriorTomb/AVXtomb0",

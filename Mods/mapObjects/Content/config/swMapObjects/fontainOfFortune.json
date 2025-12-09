@@ -9,6 +9,17 @@
 					"value": 100,
 					"rarity": 60
 				},
+				"compatibilityIdentifiers": ["object"],
+				"blockedVisitable": true,
+				"onVisitedMessage": 55,
+				"visitMode": "bonus",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"message": 54,
+						"bonuses": [{ "type": "LUCK", "val": 1, "duration": "ONE_BATTLE", "description": 69 }]
+					}
+				],
 				"templates": {
 					"avsfntn0": {
 						"animation": "swMapObjects/fountainOfFortune/avsfntn0",

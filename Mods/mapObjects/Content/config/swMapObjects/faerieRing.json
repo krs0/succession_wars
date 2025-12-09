@@ -9,6 +9,17 @@
 					"value": 100,
 					"rarity": 100
 				},
+				"compatibilityIdentifiers": ["object"],
+				"blockedVisitable": true,
+				"onVisitedMessage": 50,
+				"visitMode": "bonus",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"message": 49,
+						"bonuses": [{ "type": "LUCK", "val": 1, "duration": "ONE_BATTLE", "description": 69 }]
+					}
+				],
 				"templates": {
 					"AVBring0": {
 						"animation": "swMapObjects/faerieRing/AVBring0",

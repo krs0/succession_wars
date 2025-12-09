@@ -9,6 +9,17 @@
 					"value": 200,
 					"rarity": 40
 				},
+				"compatibilityIdentifiers": ["object"],
+				"blockedVisitable": true,
+				"onVisitedMessage": 127,
+				"visitMode": "bonus",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"message": 126,
+						"movePoints": 600
+					}
+				],
 				"templates": {
 					"avxstbl0": {
 						"animation": "swMapObjects/stables/avxstbl0",

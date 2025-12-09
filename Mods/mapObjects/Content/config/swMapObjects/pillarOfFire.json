@@ -34,23 +34,23 @@
 							"rock": -1
 						}
 					}
-				]
-			},
-			"templates": {
-				"AVXpllr0": {
-					"animation": "swMapObjects/pillarOfFire/AVXpllr0",
-					"visitableFrom": [
-						"---",
-						"+++",
-						"+++"
-					],
-					"mask": [
-						"VVV",
-						"VVA"
-					],
-					"allowedTerrains": [
-						"subterra"
-					]
+				],
+				"templates": {
+					"AVXpllr0": {
+						"animation": "swMapObjects/pillarOfFire/AVXpllr0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
+						"allowedTerrains": [
+							"subterra"
+						]
+					}
 				}
 			}
 		}
