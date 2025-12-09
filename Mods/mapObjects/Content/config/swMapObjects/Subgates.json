@@ -7,7 +7,7 @@
 				"name": "Subterranean Gate",
 				"templates": {
 					"sw08_AVTcave": {
-						"animation": "swMapObjects/subgates/SWSUB01", //"swMapObjects/subgates/AVTcave",
+						"animation": "swMapObjects/subgates/AVTcave",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -31,7 +31,7 @@
 						]
 					},
 					"sw08_AVSskul0": {
-						"animation": "swMapObjects/subgates/SWSUB02", //"swMapObjects/subgates/AVSskul0",
+						"animation": "swMapObjects/subgates/AVSskul0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -55,7 +55,7 @@
 						]
 					},
 					"sw08_zcrbvm18": {
-						"animation": "swMapObjects/subgates/SWSUB03", //"swMapObjects/subgates/zcrbvm18",
+						"animation": "swMapObjects/subgates/zcrbvm18",
 						"visitableFrom": [
 							"---",
 							"+++",
