@@ -16,7 +16,7 @@
 				"selectMode": "selectFirst",
 				"rewards": [
 					{
-						"limiter": { "heroLevel": { "min": 10 } },
+						"limiter": { "heroLevel": 10 },
 						"message": 67,
 						"primary": { "attack": 2, "defence": 2, "spellpower": 2, "knowledge": 2 }
 					}
