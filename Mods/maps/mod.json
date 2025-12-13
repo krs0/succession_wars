@@ -4,6 +4,7 @@
 	"modType" : "Other",
 	"author": "",
 	"contact": "",
+	"keepDisabled" : true,
 	"version" : "1.0",
 	"compatibility" : {
 		"min" : "1.3"

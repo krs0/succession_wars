@@ -15,7 +15,7 @@
 		"vcmi-extras"
 	],
 	"compatibility" : {
-		"min" : "1.6.0"
+		"min" : "1.7.0"
 	},
 	"changelog" : {
 		"0.0.2"  : [ "Fixes for VCMI 1.7 and Battle Mode" ],
