@@ -6,7 +6,7 @@
 	"contact" : "",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "0.0.1",
+	"version" : "0.0.2",
 	"downloadSize" : 1,
 	"depends" : [
 		"ban-mod"
@@ -16,5 +16,9 @@
 	],
 	"compatibility" : {
 		"min" : "1.6.0"
+	},
+	"changelog" : {
+		"0.0.2"  : [ "Fixes for VCMI 1.7 and Battle Mode" ],
+		"0.0.1"  : [ "Initial release with installer" ],
 	}
 }
